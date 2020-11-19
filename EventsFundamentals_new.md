@@ -1,6 +1,3 @@
-DHIS2 Events Fundamentals
-
-Students must score 70% or higher to access course materials.
 
 # Entrance Exam
 
@@ -9,7 +6,8 @@ Students must score 70% or higher to access course materials.
 ### Course Pre test
 
 (20 points possible)  
-Instructions
+
+#### Instructions**
   
 To be successful in this course, you need to already have a good grasp
 of the fundamental concepts of DHIS2.
@@ -19,159 +17,230 @@ please answer the following questions to assess your basic knowledge on
 the platform. This will help to make sure you are ready to make the most
 of this course.
 
-  
 To enable the contents of the modules, you need to score 70% or more in
 this pre-test (in other words, have at least 14 out of 20 questions
 answered correctly). You will have unlimited attempts to pass this
 entrance exam.
 
-  
 In case you are not familiar yet with the key concepts of the platform,
 we strongly recommend you to complete DHIS2 Fundamentals online course
 as a prerequisite for this one.  
 Read carefully all the questions and select the "Check" button to submit
 your test.
 
-  
-Questions
+#### Questions
 
-1\. An organization unit refers to:
+1. An organization unit refers to:
 
-  - The variable we are measuring (the what dimension)  
-  - The geographical units attached to our data (the where dimension)  
-  - The time in which our data was recorded (the when dimension)- This
+   - The variable we are measuring (the what dimension)  
+   - **The geographical units attached to our data (the where dimension)**  
+   - The time in which our data was recorded (the when dimension)- This
     answer is unanswered.
 
-2\. In DHIS2, data elements and indicators represent the same concept
+    Explanation
 
-  - True  
-  - False
+    Organization units represent the where dimension in DHIS2. They associate any data that we have entered with a specific location. This could be a facility, district, state, province, region, country, etc. Organization units are context specific, and are based on where the DHIS2 implementation is collecting data from.
 
-3\. Pivot Tables in DHIS2 is mainly used for:
+2. In DHIS2, data elements and indicators represent the same concept
 
-  - Visualizing data in charts
-  - Analyzing data in dynamic tables  
-  - Creating standard, one-click reports for review
+   - True  
+   - **False**
 
-4\. In DHIS2, I can add additional dimensions (such as Male/Female,
+    Explanation
+
+    Data elements and indicators represent different concepts. Data elements are the raw data, while indicators are calculated values that use data elements within their calculation.
+
+3. Pivot Tables in DHIS2 is mainly used for:
+
+   - Visualizing data in charts
+   - **Analyzing data in dynamic tables**  
+   - Creating standard, one-click reports for review
+
+    Explanation
+
+    As the name implies, pivot tables are used to review data in dynamic tables. They are dynamic because their layout can be altered very quickly and new inputs can be added to alter the data that is being reviewed at any time.
+
+4. In DHIS2, I can add additional dimensions (such as Male/Female,
 Public/Private Facilities, etc.) to further break-down my data during
 analysis.
 
-  - True  
-  - False
+   - **True**
+   - False
 
-5\. Metadata refers to:
+    Explanation
 
-  - The data values that have been entered by users in a DHIS2 system  
-  - The information that defines what is in a DHIS2 system (which
-    variables to collect, indicators to calculate, geography, etc.)  
-  - Manuals and procedures that are used to guide a DHIS2 system’s use
+    Data can be broken down into different disaggregations in analysis. This is a key part of data review in order to review data at a more granular level.
 
-6\. If I want to create a new data element, where do I go in DHIS2?
+5. Metadata refers to:
 
-  - Maintenance app  
-  - Data administration app  
-  - Data management app
+   - The data values that have been entered by users in a DHIS2 system  
+   - **The information that defines what is in a DHIS2 system (which variables to collect, indicators to calculate, geography, etc.)**  
+   - Manuals and procedures that are used to guide a DHIS2 system’s use
 
-7\. Which of the following are data elements
+    Explanation
 
-  - Number of maternal deaths  
-  - Maternal Mortality Ratio (per 100,000)  
-  - Maternal Deaths (% from total deaths)
+    Metadata comprises all of the various objects that are added to a DHIS2 system. DHIS2 by default does not come with any metadata. This must all be set up by the team implementing DHIS2.
+6. If I want to create a new data element, where do I go in DHIS2?
 
-8\. If today's date is April 2, 2020 and I select a relative period of
+   - **Maintenance app**  
+   - Data administration app  
+   - Data management app
+  
+    Explanation
+
+    Data elements, along with any other object that needs to be added to DHIS2, is all managed through the maintenance app. It is used heavily in order to customize a DHIS2 system.
+
+7. Which of the following are data elements
+
+   - **Number of maternal deaths**  
+   - Maternal Mortality Ratio (per 100,000)  
+   - Maternal Deaths (% from total deaths)
+
+    Explanation
+
+    Data elements are the raw data values that we collect, such as source “number of” type variables. Calculated values such as ratios and percentages are considered indicators.
+
+8. If today's date is April 2, 2020 and I select a relative period of
 the last 5 years in one of the analysis apps, which periods will be
 displayed in my output? Select one:
 
-  - 2016-2020  
-  - 2015-2019  
-  - 2014-2019
+   - 2016-2020  
+   - **2015-2019**
+   - 2014-2019
 
-9\. In a map, multiple layers can be added to represent different
+    Explanation
+
+    Relative periods work backwards from the current date. In 2020, if we go back 5 years we have 2015, 2016, 2017, 2018 and 2019. The current period will not be selected unless we specify it to be included in our output through selecting a relevant period such as “This year.”
+
+9. In a map, multiple layers can be added to represent different
 features or items for analysis
 
-  - True  
-  - False
+   - **True**  
+   - False
 
-10\. The main function of Data Sets in DHIS2 is to:
+    Explanation
 
-  - Create dynamic outputs  
-  - Group together data elements for analysis  
-  - Capture Data
+    Multiple layers representing different items can be added to maps. We might have one layer of data representing information from facilities, and another layer aggregated to represent districts for example.
 
-11\. Data Element Groups are used for grouping together similar data
-elements for thematic analysis
+10. The main function of Data Sets in DHIS2 is to:
 
-  - True  
-  - False
+    - Create dynamic outputs  
+    - Group together data elements for analysis  
+    - **Capture Data**
 
-12\. What is the primary role of a DHIS2 dashboard?
+    Explanation
 
-  - Make data more accessible and communicate findings to users  
-  - Manage operational lists and actions that a user needs to follow up
+    Data Sets are used to capture data from different sources in DHIS2. Data sets collect different data elements together in order to allow users to input aggregate data into DHIS2.
+
+11. Data Element Groups are used for grouping together similar data
+elements for hematic analysis
+
+    - **True**
+    - False
+
+    Explanation
+
+    Data element groups are user defined and assist us in finding our data elements during analysis. They are particularly useful in an integrated system, as they allow us to separate our data elements by thematic area.
+
+12. What is the primary role of a DHIS2 dashboard?
+
+    - **Make data more accessible and communicate findings to users** 
+    - Manage operational lists and actions that a user needs to follow up
     on  
-  - Act as the primary method to access different applications within
+    - Act as the primary method to access different applications within
     DHIS2
 
-13\. Reports in DHIS2 can be the combination of data from several
+    Explanation
+
+    Dashboards are useful in conveying a variety of different information together. They are particularly useful for users that are not trained on making their own outputs or when a number of standard outputs needs to be reviewed routinely.
+
+13. Reports in DHIS2 can be the combination of data from several
 different data sources
 
-  - True  
-  - False
+    - **True**
+    - False
 
-14\. In DHIS2, what is a validation rule?
+    Explanation
 
-  - A check which indicates if data has been submitted  
-  - An expression that checks if data is correct (for example, malaria
-    tests \>= malaria cases positive)  
-  - A check which indicates if data has been submitted on time
+    You can make reports pulling data from a variety of different services within your DHIS2 system. This includes specific services, for example health or education services, as well as demographic data, like population, for example. 
 
-15\. Data Element names should:
 
-  - Be as long and descriptive as possible  
-  - Use self-contained names which describe the data effectively for
-    output  
-  - Replicate the name on a paper/source form
+14. In DHIS2, what is a validation rule?
 
-16\. What is the Organisation Unit that is being analyzed in the above
+    - A check which indicates if data has been submitted  
+    - **An expression that checks if data is correct (for example, malaria tests >= malaria cases positive)**
+    - A check which indicates if data has been submitted on time
+
+    Explanation
+
+    Validation rules are logical expressions that are defined by the user. They check data that is available in the system against the criteria that has been defined with the created expressions. When these rules are violated, there are various ways these violations can be brought to the attention of the user. 
+
+15. Data Element names should:
+
+    - Be as long and descriptive as possible  
+    - **Use self-contained names which describe the data effectively for output**  
+    - Replicate the name on a paper/source form
+
+    Explanation
+
+    When discussing data elements, we should always consider how they will appear in output. Making concise names that can be easily listed will make finding them easier and will group them together appropriately when searching for them in lists. We can always make their appearance during data entry match a paper form even when naming the data element appropriately.
+
+16. What is the Organisation Unit that is being analyzed in the above
 pivot table?
 
-  -  MAL - Malaria inpatient admissions  
-  - Trainingland  
-  - June 2019 - May 2020
+    - MAL - Malaria inpatient admissions  
+    - **Trainingland**  
+    - June 2019 - May 2020
 
-  
-17\. The map above
+    Explanation
 
-  - Has a layer showing where individual facilities are located  
-  - Has a layer showing the individual home location of children that
+    The organisation unit is Trainingland. This means all the data that we are seeing is being aggregated for the organisation unit that has been selected.
+
+17. The map above
+
+    - Has a layer showing where individual facilities are located  
+    - Has a layer showing the individual home location of children that
     received their BCG vaccine  
-  - Has a layer showing indicator information by the selected
-    geographical level
+    - **Has a layer showing indicator information by the selected
+    geographical level**
 
-18\. In the above chart, which month has the highest malaria test
+    Explanation
+
+    What we see is a thematic layer that is being used to display indicator information. There are many different layer types that are available when making maps in DHIS2; making a quick evaluation of the most appropriate one is necessary when working with maps.
+
+18. In the above chart, which month has the highest malaria test
 positivity rate?
 
-  - March 2020  
-  - November 2019  
-  - May 2020
+    - March 2020  
+    - November 2019  
+    - **May 2020**
+    Explanation
 
-19\. The above screenshot is taken from when you create a data element
+    The blue line in this chart represents the malaria test positivity rate based on the legend at the bottom of the chart. If we follow this line, we can see the highest value is shown in May 2020.
+
+19. The above screenshot is taken from when you create a data element
 within DHIS2. What does the star next to the field name “Domain Type”
 mean?
 
-  - I can skip filling in this field when creating the data element  
-  - I can fill this field in by selecting an item from a drop down list
-     
-  - I must fill this field in when I create the data element
+    - I can skip filling in this field when creating the data element  
+    - I can fill this field in by selecting an item from a drop down list
 
-20\. The above screenshot is taken from a data entry screen within
+    - **I must fill this field in when I create the data element**
+
+Explanation
+
+Stars in DHIS2 maintenance always denote mandatory, required fields that need to be filled in. 
+
+20. The above screenshot is taken from a data entry screen within
 DHIS2. When I have an internet connection and the background of a value
 is green, as we see above, what does this mean?
 
-  - The value has been stored locally within my computer  
-  - The value has not been stored and I need to hit the save button  
-  - The value has been stored online
+    - The value has been stored locally within my computer  
+    - The value has not been stored and I need to hit the save button  
+    - **The value has been stored online**
+
+    Explanation
+    In DHIS2, as values are entered, they are automatically saved online when you have internet connectivity. This is indicated by the green coloured background that appears after entering data values. There is no save button as a result of this feature.
 
 CHECK YOUR ANSWER
 
@@ -198,21 +267,21 @@ can serve all participants in this course.
 
 By submitting this form you give DHIS2/HISP UiO permission to use your
 anonymized responses in research, research publications, and
-DHIS2-related communications materials. We appreciate your input\!
+DHIS2-related communications materials. We appreciate your input!
 
-Why did you enroll in this course?
+**Why did you enroll in this course?**
 
-Applies to me         x Does not apply to me
+_Applies to me_         x _Does not apply to me_
 
-To advance my career        
+To advance my career
 
-To advance my education        
+To advance my education
 
-To qualify for more advanced DHIS2 training        
+To qualify for more advanced DHIS2 training
 
-Interest in the subject matter        
+Interest in the subject matter
 
-How important is learning the contents of this course to you?
+**How important is learning the contents of this course to you?**
 
 Not at all important
 
@@ -224,10 +293,9 @@ Very important
 
 Extremely important
 
-How many hours do you intend to spend on this course each week? Please
-enter a whole number
+**How many hours do you intend to spend on this course each week? Please enter a whole number**
 
-Which statement best describes your goals for taking this course?
+**Which statement best describes your goals for taking this course?**
 
 Explore the course contents to see if I'm interested
 
@@ -243,11 +311,11 @@ Other…
 
 Apply knowledge to a specific DHIS2 task
 
-Could you briefly describe your current work with DHIS2? (What type of
+**Could you briefly describe your current work with DHIS2? (What type of
 project(s) you work on, how the project uses DHIS2, whether is uses
-aggregate or individual data, what your role is)
+aggregate or individual data, what your role is)**
 
-For what purpose have you most commonly used DHIS2?
+**For what purpose have you most commonly used DHIS2?**
 
 To enter aggregate data
 
@@ -271,20 +339,19 @@ To give DHIS2 training to others
 
 Other…
 
-Knowledge of Data Analysis and DHIS2
+#### Knowledge of Data Analysis and DHIS2
 
-How familiar are you with data analysis?
+**How familiar are you with data analysis?**
 
 On a scale of 1 to 10, what level of theoretical-practical knowledge do
 you have on Data analysis? (1= Little to no knowledge; 10= Full
 practitioner)
 
-How familiar are you with DHIS2?
+**How familiar are you with DHIS2?**
 
-On a scale of 1 to 10, what level of theoretical-practical knowledge do
-you have on DHIS2? (1= Little to no knowledge; 10= Full practitioner)
+On a scale of 1 to 10, what level of theoretical-practical knowledge do you have on DHIS2? (1= Little to no knowledge; 10= Full practitioner)
 
-Do you intend to earn a certificate in this course?
+**Do you intend to earn a certificate in this course?**
 
 Yes
 
@@ -292,9 +359,9 @@ No
 
 Unsure
 
-Demographic Data
+#### Demographic Data
 
-What is your gender?
+**What is your gender?**
 
 Female
 
@@ -302,7 +369,7 @@ Male
 
 Prefer not to say / Other
 
-What is your age?
+**What is your age?**
 
 0-14 years
 
@@ -318,7 +385,7 @@ What is your age?
 
 Prefer not to say
 
-What is your highest level of education?
+**What is your highest level of education?**
 
 None
 
@@ -334,7 +401,7 @@ Masters degree
 
 Ph.D. - Doctorate
 
-What is your primary language?
+**What is your primary language?**
 
 English
 
@@ -360,7 +427,7 @@ Vietnamese
 
 Other
 
-How would you describe your English language skills?
+**How would you describe your English language skills?**
 
 Weak
 
@@ -372,7 +439,7 @@ Proficient
 
 Fluent
 
-In which country do you live?
+**In which country do you live?**
 
 Afghanistan
 
@@ -522,643 +589,325 @@ France
 
 French Guiana
 
-75\.
-
 French Polynesia
-
-76\.
 
 Gabon
 
-77\.
-
 Gambia
-
-78\.
 
 Georgia
 
-79\.
-
 Germany
-
-80\.
 
 Ghana
 
-81\.
-
 Gibraltar
-
-82\.
 
 United Kingdom
 
-83\.
-
 Greece
-
-84\.
 
 Greenland
 
-85\.
-
 Grenada
-
-86\.
 
 Guadeloupe
 
-87\.
-
 Guam
-
-88\.
 
 Guatemala
 
-89\.
-
 Guernsey and Jersey
-
-90\.
 
 Guinea
 
-91\.
-
 Guinea-Bissau
-
-92\.
 
 Guyana
 
-93\.
-
 Haiti
-
-94\.
 
 Honduras
 
-95\.
-
 Hong Kong
-
-96\.
 
 Hungary
 
-97\.
-
 Iceland
-
-98\.
 
 India
 
-99\.
-
 Indonesia
-
-100\.
 
 Iran
 
-101\.
-
 Iraq
-
-102\.
 
 Ireland
 
-103\.
-
 Isle of Man
-
-104\.
 
 Israel
 
-105\.
-
 Italy
-
-106\.
 
 Ivory Coast
 
-107\.
-
 Jamaica
-
-108\.
 
 Japan
 
-109\.
-
 Jordan
-
-110\.
 
 Kazakhstan
 
-111\.
-
 Kenya
-
-112\.
 
 Kiribati
 
-113\.
-
 Kuwait
-
-114\.
 
 Kyrgyzstan
 
-115\.
-
 Laos
-
-116\.
 
 Latvia
 
-117\.
-
 Lebanon
-
-118\.
 
 Lesotho
 
-119\.
-
 Liberia
-
-120\.
 
 Libya
 
-121\.
-
 Liechtenstein
-
-122\.
 
 Lithuania
 
-123\.
-
 Luxembourg
-
-124\.
 
 Macau
 
-125\.
-
 Madagascar
-
-126\.
 
 Malawi
 
-127\.
-
 Malaysia
-
-128\.
 
 Maldives
 
-129\.
-
 Mali
-
-130\.
 
 Malta
 
-131\.
-
 Marshall Islands
-
-132\.
 
 Martinique
 
-133\.
-
 Mauritania
-
-134\.
 
 Mauritius
 
-135\.
-
 Mayotte
-
-136\.
 
 Mexico
 
-137\.
-
 Moldova
-
-138\.
 
 Monaco
 
-139\.
-
 Mongolia
-
-140\.
 
 Montenegro
 
-141\.
-
 Montserrat
-
-142\.
 
 Morocco
 
-143\.
-
 Mozambique
-
-144\.
 
 Myanmar
 
-145\.
-
 Namibia
-
-146\.
 
 Nauru
 
-147\.
-
 Nepal
-
-148\.
 
 Netherlands
 
-149\.
-
 New Caledonia
-
-150\.
 
 New Zealand
 
-151\.
-
 Nicaragua
-
-152\.
 
 Niger
 
-153\.
-
 Nigeria
-
-154\.
 
 Niue
 
-155\.
-
 North Korea
-
-156\.
 
 North Macedonia
 
-157\.
-
 Northern Mariana Islands
-
-158\.
 
 Norway
 
-159\.
-
 Oman
-
-160\.
 
 Pakistan
 
-161\.
-
 Palau
-
-162\.
 
 Palestine
 
-163\.
-
 Panama
-
-164\.
 
 Papua New Guinea
 
-165\.
-
 Paraguay
-
-166\.
 
 Peru
 
-167\.
-
 Philippines
-
-168\.
 
 Poland
 
-169\.
-
 Portugal
-
-170\.
 
 Puerto Rico
 
-171\.
-
 Qatar
-
-172\.
 
 Réunion
 
-173\.
-
 Romania
-
-174\.
 
 Russia
 
-175\.
-
 Rwanda
-
-176\.
 
 Saint Helena, Ascension and Tristan da Cunha
 
-177\.
-
 Saint Kitts and Nevis
-
-178\.
 
 Saint Lucia
 
-179\.
-
 Saint Pierre and Miquelon
-
-180\.
 
 Saint Vincent and the Grenadines
 
-181\.
-
 Samoa
-
-182\.
 
 San Marino
 
-183\.
-
 São Tomé and Príncipe
-
-184\.
 
 Saudi Arabia
 
-185\.
-
 Senegal
-
-186\.
 
 Serbia
 
-187\.
-
 Seychelles
-
-188\.
 
 Sierra Leone
 
-189\.
-
 Singapore
-
-190\.
 
 Sint Maarten
 
-191\.
-
 Slovakia
-
-192\.
 
 Slovenia
 
-193\.
-
 Solomon Islands
-
-194\.
 
 Somalia
 
-195\.
-
 South Africa
-
-196\.
 
 South Korea
 
-197\.
-
 South Sudan
-
-198\.
 
 Spain
 
-199\.
-
 Sri Lanka
-
-200\.
 
 Sudan
 
-201\.
-
 Suriname
-
-202\.
 
 Sweden
 
-203\.
-
 Switzerland
-
-204\.
 
 Syria
 
-205\.
-
 Taiwan
-
-206\.
 
 Tajikistan
 
-207\.
-
 Tanzania
-
-208\.
 
 Thailand
 
-209\.
-
 Togo
-
-210\.
 
 Tokelau
 
-211\.
-
 Tonga
-
-212\.
 
 Trinidad and Tobago
 
-213\.
-
 Tunisia
-
-214\.
 
 Turkey
 
-215\.
-
 Turkmenistan
-
-216\.
 
 Turks and Caicos Islands
 
-217\.
-
 Tuvalu
-
-218\.
 
 U.S. Virgin Islands
 
-219\.
-
 Uganda
-
-220\.
 
 Ukraine
 
-221\.
-
 United Arab Emirates
-
-222\.
 
 United States
 
-223\.
-
 Uruguay
-
-224\.
 
 Uzbekistan
 
-225\.
-
 Vanuatu
-
-226\.
 
 Vatican City
 
-227\.
-
 Venezuela
-
-228\.
 
 Vietnam
 
-229\.
-
 Wallis and Futuna
-
-230\.
 
 Western Sahara
 
-231\.
-
 Yemen
-
-232\.
 
 Zambia
 
-233\.
-
 Zimbabwe
 
-What is your current employment status?
+**What is your current employment status?**
 
 Employed
 
@@ -1170,7 +919,7 @@ Retired
 
 Other…
 
-What kind of organization do your work for?
+**What kind of organization do your work for?**
 
 Ministry of Health
 
@@ -1186,11 +935,11 @@ Consultant / Private company
 
 Other…
 
-What is your job title?
+**What is your job title?**
 
-Online learning experience
+#### Online learning experience
 
-How many online courses have you completed before?
+**How many online courses have you completed before?**
 
 5+
 
@@ -1200,21 +949,18 @@ How many online courses have you completed before?
 
 0
 
- 
+**Do you have any challenges (technological or otherwise) that may make it difficult for you to complete this online course?**
 
-Do you have any challenges (technological or otherwise) that may make it
-difficult for you to complete this online course?
+**Is there anything else you would like to share with us?**
 
-Is there anything else you would like to share with us?
-
-Enter your email address (optional)
+**Enter your email address (optional)**
 
 ### Getting started
 
-#### Welcome\!
+#### Welcome
 
 Welcome to the DHIS2 Event Fundamentals online course and thank you for
-joining us\!
+joining us!
 
 If you are new to OpenEdX, we recommend you review how to navigate the
 platform by viewing the video demonstrations below; these videos will
@@ -1223,61 +969,49 @@ show you how to navigate and use OpenEdX during this course.
 After you have reviewed these demonstrations, please start the course by
 accessing module 1.1 - Event Fundamentals Course Overview.
 
-NOTE: This course is still in the beta testing phase, which means that
-there might be some cosmetic changes in the coming weeks but nothing
-that should affect your learning experience. In the beta testing phase,
-you are able to go through the whole course and finish all activities
-and graded assignments, but there will be a delay of up to several weeks
-before we are able to generate your certificate. This means that if you
-go through the course very fast, you might need to wait some time until
-your certificate appears on the “Progress” page.
+**NOTE:** This course is still in the **beta testing phase**, which means that there might be some cosmetic changes in the coming weeks but nothing that should affect your learning experience. In the beta testing phase, you are able to go through the whole course and finish all activities and graded assignments, but there will be a delay of up to several weeks before we are able to generate your certificate. This means that if you go through the course very fast, you might need to wait some time until your certificate appears on the “Progress” page.
 
-#### Video - Getting Started Demonstration \[Part 1 of 3\]
+#### Video - Getting Started Demonstration [Part 1 of 3]
 
-Video Download \[Part 1 of 3\]
+Video Download [Part 1 of 3]
 
 Download this video (Low/High)
 
-#### Video - Getting Started Demonstration \[Part 2 of 3\]
+#### Video - Getting Started Demonstration [Part 2 of 3]
 
-#### Video - Getting Started Demonstration \[Part 3 of 3\]
+#### Video - Getting Started Demonstration [Part 3 of 3]
 
 #### GUIDELINES
 
-Please download the guidelines for navigating OpenEdX
-[\[here\]](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@Navigating_OpenEdX.pdf&sa=D&ust=1605291870171000&usg=AOvVaw2kMaNSqf7omz6ASlYEsD2P)
+Please download the guidelines for navigating OpenEdX [[here]](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@Navigating_OpenEdX.pdf&sa=D&ust=1605291870171000&usg=AOvVaw2kMaNSqf7omz6ASlYEsD2P)
 
-#### NEED HELP?
+#### NEED HELP
 
-For any questions feel free to send an email to
-events-fundamentals-support@dhis2.org
+For any questions feel free to send an email to  events-fundamentals-support@dhis2.org
 
 ## 1.1 - Event Fundamentals Course Overview
 
-### 
-
 ### Presentation - Prerequisites & Review of DHIS2 Data Models & Terminology
 
-#### Video - Event Fundamentals Course Overview Presentation \[Part 1 of 2\]
+#### Video - Event Fundamentals Course Overview Presentation [Part 1 of 2]
 
 #### PREREQUISITES
 
 In order to take part in this course, you must have:
 
-  - Either completed the DHIS2 Fundamentals course (available in the
+- Either completed the DHIS2 Fundamentals course (available in the
     catalogue of online courses) and received your certificate;
-  - Or, if you have not taken the DHIS2 Fundamentals course,
+- Or, if you have not taken the DHIS2 Fundamentals course,
     demonstrated relevant experience/knowledge in the fundamentals by
     taking our screening test.
 
 ### Presentation - Course Objectives & Modules, Certification Process, & Getting Help
 
-#### Video - Event Fundamentals Course Overview Presentation \[Part 2 of 2\]
+#### Video - Event Fundamentals Course Overview Presentation [Part 2 of 2]
 
 #### Course Outline - Download
 
-[You can download the detailed course outline
-here.](https://www.google.com/url?q=https://studio.academy.dhis2.org/assets/courseware/23f5e1cb85cedb360ebc51072e32fbb9/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock/Course_Outline.pdf&sa=D&ust=1605291870174000&usg=AOvVaw2G5xtzABBExV9lp0IJwlzI)<sup>[\[a\]](#cmnt1)</sup>
+[You can download the detailed course outline here.](https://www.google.com/url?q=https://studio.academy.dhis2.org/assets/courseware/23f5e1cb85cedb360ebc51072e32fbb9/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock/Course_Outline.pdf&sa=D&ust=1605291870174000&usg=AOvVaw2G5xtzABBExV9lp0IJwlzI)
 
 ## 1.2 - Practical Information
 
@@ -1294,9 +1028,9 @@ both ungraded activities as well as graded assignments. Please see unit
 systems. Instructions for signing up for these training systems are
 provided in:
 
-  - Module 3, Subsection 3.0
-  - Module 4, Subsection 4.0
-  - Module 5, Subsection 5.0
+- Module 3, Subsection 3.0
+- Module 4, Subsection 4.0
+- Module 5, Subsection 5.0
 
 Please consult these for additional detail as you go through the course.
 
@@ -1305,14 +1039,8 @@ the use of either Chrome, Firefox or Chromium-based Edge as your web
 browser. We do not recommend Internet Explorer, as it will not provide
 you with full functionality of DHIS2.
 
-In Module 3, Section 2 you will require an Android device in order to
-take part in non-graded activities using the DHIS2 Android app. If you
-do not have an Android device, you will still be able to complete the
-course; however, you will be unable to try to the Android-based
-activities. You can find a list of requirements and links to download
-the Android App at the [Install DHIS2 Android
-App](https://www.google.com/url?q=https://www.dhis2.org/app-store%23requirements&sa=D&ust=1605291870176000&usg=AOvVaw0wRsavUSpEMyXz2SdWfZzc) web
-page.
+In **Module 3, Section 2** you will require an Android device in order to take part in non-graded activities using the DHIS2 Android app. If you do not have an Android device, you will still be able to complete the course; however, you will be unable to try to the Android-based activities. You can find a list of requirements and links to download
+the Android App at the [Install DHIS2 Android App](https://www.google.com/url?q=https://www.dhis2.org/app-store%23requirements&sa=D&ust=1605291870176000&usg=AOvVaw0wRsavUSpEMyXz2SdWfZzc) web page.
 
 ##### Viewing the Video Demonstrations
 
@@ -1322,8 +1050,7 @@ connection. This will enable you to access a standard definition view.
 You’ll be able to view the videos at 720p definition with a 2.5 Megabit
 per second (Mbps) connection, and 1080p at 4Mbps.
 
-You can check your internet speed
-[here](https://www.google.com/url?q=https://fast.com/&sa=D&ust=1605291870177000&usg=AOvVaw0GN4e1ueMSodmC2r05aMZW).
+You can check your internet speed [here](https://www.google.com/url?q=https://fast.com/&sa=D&ust=1605291870177000&usg=AOvVaw0GN4e1ueMSodmC2r05aMZW).
 
 ##### Course Content
 
@@ -1362,19 +1089,11 @@ and have discussions on course material.
 
 ##### Support
 
-If you encounter any issues, please share\! Ideally through the
-[Discussion
-Forum](https://www.google.com/url?q=https://academy.dhis2.org/courses/course-v1:HISP%2BD2EVENTS100%2BQ2_2020/discussion/forum&sa=D&ust=1605291870179000&usg=AOvVaw3BDKfUk296XWkkhzmV719Z).
+If you encounter any issues, please share! Ideally through the [Discussion Forum](https://www.google.com/url?q=https://academy.dhis2.org/courses/course-v1:HISP%2BD2EVENTS100%2BQ2_2020/discussion/forum&sa=D&ust=1605291870179000&usg=AOvVaw3BDKfUk296XWkkhzmV719Z).
 Moderators and other course participants can help advise on solutions.
-Moderators aim to address any issues flagged in the discussion forum
-within one working day.
+Moderators aim to address any issues flagged in the discussion forum within one working day.
 
-Alternatively, you can send us an email at
-events-fundamentals-support@dhis2.org. We will do our best to answer in
-a timely manner. However, please do try consulting the [Discussion
-Forum](https://www.google.com/url?q=https://academy.dhis2.org/courses/course-v1:HISP%2BD2EVENTS100%2BQ2_2020/discussion/forum&sa=D&ust=1605291870180000&usg=AOvVaw23LNUyMDwAlAkAaIpC9pGl) as
-a resource first, as it is very useful to gain knowledge and insight
-from other learners (and it may be quicker too)\!
+Alternatively, you can send us an email at events-fundamentals-support@dhis2.org. We will do our best to answer in a timely manner. However, please do try consulting the [Discussion Forum](https://www.google.com/url?q=https://academy.dhis2.org/courses/course-v1:HISP%2BD2EVENTS100%2BQ2_2020/discussion/forum&sa=D&ust=1605291870180000&usg=AOvVaw23LNUyMDwAlAkAaIpC9pGl) as a resource first, as it is very useful to gain knowledge and insight from other learners (and it may be quicker too)!
 
 ##### Support Email for Technical Issues
 
@@ -1395,14 +1114,14 @@ those participating in the course which may further be used to tailor
 the course to your needs.
 
 Please be polite to your fellow students. We want to build a positive,
-encouraging community\!
+encouraging community!
 
 Please search before posting to ensure that your question has not
 already been answered.
 
 Know when to use the “report misuse” flag. We hope that nobody ever has
 to use this option, however, if you believe that a post is harassing or
-wholly inappropriate, please use it\! This flags the post to course
+wholly inappropriate, please use it! This flags the post to course
 staff so they can take action. Our staff will not tolerate harassment of
 any nature, including, but not limited to, harassment based on race,
 origin, ethnicity, religion, disability, gender, sex, gender identity or
@@ -1419,30 +1138,26 @@ others feel free to do the same.
 
 ### It's Your Turn
 
-#### It's your turn:
+#### It's your turn
 
 #### Introduce Yourself on the Discussion Forum
 
 Now that you are ready to being the Events Fundamentals course, we
 invite you to introduce yourself to your fellow learners and course
-staff on the course [Discussion
-Forum](https://www.google.com/url?q=https://academy.dhis2.org/courses/course-v1:HISP%2BD2EVENTS100%2BQ2_2020/discussion/forum&sa=D&ust=1605291870183000&usg=AOvVaw1Mfd9NyBSoHzlPNdFPtU2H).
-We would love to hear about your background and experience with DHIS2,
-which country you are based in, and how you hope to use the knowledge
-you gain from this course in your work.
+staff on the course [Discussion Forum](https://www.google.com/url?q=https://academy.dhis2.org/courses/course-v1:HISP%2BD2EVENTS100%2BQ2_2020/discussion/forum&sa=D&ust=1605291870183000&usg=AOvVaw1Mfd9NyBSoHzlPNdFPtU2H). We would love to hear about your background and experience with DHIS2, which country you are based in, and how you hope to use the knowledge you gain from this course in your work.
 
 To view live discussions, click Preview or View Live in Unit
 Settings.Discussion ID: 6a07a5b7e8d94f398ea49a3bc0dfff5630e647c9
 
 ## 1.4 - Overview of the Training Environment
 
-### Demonstration - Overview of Training Environment \[Part 1 of 2\]
+### Demonstration - Overview of Training Environment [Part 1 of 2]
 
-#### Video - Overview of Training Environment Demonstration \[Part 1 of 2\]
+#### Video - Overview of Training Environment Demonstration [Part 1 of 2]
 
-### Demonstration - Overview of Training Environment \[Part 2 of 2\]
+### Demonstration - Overview of Training Environment [Part 2 of 2]
 
-#### Video - Overview of Training Environment Demonstration \[Part 2 of 2\]
+#### Video - Overview of Training Environment Demonstration [Part 2 of 2]
 
 ## Feedback - Course Overview & Getting Started
 
@@ -1452,52 +1167,49 @@ Settings.Discussion ID: 6a07a5b7e8d94f398ea49a3bc0dfff5630e647c9
 
 Please take 2 or 3 minutes to complete this feedback survey once you are
 done with the Module 1. Your careful response will have a real impact on
-how courses like this are run. Thank you\!
+how courses like this are run. Thank you!
 
 #### Module 1 Feedback: DHIS2 Events Fundamentals
 
 This survey will help us to improve the DHIS2 Events Fundamentals online
 course. This survey is anonymous.
 
-How would you rate the quality of these sessions? \*
+**How would you rate the quality of these sessions?**
 
 Excellent/Very Good/Good/Fair/Poor
 
-Is there any course material in these sessions that is broken,
-incomplete, or confusing? (Please include session/part number if
-appropriate)
+**Is there any course material in these sessions that is broken, incomplete, or confusing? (Please include session/part number if appropriate)**
 
-Do you have any comments or feedback to share with us? (Please include
-session/part number if appropriate)
+**Do you have any comments or feedback to share with us? (Please include session/part number if appropriate)**
 
 Share your email address (optional)
 
 # Module 2: Introduction to Tracker Concepts
 
-##  2.0 - Introduction to Module 2 
+## 2.0 - Introduction to Module 2
 
 ### Introduction to Module 2
 
-#### Welcome to Module 2\!
+#### Welcome to Module 2
 
 In module 2, there are 2 subsections that you will be reviewing:
 
-  - 2.1 - Event & Tracker Program Introduction
-  - 2.2 - What is a Use Case
+- 2.1 - Event & Tracker Program Introduction
+- 2.2 - What is a Use Case
 
 This module starts the initial discussion of tracker concepts. These may
 be a bit confusing as this course focuses on events, but bear with us as
-we introduce you to this terminology\!
+we introduce you to this terminology!
 
 ##### Objectives
 
 By the end of this module, you should be able to:
 
-  - Explain the key difference between event and tracker programs
-  - Identify some of the key features used in event and tracker programs
-  - Identify the applications in DHIS2 used to manage event data
-  - Recognize some of the key benefits to using events
-  - Define what a use case is as it relates to DHIS2
+- Explain the key difference between event and tracker programs
+- Identify some of the key features used in event and tracker programs
+- Identify the applications in DHIS2 used to manage event data
+- Recognize some of the key benefits to using events
+- Define what a use case is as it relates to DHIS2
 
 ##### Activities & Assignments
 
@@ -1509,7 +1221,7 @@ activities or graded assignments for you to perform.
 This module should take you approximately 1 hour in total to review all
 of the content as identified in the course outline.
 
-##  2.1 - Event & Tracker Program Introduction 
+## 2.1 - Event & Tracker Program Introduction
 
 ### Presentation - Review of Aggregate Model & Introduction to Event and Tracker Data Models
 
@@ -1522,24 +1234,24 @@ event programs.
 Subsection 2.1 has 3 units for you to review. We recommend that you
 review these units in order.
 
-1.  Presentation - Review of Aggregate Model & Introduction to Event and
+1. Presentation - Review of Aggregate Model & Introduction to Event and
     Tracker Data Models
-2.  Presentation - Event and Tracker Development & Key Features of Event
+2. Presentation - Event and Tracker Development & Key Features of Event
     Programs
-3.  Presentation - Event and Tracker Data Capture, Analysis & Key
+3. Presentation - Event and Tracker Data Capture, Analysis & Key
     Benefits
 
-#### Video - Event & Tracker Program Introduction Presentation \[Part 1 of 3\]
+#### Video - Event & Tracker Program Introduction Presentation [Part 1 of 3]
 
 ### Presentation - Event and Tracker Development & Key Features of Event Programs
 
-#### Video - Event & Tracker Program Introduction Presentation \[Part 2 of 3\]
+#### Video - Event & Tracker Program Introduction Presentation [Part 2 of 3]
 
 ### Presentation - Event and Tracker Data Capture, Analysis, & Key Benefits
 
-#### Video - Event & Tracker Program Introduction Presentation \[Part 3 of 3\]
+#### Video - Event & Tracker Program Introduction Presentation [Part 3 of 3]
 
-##  2.2 - What Is a Use Case? 
+## 2.2 - What Is a Use Case?
 
 ### Presentation - Definitions & Use Case Examples
 
@@ -1553,27 +1265,23 @@ concepts there if you haven't already.
 Subsection 2.2 has 3 units for you to review. We recommend that you
 review these units in order.
 
-1.  Presentation - Definitions & Use Case Examples
-2.  Presentation - Malaria Case Management Use Case
-3.  Presentation - SARA Survey Use Case
+1. Presentation - Definitions & Use Case Examples
+2. Presentation - Malaria Case Management Use Case
+3. Presentation - SARA Survey Use Case
 
-#### 
-
-#### Video - What Is a Use Case? Presentation \[Part 1 of 3\]
-
-### 
+#### Video - What Is a Use Case? Presentation [Part 1 of 3]
 
 ### Presentation - Malaria Case Management Use Case
 
-#### Video - What Is a Use Case? Presentation \[Part 2 of 3\]
+#### Video - What Is a Use Case? Presentation [Part 2 of 3]
 
 ### Presentation - SARA Survey Use Case
 
-#### Video - What Is a Use Case? Presentation \[Part 3 of 3\]
+#### Video - What Is a Use Case? Presentation [Part 3 of 3]
 
 ### Takeaways from Module 2
 
-##### Recap, reflect and share
+#### Recap, reflect and share
 
 What new ideas have you come up with in this module? What doubts do you
 have?
@@ -1594,7 +1302,7 @@ with your peers and learn from them.
 
 Please take 2 or 3 minutes to complete this feedback survey once you are
 done with the Module 2. Your careful response will have a real impact on
-how courses like this are run. Thank you\!
+how courses like this are run. Thank you!
 
 #### Module 2 Feedback: DHIS2 Events Fundamentals
 
@@ -1607,7 +1315,7 @@ course. This survey is anonymous.
 
 ### Introduction to Module 3
 
-##### WELCOME TO MODULE 3\!
+#### WELCOME TO MODULE 3!
 
 This module focuses on showing you how you can enter event data into
 DHIS2 using both a desktop web interface as well as through the use of
@@ -1620,7 +1328,7 @@ In module 3, there are 2 subsections that you will be reviewing:
   - 3.2 - Event Capture for Android. This subsection is divided into 4
     units.
 
-##### OBJECTIVES
+#### OBJECTIVES
 
 By the end of this module, you should be able to:
 
@@ -1629,29 +1337,29 @@ By the end of this module, you should be able to:
   - Describe how the Android app is used to collect event data
   - Use the Android app in order to enter data into DHIS2
 
-##### ACTIVITIES & ASSIGNMENTS
+#### ACTIVITIES & ASSIGNMENTS
 
-#### Activities
+##### Activities
 
 You will be performing ungraded activities for each unit within both 3.1
 - Event Capture for Web as well as 3.2 - Event Capture for Android.
 There is therefore a total of 7 activities that you will perform within
 this module.
 
-#### Assignments
+##### Assignments
 
 You will have 2 graded assignments in the form of quizzes, one for each
 subsection. Each graded quiz will contribute to 10% of your overall
 grade. This module therefore contributes to 20% of your grade overall.
 
-#### Training Environment
+##### Training Environment
 
 You will be using the CAPTURE training environment to perform your
 activities and assignments. If you have not done so, please sign up for
 this training environment by following the instructions in the unit
 Account Creation - Capture
 
-##### TIME COMMITMENT
+#### TIME COMMITMENT
 
 This module should take you approximately 3 hours in total to review all
 of the content, perform the ungraded activities and finish the graded
@@ -1682,7 +1390,7 @@ Note: the email address you use with OpenEDX will be sent to the DHIS2
 database to create an account.
 
 Give it a couple of seconds to think; DO NOT keep clicking the “Request
-account” button several times in a row\! It will send your email details
+account” button several times in a row! It will send your email details
 that you used when you registered in OpenEdX to the DHIS2 capture system
 to begin the registration process. After 5-10 seconds you should receive
 the following notification in your browser window.
@@ -1705,12 +1413,12 @@ was filtered out.
 
 The e-mail itself should look like this
 
-![Received Email](images/image119.png)<sup>[\[b\]](#cmnt2)</sup>
+![Received Email](images/image119.png)
 
-\[DHIS2 Events - Capture\] Invitation to create user account at
+DHIS2 Events - Capture Invitation to create user account at
 academy.events.dhis2.org/capture
 
-DHIS2 Events - Capture message \[No reply\]
+DHIS2 Events - Capture message No reply
 
 This is an invitation to create a DHIS2 Events - Capture user account.
 
@@ -1776,105 +1484,105 @@ After you have completed reviewing all the material within this
 subsection, please attempt the graded quiz for this subsection. This
 quiz will contribute to 10% of your overall grade.
 
-#### Video - Event Capture for Web Version Demonstration \[Part 1 of 3\]
+#### Video - Event Capture for Web Version Demonstration Part 1 of 3
 
 #### Activity Links
 
 #### Part 1 Activity: Overview of Capture App
 
- DHIS2 Capture  DHIS2 Documentation   Printable version
+DHIS2 Capture  DHIS2 Documentation   Printable version
 
 This activity will be completed in DHIS2 Capture. Please use the account
 details you have created for DHIS2 Capture  in order to log in.
 
 Activity Instructions
 
-In the Search apps field, search for the Capture app. Click on the
+In the **Search apps** field, search for the **Capture app**. Click on the
 target symbol.
 
-![3.1.1.1\_\_Capture\_app](images/image66.png)
+![3.1.1.1__Capture_app](images/image66.png)
 
 To choose a location, click on the arrow to expand the Organisation Unit
 (OU) hierarchy in the desired branch.
 
-  - Select the “Yam Health Centre,” by expanding Trainingland \> Food
-    Region \> Staple District
+  - Select the “Yam Health Centre,” by expanding **Trainingland > Food
+    Region > Staple District**
 
-![3.1.1.2\_\_OUs](images/image228.png)
+![3.1.1.2__OUs](images/image228.png)
 
 Only programs relevant to the selected OU and user will show up in the
 selection list.
 
 Select the “Malaria Case Management” program.
 
-![3.1.1.3\_\_Yam\_Health\_Centre](images/image243.png)
+![3.1.1.3__Yam_Health_Centre](images/image243.png)
 
-Register a new event by clicking on the New Event button in the top
+Register a new event by clicking on the **New Event** button in the top
 right corner.
 
-![3.1.1.4\_\_New\_Event\_Button](images/image118.png)
+![3.1.1.4__New_Event_Button](images/image118.png)
 
-First click on the gear symbol on the right; this allows users to decide
+First click on the **gear symbol** on the right; this allows users to decide
 which columns to show or hide in the table of events displayed.
 
-![3.1.1.5\_\_Columns\_in\_table](images/image221.png)
+![3.1.1.5__Columns_in_table](images/image221.png)
 
-![3.1.1.6\_Gear\_button](images/image14.png)
+![3.1.1.6_Gear_button](images/image14.png)
 
-Second, click on the horizontal ellipses next to the gear symbol then
+Second, click on the **horizontal ellipses** next to the gear symbol then
 select “Download data…”
 
 This allows for the download of a list of events in XML, JSON, or CSV
 format.
 
-![3.1.1.7\_Ellipses](images/image26.png) ![3.1.1.8\_Download](images/image292.png)
+![3.1.1.7_Ellipses](images/image26.png) ![3.1.1.8_Download](images/image292.png)
 
 Third, click any of the column headers. This sorts the information that
 appears in the table by column. The sorting icon, which is a little
 green arrow, indicates the current sorting column.
 
-![3.1.1.9\_Sorting\_icon](images/image278.png)
+![3.1.1.9_Sorting_icon](images/image278.png)
 
 Fourth, it is also possible to filter the information that appears in
-the table by clicking any of the headers at the top of the table. When
+the table by clicking any of the **headers** at the top of the table. When
 clicking them an input field appears to select, or type, a filtering
 criteria. An example of the input field options for “Condition of
 Patient” is shown below.
 
-![3.1.1.10\_\_Condition\_of\_Patient](images/image106.png)
+![3.1.1.10__Condition_of_Patient](images/image106.png)
 
 During filtering it is possible to define start and end dates for date
 type data elements as well as lower and upper limits for number types.
 
-![3.1.1.11\_Rows\_per\_page\_](images/image335.png)
+![3.1.1.11_Rows_per_page_](images/image335.png)
 
 Lastly, the interface’s paging options can be changed; it is possible to
 edit the number of event rows that appear per page by using the paging
-section at the bottom of the list and editing the Rows per page drop
+section at the bottom of the list and editing the **Rows per page** drop
 down. You can also move between the pages of events using the arrows at
 the bottom of the table.
 
-![3.1.1.12\<em\>Rows\</em\>per\_page](images/image7.png)
+![3.1.1.12<em>Rows</em>per_page](images/image7.png)
 
 ### Demonstration - Skip Logic, Indicators & Validation Rules
 
-#### Video - Event Capture for Web Version Demonstration \[Part 2 of 3\]
+#### Video - Event Capture for Web Version Demonstration Part 2 of 3
 
 #### Part 2 Activity: Skip Logic, Indicators & Validation Rules
 
   - De-select the “Malaria case management” Program
   - Now select the “SARA RCH” program
-  - Click on + New Event in the top right corner
+  - Click on + **New Event** in the top right corner
 
-![3.1.2.1\_Register\_New\_Event](images/image118.png)
+![3.1.2.1_Register_New_Event](images/image118.png)
 
 Let’s review the form. First, as is required, select a report date.
 
-![3.1.2.2\_\_Report\_Date](images/image147.png)
+![3.1.2.2__Report_Date](images/image147.png)
 
 Fill out the remainder of the form.
 
-![3.1.2.3\_\_Filling\_out\_the\_form](images/image281.png)
+![3.1.2.3__Filling_out_the_form](images/image281.png)
 
 Let’s demonstrate how skip-logic functions as a result of program rules.
 
@@ -1901,7 +1609,7 @@ will not appear due to the “skip logic” incorporated into the form.
 Let’s review the program indicators and how they can be calculated
 within the Event Data Entry form.
 
-![3.1.2.4\_Program\_Indicators](images/image99.png)
+![3.1.2.4_Program_Indicators](images/image99.png)
 
   - In the form on the right is a section for program indicators
   - “On-the-fly” indicator expression evaluation is supported; if a
@@ -1915,30 +1623,26 @@ Let’s now take a look at program validation rules:
   - These are used to validate the data entered in each event
     registration form
   - Change the denominator value of the data element “How many staff are
-    in this facility” to be \< (less than) the number of those who
+    in this facility” to be < (less than) the number of those who
     “Received any family planning training in the last two years”
-
-<!-- end list -->
 
   - A validation warning will appear directly next to the data element
     where the violation is detected
 
-<!-- end list -->
-
   - Now let’s change the denominator value back to the original value so
     the validation warning no longer appears
 
-![3.1.2.5\_\_Validation\_Rules](images/image192.png)
+![3.1.2.5__Validation_Rules](images/image192.png)
 
 ## 3.1 - Graded Quiz - Event Capture for Web
 
 #### Graded quiz - Event capture for web
 
-This is a graded quiz and it is worth 10% of your final grade.
+This is a **graded quiz** and it is worth **10%** of your final grade.
 
-You have 2 attempts to pass each question.
+You have **2 attempts** to pass each question.
 
-Select the "check" button to submit your answers.
+Select the "**check**" button to submit your answers.
 
 If you want to save your current response without submitting it for
 grading yet, select the "save" button. This allows you to come back
@@ -1948,39 +1652,39 @@ later and resume the attempt.
 
 ![Capture Interface](images/image290.png)
 
-\>\>The above screenshot (Question 1 - Screenshot) shows the default
+The above screenshot (Question 1 - Screenshot) shows the default
 view when I first navigate to the capture app. What steps do I take when
-I want to enter new events within the capture app?\<\<
+I want to enter new events within the capture app?
 
 ( ) I click on the “New” button in the top right corner. I can then
 select the event program, organization unit and date associated with the
-event. {{This is the incorrect sequence -- try again\!}}
+event. {{This is the incorrect sequence -- try again!}}
 
 ( ) I select the program I want to work with, click on the “New” button
 in the top right corner, select the organization unit I want to add a
 new event to followed by the date associated with the event {{This is
-the incorrect sequence -- try again\!}}
+the incorrect sequence -- try again!}}
 
 (x) I select the organisation unit I want to add a new event to, select
 the event program I want to add a new event to than select the “New”
 button followed by the date associated with the event
 
-\[explanation\]
+explanation
 
 Work from left to right when adding new data for an event within the
 capture app. DHIS2 will prompt you when you select an item in the
 sequence out of order.
 
-\[explanation\]
+explanation
 
 #### Question 2 - Screenshot![Capture Front Page List](images/image267.png)
 
-\>\>Review the screenshot above (Question 2 - Screenshot) taken from the
+Review the screenshot above (Question 2 - Screenshot) taken from the
 capture app when reviewing an event program. How can I filter the
 results shown in the table using the field “Condition of Patient” to
 show only cases that meet the criteria of Condition of Patient = Severe.
 Note that the condition of patient data element uses a pre-populated
-drop down list in order to record a response.\<\<
+drop down list in order to record a response.
 
 (x) Click on the button above the table labelled “Condition of patient”
 with and Select “Severe.” Note this button has a small down arrow beside
@@ -1999,7 +1703,7 @@ Condition of Patient = Severe in order to filter the table {{In this
 case, you are working with a pre-populated response of options. You will
 not need to type anything when using these types of lists.}}
 
-\[explanation\]
+explanation
 
 The grey buttons with dropdown arrows next to their name above the table
 allow you to filter criteria shown within the table itself. You can add
@@ -2007,16 +1711,16 @@ additional filters within the event program you are reviewing at any
 time if they are not shown above the table as well; the subsequently use
 those to filter the table further.
 
-\[explanation\]
+explanation
 
 #### Question 3 - Screenshot
 
 ![Capture Default View](images/image150.png)
 
-\>\>Within the capture app, I am able to change to “row view” by
+Within the capture app, I am able to change to “row view” by
 selecting the button as shown in the above image (Question 3 -
 Screenshot). How does the “row view” differ from the default view shown
-in the capture app?\<\<
+in the capture app?
 
 ( ) The row view will take me back to the front page table list so I can
 view the the events associated with the event program and organization
@@ -2035,44 +1739,44 @@ organization unit and program I have selection {{You can view event
 reports on the dashboard or via the event reports application but not in
 the capture app.}}
 
-\[explanation\]
+explanation
 
 The row view will alter the data entry interface so your data elements
 are displayed horizontally rather then vertically.
 
-\[explanation\]
+explanation
 
 #### Question 4
 
- \>\>I am able to review indicators that have been calculated
+I am able to review indicators that have been calculated
 “on-the-fly” (ie. directly in the event program as I enter data)
 within the capture app on the web when entering data for an event
-program\<\<
+program
 
- \[\[(TRUE), FALSE\]\]
+(TRUE), FALSE
 
- \[explanation\]
+explanation
 
 True. This functionality gives flexibility to use individual data to
 provide immediate feedback to a user for an individual event directly
 within the capture app.
 
- \[explanation\]
+explanation
 
 #### Question 5
 
- \>\>I am unable to validate my data as it is being entered within an
-event program.\<\<
+I am unable to validate my data as it is being entered within an
+event program.
 
-\[\[TRUE, (FALSE)\]\]
+TRUE, (FALSE)
 
- \[explanation\]
+explanation
 
 We are able to validate our data directly within event capture as we are
 entering data. Various rules can be created in order to perform this
 validation to ensure data is being entered correctly.
 
- \[explanation\]
+explanation
 
 ## 3.2 - Event Capture for Android
 
@@ -2103,29 +1807,26 @@ After you have completed reviewing all the material within this
 subsection, please attempt the graded quiz for this subsection. This
 quiz will contribute to 10% of your overall grade.
 
-#### Video - Event Capture for Android Demonstration \[Part 1 of 4\]
+#### Video - Event Capture for Android Demonstration Part 1 of 4
 
 #### Part 1 Activity: Installation & Logging In
 
-  - Install the Event Capture app on your Android device
+  - Install the **Event Capture** app on your Android device
   - Open Google play on the device and search for “dhis2”
 
-<!-- end list -->
 
   - Note: You can access the DHIS2 app via the google play store
     directly via your computer if you would like by accessing the
-    following link :
-    [https://play.google.com/store/apps/details?id=com.dhis2](https://www.google.com/url?q=https://play.google.com/store/apps/details?id%3Dcom.dhis2&sa=D&ust=1605291870220000&usg=AOvVaw0H-KTeOoCAYtiVVokA0PXp)
+    following link : [https://play.google.com/store/apps/details?id=com.dhis2](https://www.google.com/url?q=https://play.google.com/store/apps/details?id%3Dcom.dhis2&sa=D&ust=1605291870220000&usg=AOvVaw0H-KTeOoCAYtiVVokA0PXp)
 
-<!-- end list -->
 
-  - Select the app called DHIS2 Capture
+  - Select the app called **DHIS2 Capture**
 
-![3.2.1.1\_Opening\_DHIS2\_Capture](images/image127.jpg)
+![3.2.1.1_Opening_DHIS2_Capture](images/image127.jpg)
 
-Next, select Install to install the app on the device.
+Next, select **Install** to install the app on the device.
 
-![3.2.1.2\_Install\_DHIS2\_Capture](images/image204.jpg)
+![3.2.1.2_Install_DHIS2_Capture](images/image204.jpg)
 
 ##### Logging in
 
@@ -2133,15 +1834,13 @@ Next, let’s explore how to log in to the app.
 
 Open the app and enter the following login details:
 
-Server URL: https://academy.events.dhis2.org/capture
+**Server URL**: https://academy.events.dhis2.org/capture
 
-Username: Select a user name from the table below. You will not be using
-the username that you created previously when interacting with the
-android app.
+**Username**: Select a user name from the table below. **You will not be using the username that you created previously when interacting with theandroid app.**
 
-Password: District1\#
+**Password**: District1#
 
-![3.2.1.3\_Login](images/image112.jpg)
+![3.2.1.3_Login](images/image112.jpg)
 
 Note: For the username, several have been created for this exercise.
 Please select an account according to your last name. This is being done
@@ -2155,27 +1854,26 @@ their web browser later on.
 The server will take some time to sync the configuration and load the
 metadata.
 
-![3.2.1.4\_Sync](images/image142.jpg)
+![3.2.1.4_Sync](images/image142.jpg)
 
 The programs available will appear on the homepage of the app.
 Underneath the program name you see the number of events that are
-registered. In this case, we can see the Malaria Case
-Registration program.
+registered. In this case, we can see the **Malaria Case Registration program**.
 
-  - Note: Depending on the user you select, you may not see any
+  - **Note**: Depending on the user you select, you may not see any
     data/events registered in the program. This is because each user has
     been assigned different organization units.
 
-![3.2.1.5\_MCR](images/image312.jpg)
+![3.2.1.5_MCR](images/image312.jpg)
 
-Upon login, a screen that reads Home in the top left corner will appear.
-Click on \*Show help \*for a walkthrough of the interface.
+Upon login, a screen that reads **Home** in the top left corner will appear.
+Click on *Show help *for a walkthrough of the interface.
 
-![3.2.1.6\<em\>Show\</em\>help\_](images/image308.jpg)
+![3.2.1.6<em>Show</em>help_](images/image308.jpg)
 
 ### Demonstration - Register & Sync an Event
 
-#### Video - Event Capture for Android Demonstration \[Part 2 of 4\]
+#### Video - Event Capture for Android Demonstration Part 2 of 4
 
 #### Part 2 Activity: Register & Sync an Event
 
@@ -2191,44 +1889,40 @@ defined by the user.
 After selecting the program any events linked to the program and
 organization units the user has access to will appear.
 
-![3.2.2.1\_Select\_Program](images/image173.jpg)
+![3.2.2.1_Select_Program](images/image173.jpg)
 
-By using the filter button at the top right, you can filter the
+By using the **filter** button at the top right, you can filter the
 registered events by organization unit or period, so that only events
 that meet your filter criteria will appear in the
-list.![3.2.2.2\_Filter](images/image110.jpg)
+list.![3.2.2.2_Filter](images/image110.jpg)
 
- 
-
- 
-
-![3.2.2.3\_MCR\_Period](images/image71.jpg)
+![3.2.2.3_MCR_Period](images/image71.jpg)
 
 ##### Review the program and enter data
 
 To register a new event, click on the + icon in the lower right corner.
 Select the date the case visited the health center.
 
-![3.2.2.4\_Registering\_a\_new\_event](images/image338.jpg)
+![3.2.2.4_Registering_a_new_event](images/image338.jpg)
 
 Select an organization unit at the lowest level. Note that the
 organization units you see may be different then what is available in
 the screenshot below. This is because each android account is assigned
 different organization units.
 
-![3.2.2.5\_Hatchetfish\_Primary\_Health\_Centre](images/image94.jpg)
+![3.2.2.5_Hatchetfish_Primary_Health_Centre](images/image94.jpg)
 
 Sections can be collapsed by clicking on the arrow next to the section
 name. Note you can navigate to a different section by clicking on the
 section name at the top, and selecting the section of interest.
 
-![3.2.2.6\_Section\_Collapsible](images/image319.jpg)
+![3.2.2.6_Section_Collapsible](images/image319.jpg)
 
 The sections have a completion indicator next to the section name as
 well. The 0/1 indicates there is 1 data element in this section in which
 none have a response.
 
-![3.2.2.7\_Section\_completion\_indicator](images/image321.jpg)
+![3.2.2.7_Section_completion_indicator](images/image321.jpg)
 
 Fill in the details of this new malaria case event.
 
@@ -2241,7 +1935,7 @@ section.
 
 Select “RDT” as the option in the “Diagnosis Method” section.
 
-![3.2.2.8\_RDT\_in\_Diagnosis\_Method\_section](images/image306.jpg)
+![3.2.2.8_RDT_in_Diagnosis_Method_section](images/image306.jpg)
 
 ##### Program rules
 
@@ -2255,11 +1949,9 @@ tracker programs. To view this feature:
   - Notice that the next section that appears is “Diagnosis Result
     Microscopy”
 
-![3.2.2.9\_PR\_RDT\_and\_Diagnosis\_Result\_RDT](images/image96.jpg)
+![3.2.2.9_PR_RDT_and_Diagnosis_Result_RDT](images/image96.jpg)
 
- 
-
-![3.2.2.10\_PR\_Microscope\_and\_Diagnosis\_Result\_Microscopy](images/image181.jpg)
+![3.2.2.10_PR_Microscope_and_Diagnosis_Result_Microscopy](images/image181.jpg)
 
 Fill in the data for the “Diagnosis Result Microscopy” section by
 clicking on the section header. Select “Pf” as the result. When clicking
@@ -2267,25 +1959,25 @@ on this we can see the “Treatment PF” section appears. If we click into
 the treatment section, we can see that the options within that are ACT
 doses.
 
-![3.2.2.11\_Part\_2\_-\_Microscopy\_PF\_and\_Treatment\_PF](images/image169.jpg)
+![3.2.2.11_Part_2_-_Microscopy_PF_and_Treatment_PF](images/image169.jpg)
 
 If we go back into the Diagnosis Result Microscopy section by clicking
 on the section header, and select Pv as the result., the treatment
 section now reads Treatment PV, and the options within it are different
 doses of CQ and CQ + PQ.
 
-![3.2.2.12\_Part\_2\_-\_Microscopy\_PV\_and\_Treatment\_PV](images/image202.jpg)
+![3.2.2.12_Part_2_-_Microscopy_PV_and_Treatment_PV](images/image202.jpg)
 
 Finish filling out the event data. Navigate to the “Village and Age”
 section. Select the village as the same organization unit that you
 registered the event in and tap Accept.
 
-![3.2.2.13\_Village\_as\_Hatchetfish\_Primary\_Health\_Centre](images/image144.jpg)
+![3.2.2.13_Village_as_Hatchetfish_Primary_Health_Centre](images/image144.jpg)
 
 Tap on the “Age” element, and enter an age using the numeric keyboard.
 Then tap Next on the keyboard.
 
-![3.2.2.14\_Age\_data\_element](images/image131.jpg)
+![3.2.2.14_Age_data_element](images/image131.jpg)
 
 Continue navigating through the sections and filling in data for the
 event until each section is complete.
@@ -2298,20 +1990,20 @@ event until each section is complete.
 When you have entered all of the data, click on the blue circular save
 button in the bottom right corner of the screen.
 
-![3.2.2.15\<em\>Save\</em\>button](images/image270.jpg)
+![3.2.2.15<em>Save</em>button](images/image270.jpg)
 
 Upon completing data entry, it will be possible to select whether or not
 the event is complete. For this example, select Finish and complete.
 
-![3.2.2.16\<em\>Completing\</em\>data\_entry](images/image64.jpg)
+![3.2.2.16<em>Completing</em>data_entry](images/image64.jpg)
 
 The new event will then appear at the top of the list of events.
 
-![3.2.2.17\_New\_event\_registered](images/image54.jpg)
+![3.2.2.17_New_event_registered](images/image54.jpg)
 
 ### Demonstration - Settings for Syncing Data to the Online Server
 
-#### Video - Event Capture for Android Demonstration \[Part 3 of 4\]
+#### Video - Event Capture for Android Demonstration Part 3 of 4
 
 #### Part 3 Activity: Settings for Syncing Data to the Online Server
 
@@ -2322,14 +2014,13 @@ a Sync status button, which is the circular double arrow button, located
 to the right of it in the program page. If the event has been synced
 with the server, the Sync status button will not appear.
 
-![3.2.3.1\_Sync\_status\_green\_and\_gray](images/image103.jpg)
+![3.2.3.1_Sync_status_green_and_gray](images/image103.jpg)
 
-Clicking on the sync status button will reveal that the event has not
-yet synced to the server. This is a result of the settings and how
+Clicking on the **sync status** button will reveal that the event has not yet synced to the server. This is a result of the settings and how
 frequently the data are synced with DHIS2. Note that while it is not
 sent to the server, the data are stored locally on the mobile device.
 
-![3.2.3.2\_Sync\_status](images/image214.jpg)
+![3.2.3.2_Sync_status](images/image214.jpg)
 
 If you want to sync the event to the server, you can click on Send in
 the bottom right corner after selecting the sync status.
@@ -2338,37 +2029,32 @@ The app will display a message that says the data have been sent to the
 server. We can also see in the events list that the sync symbol is no
 longer next to the event.
 
-Sync![3.2.3.3\_Data\_synced\_with\_server](images/image158.jpg)
+Sync![3.2.3.3_Data_synced_with_server](images/image158.jpg)
 
 ##### Sync settings
 
-To access the app settings, click on the Menu button in the top left
-corner, then select Settings. There are a number of different options,
-among them Sync data, Sync configuration, and Sync parameter settings.
+To access the app settings, click on the **Menu** button in the top left
+corner, then select **Settings**. There are a number of different options, among them **Sync data, Sync configuration**, and **Sync parameter** settings.
 
-![3.2.3.4\_Navigate\_Settings](images/image291.jpg)
+![3.2.3.4_Navigate_Settings](images/image291.jpg)
 
-![3.2.3.5\_Sync\_Settings](images/image49.jpg)
+![3.2.3.5_Sync_Settings](images/image49.jpg)
 
 To manually sync multiple events at one time:
 
-  - Select Sync data in settings
-  - Select Sync data now
+  - Select **Sync data** in settings
+  - Select **Sync data now**
 
 ##### Verify by logging in on the web
 
 Verify that this event was sent by logging in through the web-browser
-DHIS2 instance and opening up the Capture app. For the organisation unit
-select the organization unit that you registered your event on when
-using the Android device. This may be different then the facility shown
-in the screenshot below. and “Malaria Case Registration” as the program.
-The event should be in the list of events shown.
+DHIS2 instance and opening up the **Capture** app. For the organisation unit **select the organization unit that you registered your event on when using the Android device**. This may be different then the facility shown in the screenshot below. and “Malaria Case Registration” as the program. The event should be in the list of events shown.
 
-![3.2.3.6\_Event\_review\_in\_web-browser](images/image269.png)
+![3.2.3.6_Event_review_in_web-browser](images/image269.png)
 
 ### Demonstration - Offline Event Capture
 
-#### Video - Event Capture for Android Demonstration \[Part 4 of 4\]
+#### Video - Event Capture for Android Demonstration Part 4 of 4
 
 #### Part 4 Activity: Offline Event Capture
 
@@ -2379,20 +2065,19 @@ To test the syncing of events while offline:
     program
   - Attempt to sync the event with the server
 
-![3.2.4.1\_Offline\_capture](images/image100.jpg)
+![3.2.4.1_Offline_capture](images/image100.jpg)
 
   - Now, turn the wifi back on and try to sync
   - Despite registering the event while offline, the event now syncs to
     the server
 
-![3.2.4.2\_Offline\_event\_synced\_to\_server](images/image158.jpg)
+![3.2.4.2_Offline_event_synced_to_server](images/image158.jpg)
 
 ### Takeaways from Module 3
 
 #### Recap, reflect and share
 
-What new ideas have you come up with in this module? What doubts do you
-have?
+**What new ideas have you come up with in this module? What doubts do you have?**
 
 Even though most of the contents of the course are aimed for you to get
 familiar with the DHIS2 features, the end goal is for you to relate what
@@ -2404,47 +2089,45 @@ with your peers and learn from them.
 
 ## 3.2 - Graded Quiz - Event Capture for Android
 
-#### Graded Quiz - Event Capture for Android
+### Graded Quiz - Event Capture for Android
 
-This is a graded quiz and it is worth 10% of your final grade.
+This is a **graded quiz** and it is worth **10%** of your final grade.
 
-You have 2 attempts to pass each question.
+You have **2 attempts** to pass each question.
 
-Select the "check" button to submit your answers.
+Select the "**check**" button to submit your answers.
 
 If you want to save your current response without submitting it for
-grading yet, select the "save" button. This allows you to come back
+grading yet, select the "**save**" button. This allows you to come back
 later and resume the attempt.
-
-##### 
 
 ##### Question 1 - screenshot
 
-![server\_url](images/image114.png)
+![server_url](images/image114.png)
 
- \>\>The above screenshot (Question 1 - Screenshot) has highlighted the
+The above screenshot (Question 1 - Screenshot) has highlighted the
 server URL on the log in page using a box in red colour. When using this
 URL field, I need to re-enter the server URL every time I log in to the
-same server on the Android app.\<\<
+same server on the Android app.
 
- \[\[TRUE, (FALSE)\]\]
+TRUE, (FALSE)
 
- \[explanation\]
+explanation
 
 If I am going to log in to a different server, I will need to re-enter
 the URL. If I log in to the same URL on the same device, the URL will be
 saved; I do not need to re-enter it.
 
- \[explanation\]
+explanation
 
 Question 2 - Screenshot
 
-![new\_event](images/image232.png)
+![new_event](images/image232.png)
 
-\>\>The above screenshot (Question 2 - Screenshot) shows the default
+The above screenshot (Question 2 - Screenshot) shows the default
 view in the Android app after I have select an event program that I want
 to work with. Which button do I select in order to create a new
-event?\<\<
+event?
 
 ( ) The button outlined in the black box labelled as “1.” {{This allows
 you to filter events}}
@@ -2454,22 +2137,22 @@ you to filter events}}
 ( ) The button outlined in the blue box labelled as “3.” {{This button
 allows you to open an existing event}}
 
-\[explanation\]
+explanation
 
 You select the plus sign within the Android app in order to add a new
 event to the program you are working with.
 
-\[explanation\]
+explanation
 
 ##### Question 3 - Screenshot
 
 ![](images/image136.png)
 
-\>\>In the screenshot above (Question 3 - Screenshot), one of the events
+In the screenshot above (Question 3 - Screenshot), one of the events
 is outlined via a box in red colour. To the very right of the event,
-there is an icon showing two grey circular arrows along with an \!
+there is an icon showing two grey circular arrows along with an !
 (exclamation point) in the centre of the circular arrows in grey colour.
-What does this icon represent?\<\<
+What does this icon represent?
 
 ( ) This means the data has been synchronized both on the device as well
 as sent online. {{Please review the Demonstration - Settings for Syncing
@@ -2482,41 +2165,39 @@ Server if unsure about this icon}}
 (x) This means the data has been synchronized to the Android device
 only. It has not yet been sent online.
 
-\[explanation\]
+explanation
 
 This icon represents that the event is not yet synchronized online; only
 on the Android device. Events can be synchronized manually or via a
 schedule that is set up to perform this automatically.
 
-\[explanation\]
+explanation
 
- \>\>Event programs can be created using large icons to represent
-dropdown lists/option sets within the Android app.\<\<
+ Event programs can be created using large icons to represent
+dropdown lists/option sets within the Android app.
 
- \[\[(TRUE), FALSE\]\]
+(TRUE), FALSE
 
- 
+explanation
 
-  \[explanation\]
-
- True. This is an option to allow for a more intuitive user interface
+True. This is an option to allow for a more intuitive user interface
 when the Android app is being used to collect data.
 
- \[explanation\]
+explanation
 
- \>\>Program rules/skip logic does not work on the Android app. This is
+Program rules/skip logic does not work on the Android app. This is
 a function that only works within the capture app when using the
-web-based version of DHIS2.\<\<
+web-based version of DHIS2.
 
- \[\[TRUE, (FALSE)\]\]
+TRUE, (FALSE)
 
-  \[explanation\]
+explanation
 
 False. Program rules/skip logic is fully supported within the Android
 app. This allows us to implement necessary workflows to improve the data
 entry process on both Web and Android when working with event programs.
 
- \[explanation\]
+explanation
 
 ## Feedback - Event Data Capture
 
@@ -2526,7 +2207,7 @@ entry process on both Web and Android when working with event programs.
 
 ### Introduction to Module 4
 
-#### WELCOME TO MODULE 4\!
+#### WELCOME TO MODULE 4!
 
 This module focuses on showing you how you can use event data to create
 event data outputs in the form of tables, charts and maps.
@@ -2555,15 +2236,11 @@ By the end of this module, you should be able to:
 
 #### Activities
 
-You will be performing ungraded activities for each unit labelled as a
-demonstration within the 4 subsections of this module. Activities will
-be identified within the subsection themselves. There is therefore a
-total of 20 activities that you will perform within this module. Don't
-worry, we try not to make any single activity to long\!
+You will be performing ungraded activities **for each unit labelled as a demonstration** within the 4 subsections of this module. Activities will be identified within the subsection themselves. There is therefore a total of **20 activities** that you will perform within this module. Don't worry, we try not to make any single activity to long!
 
 #### Assignments
 
-You will have 4 graded assignments in the form of hands-on exercises
+You will have **4 graded assignments** in the form of hands-on exercises
 that you must answer, one for each subsection. Each graded assignment
 will contribute to 10% of your overall grade. This module therefore
 contributes to 40% of your grade overall.
@@ -2577,24 +2254,17 @@ Account Creation - Analysis.
 
 #### TIME COMMITMENT
 
-There is a significant amount of content to cover in this module\! This
-module should take you approximately 8 hours in total to review all of
-the content, perform the ungraded activities and finish the graded
+There is a significant amount of content to cover in this module! This
+module should take you approximately **8 hours** in total to review all of the content, perform the ungraded activities and finish the graded
 assignments as identified in the course outline. This is our longest
-module, but will likely be very useful to many of you\!
+module, but will likely be very useful to many of you!
 
 ### Account Creation - ANALYSIS
 
 Instructions - Account Creation on Analysis
 
 In order to perform the exercises and assignments within Module 4, you
-will be accessing the ANALYSIS DHIS2 system. The ANALYSIS system will
-grant you access to different apps within DHIS2 when compared to
-CAPTURE. You can see the apps you will have available in the screenshot
-below. In this system, you will not have access to any of the apps used
-to capture data. If modification of the data was allowed, this could
-potentially affect any of the values associated with the outputs used in
-this module.
+will be accessing the **ANALYSIS** DHIS2 system. The **ANALYSIS** system will grant you access to different apps within DHIS2 when compared to **CAPTURE**. You can see the apps you will have available in the screenshot below. In this system, you will not have access to any of the apps used to capture data. If modification of the data was allowed, this could potentially affect any of the values associated with the outputs used in this module.
 
 ![Analysis apps](images/image225.png)
 
@@ -2613,7 +2283,7 @@ Note: the email address you use with OpenEDX will be sent to the DHIS2
 database to create an account.
 
 Give it a couple of seconds to think; DO NOT keep clicking the “Request
-account” button several times in a row\! It will send your email details
+account” button several times in a row! It will send your email details
 that you used when you registered in OpenEdX to the DHIS2 Analysis
 system to begin the registration process. After 5-10 seconds you should
 receive the following notification in your browser window.
@@ -2697,7 +2367,7 @@ After you have completed reviewing all the material within this
 subsection, please attempt the graded quiz for this subsection. This
 quiz will contribute to 10% of your overall grade.
 
-#### Video - Event Reports Demonstration \[Part 1 of 6\]
+#### Video - Event Reports Demonstration Part 1 of 6
 
 #### Part 1 Activity: Interface Description
 
@@ -2706,201 +2376,190 @@ This activity will be completed in DHIS2 Analysis.
 Clicking on the DHIS2 symbol below, located in the upper left of the
 page, navigate to the main Dashboard page.
 
-![4.1.1.1.DHIS2\_symbol](images/image102.png)
+![4.1.1.1.DHIS2_symbol](images/image102.png)
 
-Next, select the action ellipses within the 4.1 Pivot Table, and click
-“Open in Event Reports app.”
+Next, select the **action ellipses** within the 4.1 Pivot Table, and click  “Open in Event Reports app.”
 
-![4.1.1.2.Dashboard\_Pivot\_table](images/image231.png)
+![4.1.1.2.Dashboard_Pivot_table](images/image231.png)
 
- 
+![4.1.1.3.Open_Event_Reports_app](images/image166.png)
 
-![4.1.1.3.Open\_Event\_Reports\_app](images/image166.png)
-
-Using the Data tab on the left, add the data item “Condition of
+Using the **Data** tab on the left, add the data item “Condition of
 Patient”.
 
 ![4.1.1.4.MCM](images/image141.png)
 
-Update the table to see the changes reflected on the screen.
+**Update** the table to see the changes reflected on the screen.
 
-![4.1.1.5.Malaria\_Case\_Management\_Results](images/image347.png)
+![4.1.1.5.Malaria_Case_Management_Results](images/image347.png)
 
-Add the year “2020” to the period and then update the table.
+Add the year “2020” to the **period** and then **update** the table.
 
-![4.1.1.6.MCM\_Period\_2019\_\_\_2020](images/image130.png)
+![4.1.1.6.MCM_Period_2019___2020](images/image130.png)
 
-![4.1.1.7.Results\_table\_1](images/image117.png)
+![4.1.1.7.Results_table_1](images/image117.png)
 
 Change the Organisation unit to “Animal Region” and update the table.
 
-![4.1.1.8.Org\_Unit\_change](images/image279.png)
+![4.1.1.8.Org_Unit_change](images/image279.png)
 
-![4.1.1.9.Results\_table\_2](images/image283.png)
+![4.1.1.9.Results_table_2](images/image283.png)
 
 ### Demonstration - Creating a Line List Event Report
 
-#### Video - Event Reports Demonstration \[Part 2 of 6\]
+#### Video - Event Reports Demonstration Part 2 of 6
 
 #### Part 2 Activity: Creating Line List Event Report
 
-Create a new table by selecting Favorites \> New.
+Create a new table by selecting **Favorites > New**.
 
-Select the Table style “Line list” and the Output type “Event.”
+Select the **Table style** “Line list” and the **Output type** “Event.”
 
-In the Data tab, select:
+In the **Data** tab, select:
 
-  - The Program and Stage “Malaria Case Management”
+  - The **Program** and **Stage** “Malaria Case Management”
   - The data elements “Age", "Sex" and "MCM Treatment Outcome”
 
-![4.1.2.1\_Line\_list\_overview](images/image229.png)
+![4.1.2.1_Line_list_overview](images/image229.png)
 
-  - In the Periods tab select:
-
-<!-- end list -->
-
+  - In the **Periods** tab select:
   - “Fixed and relative periods”
   - The period type “Yearly”
   - “2019”
   - Make sure to remove the checkmark next to “Last 12 months”
 
-![4.1.2.2\_Periods](images/image80.png)
+![4.1.2.2_Periods](images/image80.png)
 
-In the Organisation units tab select “Trainingland” and then click on
-Update.
+In the **Organisation units** tab select “Trainingland” and then click on **Update**.
 
-![4.1.2.3\_Org\_units](images/image222.png)
+![4.1.2.3_Org_units](images/image222.png)
 
- 
-
-![4.1.2.4\_Results](images/image164.png)
+![4.1.2.4_Results](images/image164.png)
 
 ### Demonstration - Filtering Data Items
 
-#### Video - Event Reports Demonstration \[Part 3 of 6\]
+#### Video - Event Reports Demonstration Part 3 of 6
 
 #### Part 3 Activity: Filtering Data Items
 
 Edit the data item “Sex” to filter the cases to show “Females” only.
 
-![4.1.3.1\_Filtering\_data\_items](images/image183.png)
+![4.1.3.1_Filtering_data_items](images/image183.png)
 
-Click Update and view the table.
+Click **Update** and view the table.
 
-![4.1.3.2\_Results\_after\_filtering](images/image69.png)
+![4.1.3.2_Results_after_filtering](images/image69.png)
 
 Change the “Age” filter, set the option to “No range set” and the
 operator to “=”.
 
-![4.1.3.3\_Filtering\_data\_items](images/image309.png)
+![4.1.3.3_Filtering_data_items](images/image309.png)
 
-Click Update and view the table.
+Click **Update** and view the table.
 
-![4.1.3.4\_Results](images/image253.png)
+![4.1.3.4_Results](images/image253.png)
 
 ### Demonstration - Creating a Pivot Table Event Report
 
-#### Video - Event Reports Demonstration \[Part 4 of 6\]
+#### Video - Event Reports Demonstration Part 4 of 6
 
 #### Part 4 Activity: Creating a Pivot Table Event Report
 
-Clear the current table. Select Favorites\> New.
+Clear the current table. Select **Favorites> New**.
 
-![4.1.4.1\_Pivot\_Table\_Favorites](images/image115.png)
+![4.1.4.1_Pivot_Table_Favorites](images/image115.png)
 
-![4.1.4.2\_Table\_Style](images/image197.png)
+![4.1.4.2_Table_Style](images/image197.png)
 
-In the Data tab select:
+In the **Data** tab select:
 
-  - The Program and Stage “Malaria Case Management”
+  - The **Program** and **Stage** “Malaria Case Management”
   - The data elements “Age", "MCM | Condition of Patient" and
     "MCM|Malaria species Type”
 
-![4.1.4.3\_\_Programs\_and\_data\_elements](images/image236.png)
+![4.1.4.3__Programs_and_data_elements](images/image236.png)
 
-In the period tab select:
+In the **period** tab select:
 
   - “Fixed and relative periods”
   - The period “Yearly”
   - “2019”
   - Make sure to uncheck the “Last 12 months” box
 
-![4.1.4.4\_Periods](images/image59.png)
+![4.1.4.4_Periods](images/image59.png)
 
-Select the Organisation Unit “Animal Region.”
+Select the **Organisation Unit** “Animal Region.”
 
 ![](images/image340.png)
 
-Click Update.
+Click **Update**.
 
-Edit the table Options
+Edit the table **Options**
 
   - Remove the checks next to “Show row totals” and “Show row
     sub-totals”
   - Check the box next to “Hide n/a data”
 
-![4.1.4.6\_Table\_options](images/image345.png)
+![4.1.4.6_Table_options](images/image345.png)
 
 Click Update.
 
-![4.1.4.7\_Results](images/image203.png)
+![4.1.4.7_Results](images/image203.png)
 
 ### Demonstration - Updating the Table Layout
 
-#### Video - Event Reports Demonstration \[Part 5 of 6\]
+#### Video - Event Reports Demonstration Part 5 of 6
 
 #### Part 5 Activity: Updating Table Layouts
 
-Change the table layout by clicking on the Layout button
+Change the table layout by clicking on the **Layout** button
 
-  - Put “Periods” under Report filter
-  - Put “Age” under Column dimensions
+  - Put “Periods” under **Report filter**
+  - Put “Age” under **Column dimensions**
   - Leave “MCM l Condition of Patient” and “MCM l Malaria species Type"
-    in Row dimensions
+    in **Row dimensions**
 
-![4.1.5.1\_Table\_layout](images/image45.png)
+![4.1.5.1_Table_layout](images/image45.png)
 
 Click Update.
 
-![4.1.5.2\_Results](images/image33.png)
+![4.1.5.2_Results](images/image33.png)
 
 Under the Data items change the “Age” legend to “CoD: Age group
 (broad)”.
 
-![4.1.5.3\_Data\_elements\_and\_filters](images/image155.png)
+![4.1.5.3_Data_elements_and_filters](images/image155.png)
 
-Click Update.
+Click **Update**.
 
-![4.1.5.4\_Results](images/image334.png)
+![4.1.5.4_Results](images/image334.png)
 
 ### Demonstration - Aggregated Data Using an Average
 
-#### Video - Event Reports Demonstration \[Part 6 of 6\]
+#### Video - Event Reports Demonstration Part 6 of 6
 
 #### Part 6 Activity: Aggregated Data Using an Average
 
-Click Layout.
+Click **Layout**.
 
 Under Aggregation select “Age” instead of “Number of events”. Select the
 aggregation operator as “Average”.
 
 ![Table layout](images/image304.png)
 
-Click Update.
+Click **Update**.
 
 ![Pivot table as the output](images/image327.png)
 
 If you would like, you can save the table as a favorite. Click
-Favorites \> Save.
+**Favorites > Save**.
 
 ![Save the output](images/image171.png)
 
   - Please provide the favorite name and description using a unique
     naming convention that begins with your initials
-  - A useful convention is: your initials\_program\_what\_where\_when
-  - Next, select Download.
-
-<!-- end list -->
+  - A useful convention is: **your initials_program_what_where_when**
+  - Next, select **Download**.
 
   - Click on the format you prefer
 
@@ -2910,57 +2569,51 @@ Favorites \> Save.
 
 ### Graded Assignment - Event Reports
 
-### 
+This is a **graded assignment** and it is worth **10%** of your final grade.
 
-This is a graded assignment and it is worth 10% of your final grade.
-
-You have 2 attempts to pass each question.
+You have **2 attempts** to pass each question.
 
 If you are not sure about the steps you followed in the assignment to
-get to the correct answer, click on the "hint" button to see some tips.
+get to the correct answer, click on the "**hint**" button to see some tips.
 
 If you want to save your current response without submitting it for
-grading yet, select the "save" button. This allows you to come back
+grading yet, select the "**save**" button. This allows you to come back
 later and resume the attempt.
 
-Select the "check" button to submit your answers.
+Select the "**check**" button to submit your answers.
 
 #### Assignment Links
 
 #### Instructions
 
-1.  For this assignment, answer questions using the Event Reports app
-2.  Use the “Malaria Case Management” program and stage
+1.  For this assignment, answer questions using the **Event Reports** app
+2.  Use the “Malaria Case Management” **program** and **stage**
 3.  You will be marked based on the answers selected through multiple
     choice. To determine the answers, you must create the associated
     table described in the details section.
 4.  Save all tables as Favorites, using the convention:
-    username\_program\_what, where, when
-
-##### 
+    **username_program_what, where, when**
 
 ##### Question 1: Details
 
-Table style: “Line list”
+**Table style**: “Line list”
 
-Output type: “Event”
+**Output type**: “Event”
 
-Program: “Malaria Case Management”
+**Program**: “Malaria Case Management”
 
-Stage: “Malaria Case Management”
+**Stage**: “Malaria Case Management”
 
-Data elements: “MCM | Malaria method of detection,” “MCM|Malaria species
-Type,” “MCM|Confirmation Method”
+**Data elements**: “MCM | Malaria method of detection,” “MCM|Malaria species Type,” “MCM|Confirmation Method”
 
 Period: “2020”
 
-Organisation Unit: “Food Region”; “Select levels” as the mode and then
-“Facility”
+**Organisation Unit**: “Food Region”; “Select levels” as the mode and then “Facility”
 
-![4.1.1.Assign\_-\_Part\_1\_Results](images/image333.png)
+![4.1.1.Assign_-_Part_1_Results](images/image333.png)
 
-\>\>The eighth event listed is from the “Ice Cream Dispensary.” What was
-the “Malaria Species Type” for this event?\<\<
+The eighth event listed is from the “Ice Cream Dispensary.” What was
+the “Malaria Species Type” for this event?
 
 ( ) Mix {{Mix is incorrect, it was not the Malaria Species Type for the
 eighth event listed }}
@@ -2982,27 +2635,25 @@ section.||
 ||(C) In the Layout tab, make sure the “Longitude” and “Latitude” are
 “Excluded dimensions.”||
 
-##### 
-
 ##### Question 2: Details
 
-Table style: “Pivot table”
+**Table style**: “Pivot table”
 
-Output type: “Event”
+**Output type**: “Event”
 
-Program: “Malaria Case Management”
+**Program**: “Malaria Case Management”
 
-Stage: “Malaria Case Management”
+**Stage**: “Malaria Case Management”
 
-Data elements: “Sex,” “MCM|Treatment Outcome”
+**Data elements**: “Sex,” “MCM|Treatment Outcome”
 
-Period: “Start/end dates,” from “15th August 2019” to “15th June 2020"
+**Period**: “Start/end dates,” from “15th August 2019” to “15th June 2020"
 
-Organisation unit: “Trainingland”
+**Organisation unit**: “Trainingland”
 
-\*Tip: Hide “n/a data” as well as “row totals.”
+**Tip**: Hide “n/a data” as well as “row totals.”
 
-\>\>What is the most common “MCM Treatment Outcome” for “Females?”\<\<
+**What is the most common “MCM Treatment Outcome” for “Females?”**
 
 (x) Recovered {{Recovered. ‘Recovered’ is the most common Treatment
 Outcome for Females.}}
@@ -3031,7 +2682,7 @@ item “Sex.”||
 ||(B) Use the Options menu to hide “n/a data” as well as “row totals.”
 ||
 
-\>\>What is the most common “MCM Treatment Outcome” for “Females?”\<\<
+**What is the most common “MCM Treatment Outcome” for “Females?”**
 
 (x) Recovered {{Recovered. ‘Recovered’ is the most common Treatment
 Outcome for Females.}}
@@ -3062,17 +2713,17 @@ item “Sex.”||
 
 ##### Question 3: Details
 
-Table style: “Pivot table”
+**Table style**: “Pivot table”
 
-Output type: “Event”
+**Output type**: “Event”
 
-Program: Malaria Case Management”
+**Program**: Malaria Case Management”
 
-Stage: “Malaria Case Management”
+**Stage**: “Malaria Case Management”
 
-Data elements: “Age,” “MCM l Condition of Patient”
+**Data elements**: “Age,” “MCM l Condition of Patient”
 
-Periods: “Fixed and relative periods” “Quarterly” For the following
+**Periods**: “Fixed and relative periods” “Quarterly” For the following
 quarters:
 
   - “July - September 2019”
@@ -3082,10 +2733,9 @@ quarters:
 
 Organisation unit: “Trainingland”
 
-\*Tip: Filter the number of cases in the Age Range 5-9
+***Tip**: Filter the number of cases in the Age Range 5-9
 
-\>\>Which quarter has the highest number of people aged, “5-9” with a
- “Severe” condition?\<\<
+**Which quarter has the highest number of people aged, “5-9” with a “Severe” condition?**
 
 ( ) “Jul - Sep 2019” {{“Jul - Sep 2019” does not have the  highest
 number of people aged 5-9 with a "Severe" condition. Double check you
@@ -3115,25 +2765,24 @@ the Prev year and Next year buttons.||
 
 ##### Question 4: Details
 
-Table style: “Pivot table”
+**Table style**: “Pivot table”
 
-Output type: “Event”
+**Output type**: “Event”
 
-Program: “Malaria Case Management”
+**Program**: “Malaria Case Management”
 
-Stage: “Malaria Case Management”
+**Stage**: “Malaria Case Management”
 
-Data elements: “Age,” “MCM | Condition of Patient”
+**Data elements**: “Age,” “MCM | Condition of Patient”
 
-Period: “Fixed and relative periods”; “Yearly”; “2020”
+**Period**: “Fixed and relative periods”; “Yearly”; “2020”
 
-Organisation unit: Facilities within Animal Region \> Bird District.
+**Organisation unit**: Facilities within Animal Region > Bird District.
 
-\*Tip: Calculate the average of the “Age” data element using the Layout
-tab
+***Tip**: Calculate the average of the “Age” data element using the Layout tab
 
-\>\>Which facility in the “Bird District” has the highest average age of
-“Severe” malaria cases?\<\<
+**Which facility in the “Bird District” has the highest average age of
+“Severe” malaria cases?**
 
 ( ) “Owl Dispensary” {{“Owl Dispensary” does not have the highest
 average age of severe malaria cases in Bird District. Double check you
@@ -3165,7 +2814,7 @@ sure the "Condition of patient" data item is filtering only "Severe"
 cases.||
 
 ||(C) In order to calculate the average of the “Age” data element in the
-Layout tab, under the Value \> Aggregation section, find the “Age” data
+Layout tab, under the Value > Aggregation section, find the “Age” data
 element and then, directly below, select the aggregation type as
 "Average".||
 
@@ -3199,84 +2848,70 @@ After you have completed reviewing all the material within this
 subsection, please attempt the graded quiz for this subsection. This
 quiz will contribute to 10% of your overall grade.
 
-#### 
-
-#### Video - Event Visualizer Demonstration \[Part 1 of 5\]
+#### Video - Event Visualizer Demonstration Part 1 of 5
 
 #### Part 1 Activity: Navigating the Event Visualizer Application
 
-Navigate to the Event Visualizer application. To do so:
+Navigate to the **Event Visualizer** application. To do so:
 
-a) Use the search apps feature OR 
+a) Use the **search apps** feature OR 
 
-b) Use the action ellipses and select “Open in Event Visualizer app”
+b) Use the **action ellipses** and select “Open in Event Visualizer app”
 
-![4.2.1.1\<em\>Search\</em\>bar](images/image311.png)
+![4.2.1.1<em>Search</em>bar](images/image311.png)
 
- 
+![4.2.1.2<em>Action</em>ellipses](images/image208.png)
 
-![4.2.1.2\<em\>Action\</em\>ellipses](images/image208.png)
-
- 
-
-![4.2.1.3\<em\>Open\</em\>Event\<em\>Vis\</em\>app](images/image52.png)
-
- 
+![4.2.1.3<em>Open</em>Event<em>Vis</em>app](images/image52.png)
 
 Now that we are in the app, let’s review the interface.
 
 At the very top left corner of the criteria selection column, we can see
-the first option to select is the Type.
+the first option to select is the **Type**.
 
-![4.2.1.4\_Type](images/image287.png)
+![4.2.1.4_Type](images/image287.png)
 
-Next, we can see the Data selection tab where we choose the program, and
-if the program is a tracker program, we will also have the option to
-select the program stage too. The available data items are the data
-elements and program indicators related to the selected program.
+Next, we can see the **Data** selection tab where we choose the program, and if the program is a tracker program, we will also have the option to select the program stage too. The available data items are the data elements and program indicators related to the selected program.
 
-![4.2.1.5\_Data](images/image84.png)
+![4.2.1.5_Data](images/image84.png)
 
-The next tab is the Period, and here, as in the Event Reports app, we
+The next tab is the **Period**, and here, as in the Event Reports app, we
 have the option to select either the fixed and relative period, or the
 start and end dates.
 
-![4.2.1.6\_Periods](images/image249.png)
+![4.2.1.6_Periods](images/image249.png)
 
-Lastly the Organisation Unit selection tab is where we can select the
-organisation units we would like to view in the report.
+Lastly the **Organisation Unit** selection tab is where we can select the organisation units we would like to view in the report.
 
-![4.2.1.7\_OUs](images/image216.png)
+![4.2.1.7_OUs](images/image216.png)
 
 ### Demonstration - Visualizing Event Data in a Column Chart
 
-#### Video - Event Visualizer Demonstration \[Part 2 of 5\]
+#### Video - Event Visualizer Demonstration Part 2 of 5
 
 #### Part 2 Activity: Visualizing Event Data in a Column Graph
 
-Now let’s proceed with Task 1 and create a column graph displaying the
-options for malaria species type in 2019 for Trainingland.
+Now let’s proceed with **Task 1** and create a column graph displaying the options for malaria species type in 2019 for Trainingland.
 
-From the Event Visualizer app, select Favorites \> New.
+From the **Event Visualizer** app, select **Favorites > New**.
 
-![4.2.2.1\_New\_graph](images/image121.png)
+![4.2.2.1_New_graph](images/image121.png)
 
-Click Ok to continue and approve the discarding of any changes made to
-the previous chart.
+Click **Ok** to continue and approve the discarding of any changes made to the previous chart.
 
-![4.2.2.2\_OK](images/image21.png)
+![4.2.2.2_OK](images/image21.png)
 
-Select the column graph type.
+Select the **column graph** type.
 
-![4.2.2.3\_Column\_chart](images/image39.png)
+![4.2.2.3_Column_chart](images/image39.png)
 
 In the data tab select:
 
-  - The Program and Stage “Malaria Case Management”
-  - The data element “MCM l Malaria species Type”
+  - The **Program** and **Stage** “Malaria Case Management”
+  - The **data element** “MCM l Malaria species Type”
   - Select all “MCM l Malaria species types,” “Mix, Pf, Pk, Pm, Po, Pv”
 
-![4.2.2.4\_Malaria\_species\_type](images/image191.png)
+![4.2.2.4_Malaria_species_type](images/image191.png)
 
 In the Period tab, select:
 
@@ -3286,38 +2921,38 @@ In the Period tab, select:
   - Ensure “Last 12 months” is deselected in the Relative Periods
     section
 
-![4.2.2.5\_Periods](images/image273.png)
+![4.2.2.5_Periods](images/image273.png)
 
 In the Organisation units tab, use the Selection mode “Select
 organisation units” and then select “Trainingland.” Next, click Update.
 
-![4.2.2.6\_Trainingland](images/image9.png)
+![4.2.2.6_Trainingland](images/image9.png)
 
 The graph shows all malaria species types listed across the horizontal
 axis. It is showing the aggregate number of cases of malaria in 2019 for
 the whole of Trainingland, by species type.
 
-![4.2.2.7\_Bar\_graph](images/image113.png)
+![4.2.2.7_Bar_graph](images/image113.png)
 
 Next, let’s view the species type separately by region.
 
 From the Organisation Units tab, select the “Animal” and “Food” regions.
 
-![4.2.2.8\_Org\_units](images/image5.png)
+![4.2.2.8_Org_units](images/image5.png)
 
 Click on the Layout button:
 
   - “Organisation units” should be listed under Category dimensions
   - “Periods” should be listed under Report Filter
 
-![4.2.2.9\_Layout](images/image332.png)
+![4.2.2.9_Layout](images/image332.png)
 
 Click Update.
 
 Now we are able to view the mix of species types of malaria cases
 separately for Animal Region and Food Region in the chart.
 
-![4.2.2.10\_Food\_Animal\_region](images/image261.png)
+![4.2.2.10_Food_Animal_region](images/image261.png)
 
 Now let’s see what happens when we drill down even further into the
 Organisation Units.
@@ -3325,12 +2960,12 @@ Organisation Units.
 From the Organisation Units tab, select all of the districts within the
 “Animal Region”; then click Update.
 
-![4.2.2.11\_Animal\_Region](images/image56.png)
+![4.2.2.11_Animal_Region](images/image56.png)
 
 This gives you separate results for malaria cases by species in each of
 the districts within “Animal Region”.
 
-![4.2.2.12\_Updated\_results](images/image140.png)
+![4.2.2.12_Updated_results](images/image140.png)
 
 Next, from the Options menu, above the chart:
 
@@ -3339,37 +2974,37 @@ Next, from the Options menu, above the chart:
   - Leave Hide chart title unchecked and add a chart title “Malaria
     Species Type, Animal Region, 2019”
 
- ![4.2.2.13\_Options\_menu](images/image196.png)
+ ![4.2.2.13_Options_menu](images/image196.png)
 
 Then click Update.
 
 The chart now displays the results by district from lowest to highest,
 and we can see the title at the top.
 
-![4.2.2.14\_Different\_Districts](images/image146.png)
+![4.2.2.14_Different_Districts](images/image146.png)
 
 Save your chart as a favorite.
 
-  - In the menu bar, click on Favorites \> Save
+  - In the menu bar, click on Favorites > Save
 
-![4.2.2.15\_Save](images/image75.png)
+![4.2.2.15_Save](images/image75.png)
 
-  - Fill in the Name section: “Your initials\_Malaria: Species Type,
+  - Fill in the Name section: “Your initials_Malaria: Species Type,
     Animal Region, 2019”
   - Add a description, “This chart shows the positive malaria cases
     separated by their species type within the Animal Region in 2019”
   - Click Save
 
-![4.2.2.16\_Description](images/image330.png)
+![4.2.2.16_Description](images/image330.png)
 
 You are able to download this chart in various formats by clicking
 Download in the menu bar and choosing your preferred download option.
 
-![4.2.2.17\_Download](images/image226.png)
+![4.2.2.17_Download](images/image226.png)
 
 ### Demonstration - Filtering an Age Range
 
-#### Video - Event Visualizer Demonstration \[Part 3 of 5\]
+#### Video - Event Visualizer Demonstration Part 3 of 5
 
 #### Part 3 Activity: Filtering an Age Range
 
@@ -3378,25 +3013,25 @@ in an event report. Recall that we want to view the conditions of
 malaria patients who are between the ages of 15-20, with the time frame
 of July - December 2019, by district, in the Food Region.
 
-From the Event Visualizer app, click on Favorites \> New.
+From the Event Visualizer app, click on Favorites > New.
 
 Select the Line chart.
 
-![4.2.3.1\_Line\_chart](images/image135.png)
+![4.2.3.1_Line_chart](images/image135.png)
 
 In the Data tab, select:
 
   - The Program and Stage “Malaria Case Management”
   - The Data elements “MCM l Condition of Patient” and “Age”  
-    ![4.2.3.2\_Data\_item](images/image8.png)
+    ![4.2.3.2_Data_item](images/image8.png)
 
 To view cases that are in the age range of “15-20”:
 
   - Duplicate the “Age” data item
   - Select “No range set” for both “Age” items
-  - For one Age item, choose “\>=” and “15”
-  - For the other Age item, choose “\<=” and “20”  
-    ![4.2.3.3\_Age\_ranges](images/image349.png)
+  - For one Age item, choose “>=” and “15”
+  - For the other Age item, choose “<=” and “20”  
+    ![4.2.3.3_Age_ranges](images/image349.png)
 
 In the Period tab select:
 
@@ -3404,12 +3039,12 @@ In the Period tab select:
   - Select “July - December 2019” as the period
   - Ensure “Last 12 months” is unticked in the Relative
     Periods section  
-    ![4.2.3.4\_Period](images/image27.png)
+    ![4.2.3.4_Period](images/image27.png)
 
 In the Organisation units tab open the hierarchy for “Food Region”.
 
   - Select all Districts in “Food Region”  
-    ![4.2.3.5\_Org\_unit](images/image302.png)
+    ![4.2.3.5_Org_unit](images/image302.png)
 
 Click on the Layout tab
 
@@ -3417,16 +3052,16 @@ Click on the Layout tab
   - Put “Organisation Units” in Category dimensions
   - Put “MCM l Condition of Patient” in Series dimensions
   - Click on Update  
-    ![4.2.3.6\_Layout](images/image1.png)  
+    ![4.2.3.6_Layout](images/image1.png)  
     The resulting line graph should now depict the number of simple and
-    severe malaria cases for people \>=15 and \<=20 years old by
+    severe malaria cases for people >=15 and <=20 years old by
     district within the Food Region.
 
-![4.2.3.7\_Results\_1](images/image162.png)
+![4.2.3.7_Results_1](images/image162.png)
 
 ### Demonstration - Additional Filters for a Visualization
 
-#### Video - Event Visualizer Demonstration \[Part 4 of 5\]
+#### Video - Event Visualizer Demonstration Part 4 of 5
 
 #### Part 4 Activity: Additional Filters for a Visualization
 
@@ -3439,7 +3074,7 @@ In the Data tab select:
   - “Sex” as a data element
   - “Female” as the filter
 
-![4.2.4.1\_Data](images/image331.png)
+![4.2.4.1_Data](images/image331.png)
 
 In the Layout menu organise the following:
 
@@ -3448,13 +3083,13 @@ In the Layout menu organise the following:
   - Put “Organisation units” under Category dimensions
   - Click Update
 
-![4.2.4.2\_Chart\_layout](images/image4.png)
+![4.2.4.2_Chart_layout](images/image4.png)
 
 The line graph should now depict the number of “Simple” and “Severe”
 malaria cases for females aged between 15 -20 years old by district in
 the “Food Region”.
 
-![4.2.4.3\_Results\_2](images/image175.png)
+![4.2.4.3_Results_2](images/image175.png)
 
 Let’s add another filter to your Line chart.
 
@@ -3463,7 +3098,7 @@ In the Data tab, select:
   - “Pregnant” as the data element
   - Filter this element by selecting “Yes”
 
-![4.2.4.4\_Selected\_data\_items](images/image190.png)
+![4.2.4.4_Selected_data_items](images/image190.png)
 
 Click on the Layout menu and organise the following:
 
@@ -3471,7 +3106,7 @@ Click on the Layout menu and organise the following:
   - “Organisation Units” under Category dimensions
   - “Condition of Patient” under Series dimensions
 
-![4.2.4.5\_Chart\_layout](images/image154.png)
+![4.2.4.5_Chart_layout](images/image154.png)
 
 Then click on Update.
 
@@ -3480,28 +3115,28 @@ Then click on Update.
 The graph type is no longer appropriate for this data. Change the graph
 type to a bar graph and click Update.
 
-![4.2.4.7.Bar\_chart](images/image16.png)
+![4.2.4.7.Bar_chart](images/image16.png)
 
-![4.2.4.8.Bar\_chart\_results](images/image194.png)
+![4.2.4.8.Bar_chart_results](images/image194.png)
 
-  - Click on Favorites \> Save
+  - Click on Favorites > Save
   - Provide the chart with a name and description using the recommended
-    naming convention “Your intials\_program, data elements, location,
+    naming convention “Your intials_program, data elements, location,
     period”
 
 ### Demonstration - Creating a Pie Chart with Event Data
 
-#### Video - Event Visualizer Demonstration \[Part 5 of 5\]
+#### Video - Event Visualizer Demonstration Part 5 of 5
 
 #### Part 5 Activity: Creating a Pie Chart with Event Data
 
-From the Event Visualizer app, click on Favorites \> New.
+From the Event Visualizer app, click on Favorites > New.
 
 Please create a pie chart that follows the example in the demo.
 
 Choose pie chart as the chart type.
 
-![4.2.5.1.Pie\_chart](images/image322.png)
+![4.2.5.1.Pie_chart](images/image322.png)
 
 In the Data tab, select
 
@@ -3521,7 +3156,7 @@ In the Periods tab, select
 
 In the Organisation units tab, select “Trainingland.”
 
-![4.2.5.4.Org\_units](images/image88.png)
+![4.2.5.4.Org_units](images/image88.png)
 
 From the Layout menu organize the following:
 
@@ -3529,15 +3164,15 @@ From the Layout menu organize the following:
   - “Organisation units” under the Series dimensions
   - “MCM l Treatment Outcome” under the Category dimensions
 
-![4.2.5.5.Chart\_layout](images/image57.png)
+![4.2.5.5.Chart_layout](images/image57.png)
 
 Then click on Update.
 
-![4.2.5.6.Pie\_chart\_results](images/image172.png)
+![4.2.5.6.Pie_chart_results](images/image172.png)
 
-  - Click on Favorites \> Save
+  - Click on Favorites > Save
   - Provide the chart with a name and description using the recommended
-    naming convention “Your intials\_program, data elements, location,
+    naming convention “Your intials_program, data elements, location,
     period"
 
 ## 4.2 - Graded Assignment - Event Visualizer
@@ -3565,7 +3200,7 @@ Select the "check" button to submit your answers.
     choice. To determine the answers, you must create the associated
     table described in the details section.
 4.  Save all tables as Favorites, using the convention:
-    username\_program\_what, where, when
+    username_program_what, where, when
 
 #### QUESTION 1: DETAILS
 
@@ -3575,7 +3210,7 @@ Select the "check" button to submit your answers.
   - Period: “2020”
   - Organisation Unit: “Trainingland”
 
-\>\>In 2020, what is the most common method for detecting malaria?\<\<
+In 2020, what is the most common method for detecting malaria?
 
 ( ) MFS {{“MFS”; in 2020 MSF was not the most common method for malaria
 detection at 12.1% Double check you have entered all of the input
@@ -3611,14 +3246,14 @@ Data Elements:
 
 “Sex”
 
-“Age" \>= 30
+“Age" >= 30
 
 Period: “July to December 2019”
 
 Organisation Units: Districts in “Trainingland”
 
-\>\>In which Districts do women (aged \>=30) have more malaria cases
-than men (aged \>=30)?\<\<
+In which Districts do women (aged >=30) have more malaria cases
+than men (aged >=30)?
 
 ( ) “Cat District, Dinner District, Fruit District” {{“Cat District,
 Dinner District, Fruit District” - Dinner District is the only District
@@ -3644,7 +3279,7 @@ and period
 
 .}}
 
-||Make sure that when you’re entering “Age \>= 30” you use “No range
+||Make sure that when you’re entering “Age >= 30” you use “No range
 set” so that you are able to enter the number 30 manually||
 
 ||Review the layout of the chart by clicking the layout tab: “Age” and
@@ -3669,8 +3304,8 @@ Periods: “2020”
 
 Organisation Units: Districts in “Animal Region”
 
-\>\>In 2020, which District has the least amount of people who passed
-away from “Severe” malaria for the age range “20-59?”\<\<
+In 2020, which District has the least amount of people who passed
+away from “Severe” malaria for the age range “20-59?”
 
 ( ) Game District {{“Game District” does not have the least amount of
 cases; it has 27. Double check you have entered all of the input details
@@ -3729,11 +3364,11 @@ quiz will contribute to 10% of your overall grade.
 
 #### 
 
-#### Video - Maps Presentation \[Part 1 of 6\]
+#### Video - Maps Presentation Part 1 of 6
 
 ### Demonstration - Coordinates in Capture App & Maps Interface Description
 
-#### Video - Maps Demonstration \[Part 2 of 6\]
+#### Video - Maps Demonstration Part 2 of 6
 
 #### Part 2 Activity: Coordinates in Capture App & Maps Interface Description
 
@@ -3743,97 +3378,97 @@ do so by using an existing map.
 Navigate to the dashboard by clicking on the Dashboard app in the Search
 apps menu.
 
-![4.3.2.8\_Dashboard](images/image328.png)
+![4.3.2.8_Dashboard](images/image328.png)
 
 Find the particular map of interest within the dashboard and click on
 the action ellipses.
 
-![4.3.2.9\_Action\_Ellipses](images/image92.png)
+![4.3.2.9_Action_Ellipses](images/image92.png)
 
 Then click on “Open in Maps app.”
 
-![4.3.2.10\_Action\_Ellipses\_Open](images/image185.png)
+![4.3.2.10_Action_Ellipses_Open](images/image185.png)
 
 Note the criteria selection column is on the left.
 
-![4.3.2.11\_Criteria\_Column](images/image126.png)
+![4.3.2.11_Criteria_Column](images/image126.png)
 
 Click on the pencil symbol at the bottom left of the layer box to edit
 the layer.
 
-![4.3.2.12\_Pencil\_Symbol](images/image24.png)
+![4.3.2.12_Pencil_Symbol](images/image24.png)
 
 Click on the Org Units tab, then deselect “Trainingland” and select
 “Animal Region.” Then click Update Layer.
 
-![4.3.2.13\_Event\_Layer\_Edit](images/image299.png)
+![4.3.2.13_Event_Layer_Edit](images/image299.png)
 
 Next, let’s add a boundary layer. Click on the Add layer button in the
 top left corner.
 
-![4.3.2.14\_Add\_Layer](images/image293.png)
+![4.3.2.14_Add_Layer](images/image293.png)
 
 Next, select a “Boundaries” layer.
 
-![4.3.2.15\_Boundary\_Layer\_copy](images/image218.png)
+![4.3.2.15_Boundary_Layer_copy](images/image218.png)
 
 In the Organisation Units tab, ensure “Trainingland” is selected. Make
 sure the level “Region” is selected.
 
-![4.3.2.16\_Org\_Units](images/image38.png)
+![4.3.2.16_Org_Units](images/image38.png)
 
 Under the Style tab, make sure the Labels box is ticked.
 
-![4.3.2.17\_Style](images/image35.png)
+![4.3.2.17_Style](images/image35.png)
 
 Then select Add Layer.
 
 Example of what the result should look like:
 
-![4.3.2.18\_Results](images/image285.png)
+![4.3.2.18_Results](images/image285.png)
 
 ### Demonstration - Adding Layers to Maps
 
-#### Video - Maps Demonstration \[Part 3 of 6\]
+#### Video - Maps Demonstration Part 3 of 6
 
 #### Part 3 Activity: Adding Layers to Maps
 
 Under the File button, click on “New” to open a new map.
 
-![4.3.3.1\_New](images/image247.png)
+![4.3.3.1_New](images/image247.png)
 
 In the left corner, you can see the default layer, the Basemap layer. It
 allows you to choose the basemap. Let’s choose Bing Road as the Basemap.
 
-![4.3.3.2\_Bing\_Road](images/image82.png)
+![4.3.3.2_Bing_Road](images/image82.png)
 
 Click on the Add layer button.
 
-![4.3.3.3\_Add\_Layer\_Button](images/image29.png)
+![4.3.3.3_Add_Layer_Button](images/image29.png)
 
 Choose Boundaries.
 
-![4.3.3.4\_Second\_Boundary\_Layer](images/image12.png)
+![4.3.3.4_Second_Boundary_Layer](images/image12.png)
 
 From the Organisation Unit tree, select “Trainingland”.
 
 From the Select levels drop down list choose “Region” and “District”.
 
-![4.3.3.5\_Boundary\_Layer\_Details](images/image176.png)
+![4.3.3.5_Boundary_Layer_Details](images/image176.png)
 
 Click on Add Layer.
 
 You can now see the region and district boundaries of “Trainingland”.
 
-![4.3.3.6\_District\_Boundaries](images/image116.png)
+![4.3.3.6_District_Boundaries](images/image116.png)
 
 Add another new layer by clicking on the Add layer button.
 
-![4.3.3.7\<em\>Second\</em\>Add\<em\>Layer\</em\>Button](images/image109.png)
+![4.3.3.7<em>Second</em>Add<em>Layer</em>Button](images/image109.png)
 
 As a layer type, choose Events.
 
-![4.3.3.8\_Layer\_Types](images/image284.png)
+![4.3.3.8_Layer_Types](images/image284.png)
 
 The Add new event layer box opens.
 
@@ -3842,7 +3477,7 @@ as the Stage.
 
 Leave the Coordinate field as “Event location”.
 
-![4.3.3.9\_Add\_New\_Event\_Layer](images/image15.png)
+![4.3.3.9_Add_New_Event_Layer](images/image15.png)
 
 Select the Period tab.
 
@@ -3850,11 +3485,11 @@ In the period tab, choose a “Start/end date”.
 
 Select “January 1, 2020 - March 31, 2020” as the period.
 
-![4.3.3.10\_Period\_Tab](images/image238.png)
+![4.3.3.10_Period_Tab](images/image238.png)
 
 Go to the Org Units tab and select “Trainingland”.
 
-![4.3.3.11\_Org\_Units](images/image38.png)
+![4.3.3.11_Org_Units](images/image38.png)
 
   - Choose the Filter tab and click on Add Filter
 
@@ -3875,7 +3510,7 @@ Go to the Org Units tab and select “Trainingland”.
   - Choose the Data item “MCM|Condition of Patient,” the Operator “one
     of,” and “Severe” under the Options
 
-![4.3.3.12\_Filter](images/image263.png)
+![4.3.3.12_Filter](images/image263.png)
 
 Before adding the layer, we want to ensure that the clustering is on.
 
@@ -3883,7 +3518,7 @@ Go to the Style tab and select “Group events”. By doing so, you will
 regroup events and make the map easier to read if there are a large
 number of events.
 
-![4.3.3.13\_Style](images/image163.png)
+![4.3.3.13_Style](images/image163.png)
 
 Click on Add Layer.
 
@@ -3891,7 +3526,7 @@ N.B. The filter that you have applied to the map will appear along with
 the legend on the left side of the maps app. You can edit the layer by
 clicking on the pen icon.
 
-![4.3.3.14\_Two\_Layer\_Results](images/image41.png)
+![4.3.3.14_Two_Layer_Results](images/image41.png)
 
 Zoom in until you get to point data and click one point. A box opens
 that shows the attributes of the selected event.
@@ -3900,66 +3535,66 @@ that shows the attributes of the selected event.
     also be able to determine what kind of treatment the woman has
     received (ACT, Non-ACT…)
 
-![4.3.3.15\_Analyzing\_the\_Map](images/image98.png)
+![4.3.3.15_Analyzing_the_Map](images/image98.png)
 
-Go to File \> Save.
+Go to File > Save.
 
 Enter the name of the map and a short description and save it.
 
-![4.3.3.16\_Save\_Map](images/image298.png)
+![4.3.3.16_Save_Map](images/image298.png)
 
 ### Demonstration - Styling Layers & Adding Filters
 
-#### Video - Maps Demonstration \[Part 4 of 6\]
+#### Video - Maps Demonstration Part 4 of 6
 
 #### Part 4 Activity: Styling Layers & Adding Filters
 
-Click on File \> New.
+Click on File > New.
 
 First choose Bing Road as the base map.
 
 Click on Add layer on the top left side of the interface and choose
 Boundaries as a layer type.
 
-![4.3.4.1\_Second\_Boundaries](images/image337.png)
+![4.3.4.1_Second_Boundaries](images/image337.png)
 
-From the Organization unit tree, select Animal Region \> Cat District.
+From the Organization unit tree, select Animal Region > Cat District.
 
-![4.3.4.2\_\_Adding\_Boundary\_Layer](images/image40.png)
+![4.3.4.2__Adding_Boundary_Layer](images/image40.png)
 
 Go to the Style tab and select Labels to display the name of the
 district on the map. You can change the size of the font.
 
-![4.3.4.3\_Style\_Items](images/image151.png)
+![4.3.4.3_Style_Items](images/image151.png)
 
 Click on Add Layer.
 
 We now only see the boundaries of the “Cat District”.
 
-![4.3.4.4\_Cat\_District](images/image78.png)
+![4.3.4.4_Cat_District](images/image78.png)
 
 The second step is to add an event layer to display all malaria cases
 that have resulted in death from “July 31 2019 to December 31 2019”.
 
 Click on Add Layer and select Events.
 
-![4.3.4.5\_Add\_Layer\_Button](images/image343.png)
+![4.3.4.5_Add_Layer_Button](images/image343.png)
 
 Under the Data tab, choose “Malaria Case Management” as the Program and
 the Stage.
 
 Leave the Coordinate field as “Event location”.
 
-![4.3.4.6\_MCM\_Edit\_Layer](images/image55.png)
+![4.3.4.6_MCM_Edit_Layer](images/image55.png)
 
 Go to the Period tab and specify the period type as “Start/end dates”.
 
 Use “July 31 2019” as a Start date and “December 31 2019” as an End
 date.
 
-![4.3.4.7\_Period](images/image97.png)
+![4.3.4.7_Period](images/image97.png)
 
-Under the Org Units tab, select Animal Region \> Cat District. Make sure
+Under the Org Units tab, select Animal Region > Cat District. Make sure
 the box next to Trainingland is unchecked.
 
 Under the Filter tab, click Add filter.
@@ -3967,7 +3602,7 @@ Under the Filter tab, click Add filter.
 Choose the Data item “MCM|Treatment Outcome”, the Operator “one of,” and
 “Dead” under the Options.
 
-![/4.3.4.8\_Add\_Filter](images/image101.png)
+![/4.3.4.8_Add_Filter](images/image101.png)
 
 Go to the Style tab.
 
@@ -3975,31 +3610,31 @@ Select “View all events”.
 
 Pick a color on the color scale.
 
-![4.3.4.9\_Blue\_color](images/image167.png)
+![4.3.4.9_Blue_color](images/image167.png)
 
 Change the Radius size to “4”.
 
-![4.3.4.10\_Radius\_Size](images/image61.png)
+![4.3.4.10_Radius_Size](images/image61.png)
 
 Click on Add Layer.
 
 As the map shows, unfortunately, there are some deaths from malaria in
 the “Cat District,” between “July 31, 2019 and December 31, 2019”.
 
-![4.3.4.11\_Malaria\_Deaths\_Cat\_District](images/image149.png)
+![4.3.4.11_Malaria_Deaths_Cat_District](images/image149.png)
 
 Note that you can view the filter that has been applied on the left side
 panel. It indicates that the “Treatment outcome” is “Dead” under the
 filter heading.
 
-Do not forget to save your map as a favorite\!
+Do not forget to save your map as a favorite!
 
-Select File \> Save. Add a name that includes your initials and a
+Select File > Save. Add a name that includes your initials and a
 description.
 
 ### Demonstration - Style by Data Element & Donut Clusters
 
-#### Video - Maps Demonstration \[Part 5 of 6\]
+#### Video - Maps Demonstration Part 5 of 6
 
 #### Part 5 Activity: Style by Data Element & Donut Clusters
 
@@ -4007,47 +3642,47 @@ The last task is to create a map that filters the data by “Female” and
 “PF” malaria and that applies a data element style using the
 confirmation method.
 
-Click on File \> New.
+Click on File > New.
 
 Choose “Bing Road” as the base map.
 
 Click on Add layer and choose “Boundaries”.
 
-![4.3.5.1\_Third\_boundary\_layer](images/image12.png)
+![4.3.5.1_Third_boundary_layer](images/image12.png)
 
 From the org units tree choose the Insect District under the Animal
 Region.
 
-![4.3.5.2\_Insect\_District](images/image124.png)
+![4.3.5.2_Insect_District](images/image124.png)
 
 Click on Add Layer. The app shows the boundaries of the Insect District.
 
-![4.3.5.3\_Insect\_District\_Boundaries](images/image209.png)
+![4.3.5.3_Insect_District_Boundaries](images/image209.png)
 
 Add an Event layer to our map.
 
 Click on Add layer and choose “Events”.
 
-![4.3.5.4\_Add\_Events\_Layer](images/image315.png)
+![4.3.5.4_Add_Events_Layer](images/image315.png)
 
 Under the Data tab, choose “Malaria Case Management” as the Program and
 Stage.
 
 Leave the coordinate field as “Event Location”.
 
-![4.3.5.5\_Data\_MCM](images/image314.png)
+![4.3.5.5_Data_MCM](images/image314.png)
 
 In the Period tab, select “Start/End dates.”
 
   - Start date is “July 1st 2019”
   - End date is “December 31 2019”
 
-![4.3.5.6\_Period\_July\_Dec](images/image239.png)
+![4.3.5.6_Period_July_Dec](images/image239.png)
 
 In the Org Units tab, select the “Insect District” from the organization
 unit tree.
 
-![4.3.5.7\_Insect\_District\_Org\_Units](images/image286.png)
+![4.3.5.7_Insect_District_Org_Units](images/image286.png)
 
 Under the Filter tab, click Add filter.
 
@@ -4058,7 +3693,7 @@ Click on Add filter to add the second filter to specify the Malaria
 species type. Choose the Data item “Malaria species Type,” the
 Operator “one of,” and “Pf” as the Option.
 
-![4.3.5.8\_Adding\_Filter](images/image305.png)
+![4.3.5.8_Adding_Filter](images/image305.png)
 
 With these options, the map will only display events that show where
 women are infected with the Pf species of malaria. These filters will
@@ -4082,7 +3717,7 @@ Change the colors as follows:
   - “Microscopy = blue”
   - “Both = red”
 
-![4.3.5.9\_Style\_MCM](images/image120.png)
+![4.3.5.9_Style_MCM](images/image120.png)
 
 Click on Add Layer.
 
@@ -4091,7 +3726,7 @@ The map now displays the “female” cases of malaria infected with the
 and December” of 2019. Using donut clusters the map shows these cases by
 the confirmation method.
 
-![4.3.5.10\_Confirmation\_Method](images/image177.png)
+![4.3.5.10_Confirmation_Method](images/image177.png)
 
 The number displayed in the middle of the cluster represents the total
 number of cases by cluster, and the different colored rings represent
@@ -4100,16 +3735,16 @@ middle of the cluster represents the total number of cases by cluster,
 and the different colored rings represent the percentage of each
 confirmation method.
 
-Click on the File \> Save. Give the map a name with your initials and a
+Click on the File > Save. Give the map a name with your initials and a
 description.
 
 An example is shown below.
 
-![4.3.5.11\_Saving\_Map](images/image70.png)
+![4.3.5.11_Saving_Map](images/image70.png)
 
 ### Demonstration - Creating a Dashboard
 
-#### Video - Maps Demonstration \[Part 6 of 6\]
+#### Video - Maps Demonstration Part 6 of 6
 
 #### Part 6 Activity: Creating a Dashboard
 
@@ -4118,31 +3753,31 @@ saved, let’s add them to a dashboard.
 
 Search for the Dashboard app in the apps menu then select it.
 
-![4.3.6.1\_\_Dashboard\_app](images/image44.png)
+![4.3.6.1__Dashboard_app](images/image44.png)
 
 Let’s create a new dashboard. Do so but clicking on the green plus
 button.
 
-![4.3.6.2\_Green\_Plus\_Button](images/image234.png)
+![4.3.6.2_Green_Plus_Button](images/image234.png)
 
 Provide the new dashboard with a name. See an example below.
 
-![4.3.6.3\_Malaria\_Case\_Management\_Maps](images/image165.png)
+![4.3.6.3_Malaria_Case_Management_Maps](images/image165.png)
 
 Now in the Search for items to add to this dashboard tab, type in the
 individual names of the maps you just created and click on the
 insert button at the right of the name.
 
-![4.3.6.5\_Search\_Dashboard](images/image294.png)
+![4.3.6.5_Search_Dashboard](images/image294.png)
 
 Once you have clicked “insert” for all of the relevant maps, click on
 Save changes at the top of the page.
 
-![4.3.6.6\_Save\_Changes](images/image134.png)
+![4.3.6.6_Save_Changes](images/image134.png)
 
 The maps you’ve just added are now available on your dashboard.
 
-![4.3.6.7\_Maps\_on\_Dashboard](images/image160.png)
+![4.3.6.7_Maps_on_Dashboard](images/image160.png)
 
   - The dashboards are interactive, the +, - buttons allow you to zoom
     in or out on the map
@@ -4177,7 +3812,7 @@ Select the "check" button to submit your answers.
     choice. To determine the answers, you must create the associated
     table described in the details section.
 4.  Save all tables as Favorites, using the convention:
-    username\_program\_what, where, when
+    username_program_what, where, when
 
  Click here for a printable version of this assignment.
 
@@ -4198,8 +3833,8 @@ present along with the labels for the district layer.
   - “Pregnant = Yes”
   - “MCM|Condition of Patient = Severe”
 
-\>\>How many cases of severe malaria in pregnant women are there in the
-"Insect District"?\<\<
+How many cases of severe malaria in pregnant women are there in the
+"Insect District"?
 
 ( ) 10 {{10 is the total for Sweet District. Make sure: (a) you have
 entered all of the inputs correctly in the Event Layer, including the
@@ -4231,10 +3866,10 @@ you add the district boundary for Cat District.
   - Organisation Unit: “Cat District”
   - Data Element Filters: “MCM|Malaria medicine Type”
 
-![4.3.2.1\_Quiz](images/image211.png)
+![4.3.2.1_Quiz](images/image211.png)
 
-\>\>What is the medicine type that has been provided to the highlighted
-case?\<\<
+What is the medicine type that has been provided to the highlighted
+case?
 
 ( ) ACT + Primaquine {{“ACT + Primaquine”. Make sure: (a) you have
 entered all of the inputs correctly in the Event Layer, including the
@@ -4283,8 +3918,8 @@ style using the confirmation method data.
 
   - Data element style should be on: “MCM|Confirmation Method”
 
-\>\>What is the most common confirmation method used in "Fruit District"
-to detect simple malaria cases who are male?\<\<
+What is the most common confirmation method used in "Fruit District"
+to detect simple malaria cases who are male?
 
 (x) RDT {{ RDT.  This should be easily identifiable via the legend that
 has been applied as a result of the data element style that has been
@@ -4347,11 +3982,11 @@ After you have completed reviewing all the material within this
 subsection, please attempt the graded quiz for this subsection. This
 quiz will contribute to 10% of your overall grade.
 
-#### Video - Joint Analysis of Event & Aggregate Data Presentation \[Part 1 of 5\]
+#### Video - Joint Analysis of Event & Aggregate Data Presentation Part 1 of 5
 
 ### Demonstration - Analysis of Program Indicators Using a Pivot Table
 
-#### Video - Joint Analysis of Event & Aggregate Data Demonstration \[Part 2 of 5\]
+#### Video - Joint Analysis of Event & Aggregate Data Demonstration Part 2 of 5
 
 #### Part 2 Activity: Analysis of Program Indicators in Data Visualizer App Using a Pivot Table
 
@@ -4360,12 +3995,12 @@ Navigate to the Data Visualizer app.
 Search for the Data Visualizer app in the search apps field, then click
 on the app.
 
-![4.4.2.1\<em\>Data\</em\>Visualizer](images/image193.png)
+![4.4.2.1<em>Data</em>Visualizer](images/image193.png)
 
 Once you have the Data Visualizer app open, choose the Pivot
 table option:
 
-![4.4.2.2\<em\>Pivot\</em\>table](images/image297.png)
+![4.4.2.2<em>Pivot</em>table](images/image297.png)
 
 Then enter the following data:
 
@@ -4383,7 +4018,7 @@ Then enter the following data:
 
   - Then click Hide
 
-![4.4.2.3\_Data](images/image195.png)
+![4.4.2.3_Data](images/image195.png)
 
   - Under the Period dimension, select the period type ”Fixed periods,”
     the period type “Yearly” and the year “2020”. Make sure to move
@@ -4392,21 +4027,21 @@ Then enter the following data:
   - Remove “Last 12 Months” from the Selected Data column
   - Then click Hide
 
-![4.4.2.4\_Period](images/image316.png)
+![4.4.2.4_Period](images/image316.png)
 
   - In the Organization Unit dimension, ensure “Trainingland” is
     selected in the hierarchy
   - Select the Level “District”
   - Then click Hide
 
-![4.4.2.5\<em\>Organisation\</em\>units](images/image187.png)
+![4.4.2.5<em>Organisation</em>units](images/image187.png)
 
   - To ensure we can view the facilities by district, change the layout
     around; bring the “Organization Unit” to the Rows dimension, and the
     “Period” into the Filter dimension
   - Click Update
 
-![4.4.2.6\_Layout](images/image282.png)
+![4.4.2.6_Layout](images/image282.png)
 
   - If we only want to view rows with data in them, using the
     Options tab we can select the “Hide empty rows” and then select
@@ -4414,28 +4049,28 @@ Then enter the following data:
     provide ANC or family planning services
   - Next, click Update
 
-![4.4.2.7\_Options](images/image274.png)
+![4.4.2.7_Options](images/image274.png)
 
  
 
-![4.4.2.8\_Results](images/image227.png)
+![4.4.2.8_Results](images/image227.png)
 
-Click on File \> Save.
+Click on File > Save.
 
 Provide the pivot table with a name and a description.
 
-![4.4.2.9\_Save](images/image182.png)
+![4.4.2.9_Save](images/image182.png)
 
 ### Demonstration - Analysis of Program Indicators Using a Chart
 
-#### Video - Joint Analysis of Event & Aggregate Data Demonstration \[Part 3 of 5\]
+#### Video - Joint Analysis of Event & Aggregate Data Demonstration Part 3 of 5
 
 #### Part 3 Activity: Analysis of Program Indicators in Data Visualizer App Using a Chart
 
-Click on File \> New. In the chart types drop down menu in the top left
+Click on File > New. In the chart types drop down menu in the top left
 corner of the app, select “Line”
 
-![4.4.3.1\<em\>Line\</em\>chart](images/image352.png)
+![4.4.3.1<em>Line</em>chart](images/image352.png)
 
   - For the Data dimension choose “Program indicators”
   - Select the program “Malaria Case Management”
@@ -4443,7 +4078,7 @@ corner of the app, select “Line”
     female,” and “Malaria cases”
   - Click Hide
 
-![4.4.3.2\_Data](images/image186.png)
+![4.4.3.2_Data](images/image186.png)
 
   - For the Period dimension, select:
 
@@ -4455,29 +4090,29 @@ corner of the app, select “Line”
   - “July - December2019”
   - Deselect “Last 12 months”
 
-![4.4.3.3\_Period](images/image32.png)
+![4.4.3.3_Period](images/image32.png)
 
   - Then choose “Trainingland” as the Organisation Unit dimension
   - Then click Update
 
-![4.4.3.4\<em\>Organisation\</em\>units](images/image138.png)
+![4.4.3.4<em>Organisation</em>units](images/image138.png)
 
  
 
-![4.4.3.5\<em\>Line\</em\>chart\_results](images/image62.png)
+![4.4.3.5<em>Line</em>chart_results](images/image62.png)
 
 Now let’s compare the cases by district:
 
   - Change the graph type to a “Column” graph
 
-![4.4.3.6\<em\>Column\</em\>chart](images/image6.png)
+![4.4.3.6<em>Column</em>chart](images/image6.png)
 
 Next, edit the layout:
 
   - Move the “Period” dimension to the Filter
   - Move the “Organization Unit” dimension to the Category
 
-![4.4.3.7\_Layout](images/image47.png)
+![4.4.3.7_Layout](images/image47.png)
 
   - Edit the Organization unit level to show “District”
 
@@ -4485,9 +4120,9 @@ Next, edit the layout:
 
 Then click Update.
 
-![4.4.3.9\<em\>Bar\</em\>chart](images/image179.png)
+![4.4.3.9<em>Bar</em>chart](images/image179.png)
 
-Save this graph. Click File \> Save.
+Save this graph. Click File > Save.
 
 Provide this graph with a name and description.
 
@@ -4495,11 +4130,11 @@ Provide this graph with a name and description.
 
 ### Demonstration - Analysis of Aggregate Data, Program Indicators and Combined Indicators
 
-#### Video - Joint Analysis of Event & Aggregate Data Demonstration \[Part 4 of 5\]
+#### Video - Joint Analysis of Event & Aggregate Data Demonstration Part 4 of 5
 
 #### Part 4 Activity: Analysis of Aggregate Data Elements, Program Indicators and Combined Indicators in Data Visualizer App
 
-  - First, File \> New
+  - First, File > New
   - Choose the Pivot Table option under graph types
 
  
@@ -4521,7 +4156,7 @@ Provide this graph with a name and description.
   - Select “Malaria case incidence per 10,000”
   - Click Hide.
 
-![4.4.4.1\_Data](images/image122.png)
+![4.4.4.1_Data](images/image122.png)
 
   - For the Period dimension, select the period Fixed periods and the
     Period type as “Yearly”
@@ -4532,26 +4167,26 @@ Provide this graph with a name and description.
 
  
 
-![4.4.4.2\_Period](images/image13.png)
+![4.4.4.2_Period](images/image13.png)
 
   - In the Organization Unit dimension, ensure “Trainingland” is
     selected in the hierarchy
   - Select the Level “District”
-  - Then click Hide ![4.4.4.3\_District](images/image188.png)
+  - Then click Hide ![4.4.4.3_District](images/image188.png)
   - Change the layout around and esure: “Period” under Filter,
     “Organisation Unit” under Row and “Data” under Columns
   - Click Update
 
-![4.4.4.4\_Layout](images/image107.png)
+![4.4.4.4_Layout](images/image107.png)
 
-![4.4.4.5\<em\>Results\</em\>](images/image31.png)
+![4.4.4.5<em>Results</em>](images/image31.png)
 
-Click on Favorites \> Save. Provide this Pivot table with a name and a
+Click on Favorites > Save. Provide this Pivot table with a name and a
 description.
 
 ### Demonstration -  Analysis of Event Data & Combined Indicators using Maps
 
-#### Video - Joint Analysis of Event & Aggregate Data Demonstration \[Part 5 of 5\]
+#### Video - Joint Analysis of Event & Aggregate Data Demonstration Part 5 of 5
 
 #### Part 5 Activity: Analysis of Event Data & Combined Indicators using Maps
 
@@ -4562,31 +4197,31 @@ upper right corner to open the Search apps feature.
 
 Search for and open the Maps app.
 
-![4.4.5.1\<em\>Maps\</em\>app](images/image348.png)
+![4.4.5.1<em>Maps</em>app](images/image348.png)
 
  
 
 Once within the Maps app, select “Bing Road” as the Basemap.
 
-![4.4.5.2\<em\>Bing\</em\>Rd](images/image81.png)
+![4.4.5.2<em>Bing</em>Rd](images/image81.png)
 
 Next, we’ll add the “Thematic” layer by clicking on Add layer, and then
 selecting “Thematic.”
 
-![4.4.5.3\<em\>Thematic\</em\>layer](images/image250.png)
+![4.4.5.3<em>Thematic</em>layer](images/image250.png)
 
   - In the Data tab, select the Item type “Indicator”
   - Choose the Indicator group “Malaria” and the Indicator “Malaria case
     incidence per 10,000”
   - Leave Aggregation type as “By data element”
 
-![4.4.5.4\<em\>Data\</em\>tab](images/image86.png)
+![4.4.5.4<em>Data</em>tab](images/image86.png)
 
   - Within the Period tab select the Period type “Six-monthly”
   - Use the arrows to navigate to the year “2019,” and select the period
     “July - December 2019”
 
- ![4.4.5.5\<em\>Period\</em\>tab](images/image262.png)
+ ![4.4.5.5<em>Period</em>tab](images/image262.png)
 
   - In the Org Units tab, ensure “Trainingland” is selected in the
     hierarchy, and use the Select levels option to choose the “District”
@@ -4596,18 +4231,18 @@ selecting “Thematic.”
 
 Click Add Layer.
 
-![4.4.5.6\<em\>Org\</em\>unit\_tab](images/image48.png)
+![4.4.5.6<em>Org</em>unit_tab](images/image48.png)
 
 Next, using the Add layer button, add an Event layer by selecting the
 Events option.
 
-![4.4.5.8\<em\>Events\</em\>layer](images/image329.png)
+![4.4.5.8<em>Events</em>layer](images/image329.png)
 
   - Under the Data tab select the Program and Stage as “Malaria Case
     Management”
   - Under Coordinate field leave the selection “Event location”
 
-![4.4.5.9\_Data](images/image37.png)
+![4.4.5.9_Data](images/image37.png)
 
  
 
@@ -4619,17 +4254,17 @@ Events option.
   - Use the Start date “July 1, 2019” and an End date of “December 31,
     2019”
 
-![4.4.5.10\_Period](images/image76.png)
+![4.4.5.10_Period](images/image76.png)
 
   - Select the Organization Unit “Trainingland”
 
-![4.4.5.11\<em\>Org\</em\>units](images/image217.png)
+![4.4.5.11<em>Org</em>units](images/image217.png)
 
   - Click on the Add Layer button to add this “Event Layer” to the Map
 
-![4.4.5.12\_Results](images/image79.png)
+![4.4.5.12_Results](images/image79.png)
 
-Click on File \> Save.
+Click on File > Save.
 
 ### Takeaways from Module 4
 
@@ -4669,7 +4304,7 @@ Select the "check" button to submit your answers.
     choice. To determine the answers, you must create the associated
     table described in the details section.
 2.  Save all tables as Favorites, using the convention:
-    username\_program\_what, where, when
+    username_program_what, where, when
 
  Click here for a printable version of this assignment.
 
@@ -4685,8 +4320,8 @@ Select the "check" button to submit your answers.
   - Period: “2020”
   - Organization Unit: “Trainingland”
 
-\>\>In Trainingland, in 2020, what type of training was delivered to the
-greatest number of staff?\<\<
+In Trainingland, in 2020, what type of training was delivered to the
+greatest number of staff?
 
 (x) IPTp training {{“IPTp training”. Staff at health facilities in
 Trainingland in 2020 received the most training in IPTp, with 1,105
@@ -4722,8 +4357,8 @@ and “Organization units” should be filtered out of the graph.||
   - Period: “2019”
   - Organization Units: Districts in "Trainingland"
 
-\>\>Which district has less than 100 “malaria deaths” and more than 250
- “Malaria cases severe?”\<\<
+Which district has less than 100 “malaria deaths” and more than 250
+ “Malaria cases severe?”
 
 ( ) Staple District {{“Staple District” has less than 100 malaria
 deaths, but has less than 250 severe malaria cases. Use the up and down
@@ -4776,8 +4411,8 @@ Event layer
   - Operator: “One of”
   - Option: “Severe”
 
-\>\>In the district with the highest incidence of malaria, what was the
-treatment outcome of the northern most severe case?\<\<
+In the district with the highest incidence of malaria, what was the
+treatment outcome of the northern most severe case?
 
 ( ) Recovered {{The district with the highest incidence is colored dark
 orange. To inspect the case details, find the case that is at the
@@ -4810,7 +4445,7 @@ outcome.||
 
 ### Introduction to Module 5
 
-#### Welcome to Module 5\!
+#### Welcome to Module 5!
 
 This module focuses on showing you to configure an event program in
 DHIS2. In order to do this, we will also discuss the event data model
@@ -4892,7 +4527,7 @@ Note: the email address you use with OpenEDX will be sent to the DHIS2
 database to create an account.
 
 Give it a couple of seconds to think; DO NOT keep clicking the “Request
-account” button several times in a row\! It will send your email details
+account” button several times in a row! It will send your email details
 that you used when you registered in OpenEdX to the DHIS2 Customization
 system to begin the registration process. After 5-10 seconds you should
 receive the following notification in your browser window.
@@ -4972,11 +4607,11 @@ the activity.
 
 There is no graded assignment associated with subsection 5.1.
 
-#### Video - Event Data Model Presentation \[Part 1 of 2\]
+#### Video - Event Data Model Presentation Part 1 of 2
 
 ### Presentation - Data Elements, Options and Option Sets: Key Terms, Conceptual Overview & Application
 
-#### Video - Event Data Model Presentation \[Part 2 of 2\]
+#### Video - Event Data Model Presentation Part 2 of 2
 
 #### Knowledge Check
 
@@ -4989,8 +4624,8 @@ to review the video and/or presentation again.
 
 ##### Question 1
 
-\>\>Event Programs are meant to be used when more detailed analysis must
-be captured about an activity or event.\<\<
+Event Programs are meant to be used when more detailed analysis must
+be captured about an activity or event.
 
 (x) True {{When data entry can happen at the lowest possible level, more
 details can be captured. The more detailed data generated by storing
@@ -5012,8 +4647,8 @@ age. This age can then be grouped in analyses in DHIS2 if necessary.}}
 
 ##### Question 2
 
-\>\> What is a set of information collected on a single dengue case
-called?\<\<
+ What is a set of information collected on a single dengue case
+called?
 
 ( ) Program {{A “Program” is similar to a paper register that would be
 filled out. Thus, it can contain all of the dengue cases, not just
@@ -5038,9 +4673,9 @@ options, for instance an option set called "Delivery type" where
 ||This set of information is not registered, it is anonymous, and linked
 to an entity.||
 
-\>\>In Event Programs data elements must be of the domain type
+In Event Programs data elements must be of the domain type
  “----------” and a predefined list of values assigned to them are
-“------------.” \<\<
+“------------.” 
 
 ( ) Tracker / Categories {{In Event Programs data elements must be of
 the domain type “Tracker” to collect details about any entity.
@@ -5050,9 +4685,9 @@ aggregate model. Remember, the category model has three main elements:
 1) the “category option,” which corresponds to “female,” “male,” and
 less then 5 years,” and “more then 5 years”.
 
-2\) The category, which corresponds to “gender” and “age group”.
+2) The category, which corresponds to “gender” and “age group”.
 
-3\) The category combination, which should in the above example be named
+3) The category combination, which should in the above example be named
 “gender and age group” and be assigned both categories mentioned above.
 
 .}}
@@ -5078,9 +4713,9 @@ have the options: “Normal,” “Breach,” “Caesarian,” and “Assisted.�
 ||Think about which domain type is needed to collect details about any
 entity. ||
 
-\>\>In Event Programs each event is independent and does not have a
+In Event Programs each event is independent and does not have a
 relationship with another event. However, the events can still share the
-location and the date.\<\<
+location and the date.
 
 (x) True {{Events are without registration of any entity (they are
 anonymous events), such as a person, but information can be collected on
@@ -5118,11 +4753,11 @@ the activity.
 
 There is no graded assignment associated with subsection 5.2.
 
-#### Video - Event Data Model in Practice Presentation \[Part 1 of 2\]
+#### Video - Event Data Model in Practice Presentation Part 1 of 2
 
 ### Presentation - Event Model Indicators & Applying Data Model to Malaria Case Management
 
-#### Video - Event Data Model in Practice Presentation \[Part 2 of 2\]
+#### Video - Event Data Model in Practice Presentation Part 2 of 2
 
 #### Part 2 Activities: Event Data Model in Practice
 
@@ -5197,11 +4832,11 @@ subsection, please attempt the graded hands-on assignment for this
 subsection. This assignment will contribute to 30% of your overall
 grade.
 
-#### Video - Creating Event Programs Presentation \[Part 1 of 11\]
+#### Video - Creating Event Programs Presentation Part 1 of 11
 
 ### Demonstration - Review Program in Capture App
 
-#### Video - Creating Event Programs Demonstration \[Part 2 of 11\]
+#### Video - Creating Event Programs Demonstration Part 2 of 11
 
 #### Part 2 Activity: Review Program in Capture App
 
@@ -5213,7 +4848,7 @@ details when performing this activity:
 
 Username: icd
 
-Password: District1\#
+Password: District1#
 
 International Classification of Diseases, 10th revision (ICD-10) is a
 medical classification of diseases that is published by the World Health
@@ -5228,61 +4863,61 @@ the Capture app.
 
 In the Search apps field, search for the Capture app.
 
-![5.3.2.1\_Search\_apps](images/image66.png)
+![5.3.2.1_Search_apps](images/image66.png)
 
 Use the ‘arrow’ symbol to expand the Organisation Unit hierarchy in the
 desired branch, then select a health facility in the hierarchy.
 
-![Org\_Unit\_Hierarchy](images/image260.png)
+![Org_Unit_Hierarchy](images/image260.png)
 
 Once you’ve chosen a health facility, select “ICD-10 Morbidity &
 Mortality” program.
 
-![5.3.2.3\_ICD10](images/image72.png)
+![5.3.2.3_ICD10](images/image72.png)
 
 Register a new event by clicking the New Event button in the top right
 hand corner.
 
-![5.3.2.4\<em\>New\</em\>Event\_button](images/image68.png)
+![5.3.2.4<em>New</em>Event_button](images/image68.png)
 
 The event registration form has the following sections:
 
   - Basic Info
 
-![5.3.2.5\_Basic\_info](images/image51.png)
+![5.3.2.5_Basic_info](images/image51.png)
 
  
 
   - Patient Details
 
-![5.3.2.6\_Patient\_Details](images/image301.png)
+![5.3.2.6_Patient_Details](images/image301.png)
 
  
 
   - Admission Details
 
-![5.3.2.7\_Admission\_Details](images/image272.png)
+![5.3.2.7_Admission_Details](images/image272.png)
 
  
 
   - ICD-10 Diagnosis
 
-![5.3.2.8\_ICD-10\_Diagnosis](images/image153.png)
+![5.3.2.8_ICD-10_Diagnosis](images/image153.png)
 
  
 
 Notice the “ICD-10 diagnosis” data element with the options available in
 the drop down list.
 
-![5.3.2.9\_DE\_options](images/image20.png)
+![5.3.2.9_DE_options](images/image20.png)
 
 We have filled out a template to identify all of the various components
-we have discussed in line with our DHIS2 data model. \[[TEMPLATE
-LINK](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@ICD10_Register_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870464000&usg=AOvVaw3wabyP10VKdM-TqZf2SvzC)\]
+we have discussed in line with our DHIS2 data model. [TEMPLATE
+LINK](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@ICD10_Register_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870464000&usg=AOvVaw3wabyP10VKdM-TqZf2SvzC)
 
 ### Demonstration - Identify & Create Option Sets
 
-#### Video - Creating Event Programs Demonstration \[Part 3 of 11\]
+#### Video - Creating Event Programs Demonstration Part 3 of 11
 
 #### Part 3 Activity: Identify & Create Option Sets
 
@@ -5291,7 +4926,7 @@ First, navigate to the Maintenance app using the Search apps field.
 Using the bar at the top, select Other then click on the box labeled
 Option set.
 
-![5.3.3.1\_Option\_set](images/image275.png)
+![5.3.3.1_Option_set](images/image275.png)
 
 Now, click on the blue “+” icon at the bottom right to add a new option
 set.
@@ -5300,32 +4935,32 @@ An Option set configuration window appears.
 
 Fill in the first tab, Primary details.
 
-![5.3.3.2\_Primary\_Details](images/image36.png)
+![5.3.3.2_Primary_Details](images/image36.png)
 
 For this use case, we will enter the following details:
 
-  - Name: “Your username\_Sex”
-  - Code: “Your username\_Sex”
+  - Name: “Your username_Sex”
+  - Code: “Your username_Sex”
   - Value type: “Text”
 
 Then click on SAVE.
 
-![5.3.3.3\_Primary\_details\_2](images/image241.png)
+![5.3.3.3_Primary_details_2](images/image241.png)
 
 Now the Options tab will be made available. Navigate to this tab.
 
 Click on the Add Option button in the bottom right.
 
-![5.3.3.4\_Options](images/image83.png)
+![5.3.3.4_Options](images/image83.png)
 
 The following configuration box will appear:
 
-![5.3.3.5\_Add\_option](images/image174.png)
+![5.3.3.5_Add_option](images/image174.png)
 
 Create an option with the following details:
 
-  - Name: “Your username\_Male”
-  - Code: “Your username\_MALE”;
+  - Name: “Your username_Male”
+  - Code: “Your username_MALE”;
 
 Then click Save.
 
@@ -5333,14 +4968,14 @@ Now click on the Add Option button a second time.
 
 Create a second option with the following details:
 
-  - Name: “Your username\_Female”
-  - Code: “Your username\_FEMALE”;
+  - Name: “Your username_Female”
+  - Code: “Your username_FEMALE”;
 
 Then click Save.
 
 You will see the options you created appear in the options list.
 
-![5.3.3.6\_Options\_appear](images/image271.png)
+![5.3.3.6_Options_appear](images/image271.png)
 
 We will follow the exact same process to create the other option set,
 Mode of discharge.
@@ -5348,14 +4983,14 @@ Mode of discharge.
 First, navigate back to the Option set management page by clicking on
 the back arrow next to the Option set title.
 
-![5.3.3.7\_Option\_set\_management\_](images/image77.png)
+![5.3.3.7_Option_set_management_](images/image77.png)
 
 Again, click on the blue plus button in the bottom right hand corner.
 
 Enter the Primary Details as follows:
 
-  - Name: “Your username\_Mode of Discharge”
-  - Code: “Your username\_MODE OF DISCHARGE”
+  - Name: “Your username_Mode of Discharge”
+  - Code: “Your username_MODE OF DISCHARGE”
   - Value type: “Text”
 
 Then click on SAVE.
@@ -5365,25 +5000,25 @@ Add Option button.
 
 Discharged
 
-  - Name: “Your username\_Discharged”
-  - Code: “Your username\_DISCHARGED”
+  - Name: “Your username_Discharged”
+  - Code: “Your username_DISCHARGED”
 
 Died
 
-  - Name: “Your username\_Died”
-  - Code: “Your username\_DIED”
+  - Name: “Your username_Died”
+  - Code: “Your username_DIED”
 
 Transferred
 
-  - Name: “Your username\_Transferred”
-  - Code: “Your username\_TRANSFERRED”
+  - Name: “Your username_Transferred”
+  - Code: “Your username_TRANSFERRED”
 
 Absconded
 
-  - Name: “Your username\_Absconded”
-  - Code: “Your username\_ABSCONDED”
+  - Name: “Your username_Absconded”
+  - Code: “Your username_ABSCONDED”
 
-![5.3.3.8\_Option\_list](images/image91.png)
+![5.3.3.8_Option_list](images/image91.png)
 
 Once you have created the Mode of Discharge options, go back to the
 Option set management page by clicking on the back arrow next to the
@@ -5391,12 +5026,12 @@ Option Set title and type your username into the Search apps bar.
 
 You should see that both Options Sets should now be available:
 
-  - Your username\_Sex
-  - Your username\_Mode of Discharge
+  - Your username_Sex
+  - Your username_Mode of Discharge
 
 ### Demonstration - Creating Data Elements
 
-#### Video - Creating Event Programs Demonstration \[Part 4 of 11\]
+#### Video - Creating Event Programs Demonstration Part 4 of 11
 
 #### Part 4 Activity: Creating Data Elements
 
@@ -5412,36 +5047,36 @@ if you want to understand each field in more detail.
 We have filled out a template to identify all of the various components
 we have discussed in line with our DHIS2 data model. Use the template to
 give you more information on how to create each data element required in
-this program. \[[TEMPLATE
-LINK](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@ICD10_Register_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870478000&usg=AOvVaw3Bbbz69MWokqIFJ5QiUYHT)\]
+this program. [TEMPLATE
+LINK](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@ICD10_Register_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870478000&usg=AOvVaw3Bbbz69MWokqIFJ5QiUYHT)
 
 Navigate to the Maintenance app.
 
   - Click on the Data Element tab located in the top horizontal bar
   - Click on the + icon in the Data Element box
 
-![5.3.4.1\_Data\_element](images/image288.png)
+![5.3.4.1_Data_element](images/image288.png)
 
 Create the Data Element to capture "sex" using the following details:
 
-  - Name: “Your username\_Sex”
-  - Short name: “Your username\_Sex”
+  - Name: “Your username_Sex”
+  - Short name: “Your username_Sex”
   - Domain Type: “Tracker”
   - Value Type: “Text” (automatically selected with Option Set assigned)
   - Aggregation type: “None” (automatically selected with Option Set
     assigned)
-  - Option set: “Your username\_Sex”
+  - Option set: “Your username_Sex”
   - Click Save
 
-![5.3.4.2\_Data\_element\_details](images/image295.png)
+![5.3.4.2_Data_element_details](images/image295.png)
 
 Click on the blue “+” icon again to repeat this process and create the
 following data elements:
 
 Data Element to capture pregnancy status:
 
-  - Name: “Your username\_Pregnant”
-  - Short name: “Your username\_Pregnant”
+  - Name: “Your username_Pregnant”
+  - Short name: “Your username_Pregnant”
   - Domain Type: “Tracker”
   - Value Type: “Yes/No”
   - Aggregation type: “Sum”
@@ -5451,16 +5086,16 @@ Data Element to capture pregnancy status:
 
 Data Element to capture height (in cm):
 
-  - Name: “Your username\_Height (in cm)”
-  - Short name: “Your username\_Height (in cm)”
+  - Name: “Your username_Height (in cm)”
+  - Short name: “Your username_Height (in cm)”
   - Domain Type: “Tracker”
   - Value Type: “Positive or zero integer”
   - Aggregation type: “Average”
   - Click Save
 
 NOTE: If you would like to continue practicing creating data elements,
-please use the template provided to create them \[[TEMPLATE
-LINK](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@ICD10_Register_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870484000&usg=AOvVaw3FTm83nauCbEnE-N7vZBbz)\].
+please use the template provided to create them [TEMPLATE
+LINK](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@ICD10_Register_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870484000&usg=AOvVaw3FTm83nauCbEnE-N7vZBbz).
 The option set for ICD-10 is available for you to add if you want to
 create the ICD-10 diagnosis data element yourself. Please use your
 username to create the remaining data elements as well. If you are
@@ -5469,7 +5104,7 @@ already been created for you to use in your program.
 
 ### Demonstration - Creating a Data Element Group
 
-#### Video - Creating Event Programs Demonstration \[Part 5 of 11\]
+#### Video - Creating Event Programs Demonstration Part 5 of 11
 
 #### Part 5 Activity: Creating Data Element Groups
 
@@ -5478,27 +5113,27 @@ the Data element management page so that you can proceed with creating
 a Data Element Group.
 
 Continue to use the template to give you more information on which data
-elements to include in the data element group. \[[TEMPLATE
-LINK](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@ICD10_Register_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870486000&usg=AOvVaw2SW9QMwuE_Zqlm5R6djULM)\]
+elements to include in the data element group. [TEMPLATE
+LINK](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@ICD10_Register_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870486000&usg=AOvVaw2SW9QMwuE_Zqlm5R6djULM)
 
 Select Data Element Group from the left context menu.
 
-![5.3.4.3\_Data\_element\_group](images/image189.png)
+![5.3.4.3_Data_element_group](images/image189.png)
 
 Then, click on the blue “+” icon in the bottom right hand corner.
 
 Complete the creation of the Data Element Group using the following
 details:
 
-  - Name: “Your username\_ICD-10 Register (Tracker)”
+  - Name: “Your username_ICD-10 Register (Tracker)”
   - Assign the following Data Elements to the group by moving them from
     the box on the left to the box on the right:
 
 <!-- end list -->
 
-  - Your username\_Sex
-  - Your username\_Pregnant
-  - Your username\_Height (in cm)
+  - Your username_Sex
+  - Your username_Pregnant
+  - Your username_Height (in cm)
   - Age (years)
   - Weight (in kg)
   - Date of admission
@@ -5508,11 +5143,11 @@ details:
 
 Click Save when finished.
 
-![5.3.4.4\_Data\_element\_group\_listed](images/image242.png)
+![5.3.4.4_Data_element_group_listed](images/image242.png)
 
 ### Demonstration - Create Event Program Details
 
-#### Video - Creating Event Programs Demonstration \[Part 6 of 11\]
+#### Video - Creating Event Programs Demonstration Part 6 of 11
 
 #### Part 6 Activity: Create Event Program Details
 
@@ -5521,14 +5156,14 @@ Now let’s create the Event Program.
 Within the Maintenance app, click on the Program box and select
 Program from the left context menu.
 
-![5.3.5.1\_Maintenance](images/image255.png)
+![5.3.5.1_Maintenance](images/image255.png)
 
-![5.3.5.2\_Program\_folder](images/image317.png)
+![5.3.5.2_Program_folder](images/image317.png)
 
 To add a new program, click on the blue “+” icon at the bottom right
 hand corner of the program management screen and choose Event Program.
 
-![5.3.5.3\_Blue\_event\_program](images/image313.png)
+![5.3.5.3_Blue_event_program](images/image313.png)
 
 The following page will appear with a timeline of steps at the top:
 
@@ -5538,7 +5173,7 @@ The following page will appear with a timeline of steps at the top:
 4.  Access
 5.  Create notifications
 
-![5.3.5.4\_Add\_program\_details](images/image280.png)
+![5.3.5.4_Add_program_details](images/image280.png)
 
 There are many fields that are available in the program details tab.
 Consult the [DHIS2
@@ -5548,9 +5183,9 @@ more detail on the available fields.
 Fill in the following program details in the Add program details
 section:
 
-  - Name: “Your username\_\_Morbidity/Mortality Register”
-  - Short name: “Your username\_ICD10 Register”
-  - Code: “Your username\_ICD10 Register"
+  - Name: “Your username__Morbidity/Mortality Register”
+  - Short name: “Your username_ICD10 Register”
+  - Code: “Your username_ICD10 Register"
   - Description: “The ICD-10 morbidity and mortality register.”
   - Feature type: “Point”
 
@@ -5558,25 +5193,25 @@ Then click Save.
 
 ### Demonstration - Assign Data Elements to the Program
 
-#### Video - Assign Data Elements to the Program \[Part 7 of 11\]
+#### Video - Assign Data Elements to the Program Part 7 of 11
 
 #### Part 7 Activity: Assign Data Elements to the Program
 
 In the Program management page, find the program you created and click
 on it to open.
 
-![5.3.6.1\_Program\_management](images/image199.png)
+![5.3.6.1_Program_management](images/image199.png)
 
 In the program you have created, move to the tab, Assign data elements.
 Click on it to proceed.
 
-![5.3.6.2\_Assign\_data\_elements](images/image212.png)
+![5.3.6.2_Assign_data_elements](images/image212.png)
 
 To add in the data elements, find them in the list of data elements and
 add them to your program.
 
 Search for and add the data elements you already created beginning with
-“Your username\_”. To do this, enter your username in the area where
+“Your username_”. To do this, enter your username in the area where
 it says “Search available/selected items.” This should quickly filter
 out the data elements you have created.
 
@@ -5591,9 +5226,9 @@ Assign the data elements by doing one of the following:
 
 Assign the following data elements to the program:
 
-  - Your username\_Sex
-  - Your username\_Pregnant
-  - Your username\_Height (in cm)
+  - Your username_Sex
+  - Your username_Pregnant
+  - Your username_Height (in cm)
   - Age (years)
   - Weight (in kg)
   - Date of admission
@@ -5601,7 +5236,7 @@ Assign the following data elements to the program:
   - Date of discharge
   - Mode of discharge
 
-![5.3.6.3\_Assigning\_elements](images/image266.png)
+![5.3.6.3_Assigning_elements](images/image266.png)
 
 After you have assigned the elements, options will be made available
 below the selection box for these assigned data elements. For a full
@@ -5613,42 +5248,42 @@ Documentation.](https://www.google.com/url?q=https://docs.dhis2.org/master/en/us
 By default, all data elements have the Display in reports option
 disabled. Enable this option for the following data elements:
 
-  - Your username\_Sex
-  - Your username\_Pregnant
+  - Your username_Sex
+  - Your username_Pregnant
   - Age (years)
   - ICD-10 diagnosis
   - Mode of discharge
 
 Then click Save.
 
-![5.3.6.5\_Display\_in\_reports\_](images/image123.png)
+![5.3.6.5_Display_in_reports_](images/image123.png)
 
 For more information on the options available, refer to the [DHIS2
 Documentation.](https://www.google.com/url?q=https://docs.dhis2.org/master/en/user/html/dhis2_user_manual_en_full.html%23configure_event_program_in_maintenance_app&sa=D&ust=1605291870499000&usg=AOvVaw3Q9Xr397-uCtQny0cOU7Mu)
 
 ### Demonstration - Create the Data Entry Form
 
-#### Video - Creating Event Programs Demonstration \[Part 8 of 11\]
+#### Video - Creating Event Programs Demonstration Part 8 of 11
 
 #### Part 8 Activity: Create the Data Entry Form
 
 In the Program management page, find the program you created and click
 on it to open.
 
-![5.3.7.1\_Mortality\_Register](images/image199.png)
+![5.3.7.1_Mortality_Register](images/image199.png)
 
 In the program you have created, move to the tab, Create data entry
 form. Click on it to proceed.
 
-![5.3.7.2\_Create\_data\_entry\_form](images/image180.png)
+![5.3.7.2_Create_data_entry_form](images/image180.png)
 
 Choose Section as the data entry form type by clicking on it.
 
-![5.3.7.3\_Section](images/image168.png)
+![5.3.7.3_Section](images/image168.png)
 
 Click on the blue “+” icon.
 
-![5.3.7.4\_plus\_icon](images/image178.png)
+![5.3.7.4_plus_icon](images/image178.png)
 
 Add the section “Patient details” to the data entry form. Fill in the
 following details:
@@ -5657,7 +5292,7 @@ following details:
 
 Click on Add.
 
-![5.3.7.5\_Add\_new\_section](images/image143.png)
+![5.3.7.5_Add_new_section](images/image143.png)
 
 Repeat this process and add another section “Admission details”. Fill in
 the following details:
@@ -5674,22 +5309,22 @@ In order to add data elements, select one of the sections, for example,
 the “Patient details” section. You will notice that the section is now
 highlighted.
 
-![5.3.7.6\_Patient\_details](images/image346.png)
+![5.3.7.6_Patient_details](images/image346.png)
 
 Then select the data elements from the right side menu Available data
 elements, by clicking on the “+” icon next to each name.
 
-![5.3.7.7\_Available\_data\_elements](images/image240.png)
+![5.3.7.7_Available_data_elements](images/image240.png)
 
 Add the below Data Elements to “Patient details” in the following order:
 
-  - “Your username\_Sex”
-  - “Your username\_Pregnant”
+  - “Your username_Sex”
+  - “Your username_Pregnant”
   - “Age (years)”
-  - “Your username\_Height in cm”
+  - “Your username_Height in cm”
   - “Weight in kg”
 
-![5.3.7.8\_Patient\_details](images/image46.png)
+![5.3.7.8_Patient_details](images/image46.png)
 
 Select the section “Admission details”, and add the below Data
 Elements in the following order:
@@ -5701,23 +5336,23 @@ Elements in the following order:
 
 Then click Save.
 
-![5.3.7.9\_Admission\_details](images/image18.png)
+![5.3.7.9_Admission_details](images/image18.png)
 
 ### Demonstration - Assign Program to Organisation Units
 
-#### Video - Creating Event Programs Demonstration \[Part 9 of 11\]
+#### Video - Creating Event Programs Demonstration Part 9 of 11
 
 #### Part 9 Activity: Assign The Program to Organisation Units
 
 In the Program management page, find the program you created and click
 on it to open.
 
-![5.3.8.1\_Morbidity\_Mortality\_Register](images/image199.png)
+![5.3.8.1_Morbidity_Mortality_Register](images/image199.png)
 
 In the program you have created, move to the tab, Access. Click on it to
 proceed.
 
-![5.3.8.2\_For\_Access](images/image223.png)
+![5.3.8.2_For_Access](images/image223.png)
 
 Under the Organisation units section, assign the program to your
 organisation unit.
@@ -5728,7 +5363,7 @@ Save your changes when you are finished.
 
 ### Presentation - Sharing Settings
 
-#### Video - Creating Event Programs Demonstration \[Part 10 of 11\]
+#### Video - Creating Event Programs Demonstration Part 10 of 11
 
 #### Part 10 - Knowledge Check
 
@@ -5736,7 +5371,7 @@ Please complete the brief knowledge check below to ensure you understand
 the sharing concept before proceeding. This is not graded and meant only
 to re-enforce the presentation.
 
-\>\>The concept of sharing allows you to\<\<
+The concept of sharing allows you to
 
 ( ) Control which apps a user in DHIS2 has access to {{The sharing
 concept allows you to control which metadata and data a user in DHIS2
@@ -5758,8 +5393,8 @@ user can do in your system.}}
 
 Click on check to verify your answer.
 
-\>\>If I apply the sharing setting "metadata : can view only", how will
-this impact the object I have applied this sharing setting to?\<\<
+If I apply the sharing setting "metadata : can view only", how will
+this impact the object I have applied this sharing setting to?
 
 ( ) A user with this setting will be able to modify or otherwise edit
 this object {{Metadata : can view only means that a user will only be
@@ -5784,7 +5419,7 @@ Click on check to verify your answer.
 
 ### Demonstration - Sharing Settings
 
-#### Video - Creating Event Programs Demonstration \[Part 11 of 11\]
+#### Video - Creating Event Programs Demonstration Part 11 of 11
 
 #### Part 11 Activity: Sharing Settings
 
@@ -5797,7 +5432,7 @@ Sharing settings box will appear
 At the bottom of the Sharing settings box, use the Add users and user
 groups field to enter your name.
 
-![5.3.9.1\_Sharing\_](images/image230.png)
+![5.3.9.1_Sharing_](images/image230.png)
 
 Once you have selected your name, it will appear in the “Who has access”
 section.
@@ -5808,56 +5443,56 @@ button and selecting:
   - Metadata: Can edit and view
   - Data: Can capture and view
 
-![5.3.9.2\_Sharing\_settings](images/image206.png)
+![5.3.9.2_Sharing_settings](images/image206.png)
 
 Click Apply.
 
  
 
-![5.3.9.3\_Apply](images/image318.png)
+![5.3.9.3_Apply](images/image318.png)
 
 Ensure that the sharing settings from the program are the same as the
 sharing settings in the stage. To do this, tick the box next to the
 program stage name. Then click on the button Apply to selected stages.
 
-![5.3.9.4\_Apply\_to\_selected\_stages](images/image259.png)
+![5.3.9.4_Apply_to_selected_stages](images/image259.png)
 
 Click on Save at the bottom of the page to ensure the event program is
 saved.
 
-![5.3.9.5\_Save\_button](images/image42.png)
+![5.3.9.5_Save_button](images/image42.png)
 
 Now that the program has been created, open the Capture app and review
 it to ensure it has been created correctly.
 
-![5.3.9.6\_Capture](images/image336.png)
+![5.3.9.6_Capture](images/image336.png)
 
 Select one of the facilities in the “Bird District” from the
 organization unit hierarchy. And then select the program you created,
-“Your username\_Morbidity/Mortality Register”
+“Your username_Morbidity/Mortality Register”
 
-![5.3.9.7\_Selected\_registering\_unit](images/image128.png)
+![5.3.9.7_Selected_registering_unit](images/image128.png)
 
 Click on the New Event button in the top right hand corner to view the
 event registration section from.
 
-![5.3.9.8\_\_\_New\_event](images/image68.png)
+![5.3.9.8___New_event](images/image68.png)
 
 Review the different sections, data elements, and option sets available,
 and complete the data entry for an event.
 
-![5.3.9.9\_Patient\_details](images/image257.png)
+![5.3.9.9_Patient_details](images/image257.png)
 
  
 
 Complete the event with sample data, and then click on Save and exit.
 
-![5.3.9.10\_Save\_and\_exit](images/image323.png)
+![5.3.9.10_Save_and_exit](images/image323.png)
 
 Confirm that this event has been saved to the program by finding it on
 the front page list of registered events.
 
-![5.3.9.11\_Saved\_registered\_events](images/image220.png)
+![5.3.9.11_Saved_registered_events](images/image220.png)
 
 ### Takeaways from Module 5
 
@@ -5913,7 +5548,7 @@ Template)](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v
 
 Note: We have provided you with a filled-in copy of the template
 [(Malaria Line List Data Model
-Template\_Filled)](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@Malaria_Line_List_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870517000&usg=AOvVaw01qO3G9Isi9_AiJefeCE8Q) that
+Template_Filled)](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@Malaria_Line_List_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870517000&usg=AOvVaw01qO3G9Isi9_AiJefeCE8Q) that
 you can refer to, to help you complete this part of the exercise. Please
 attempt to fill in the incomplete template first for your own
 understanding of how to perform this in practice.
@@ -5937,7 +5572,7 @@ You can track the progress of each step of the assignment by using the
 Make sure that you use your username as a prefix for any items that you
 create within DHIS2. For example, if my username is “sdutta” and I make
 a data element “Pregnant (Trimester),” then the name should be
-“sdutta\_Pregnant (Trimester)” in DHIS2. This is done to avoid
+“sdutta_Pregnant (Trimester)” in DHIS2. This is done to avoid
 duplicates in DHIS2 as everyone is working on the assignment in the same
 system.
 
@@ -5958,8 +5593,8 @@ have access to from the previous ICD-10 activity. In the course of the
 activity, at minimum, you would have created the following data elements
 that also belong to the malaria case management register event program:
 
-1.  “Your username\_Sex”
-2.  “Your username\_Height”
+1.  “Your username_Sex”
+2.  “Your username_Height”
 
 Data elements that you already interacted with that are also in the
 malaria program include:
@@ -5981,7 +5616,7 @@ make it again either.
 Therefore, in this assignment, you should not need to re-create the 5
 data elements above. In the filled template, “[Malaria Line List Data
 Model
-Template\_Filled](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@Malaria_Line_List_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870521000&usg=AOvVaw0d-XF_1hM0GHpgr_bDtdap),”
+Template_Filled](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@Malaria_Line_List_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870521000&usg=AOvVaw0d-XF_1hM0GHpgr_bDtdap),”
 we have identified which data elements and option sets you must make by
 making them bold and adding a comment that you must create them for the
 assignment.
@@ -5989,7 +5624,7 @@ assignment.
 ##### Creation of Program/Program Entry Form
 
 When creating this program, use your “username” at the front of the
-program. For example, “SND\_Malaria Case Management Register.” To ensure
+program. For example, “SND_Malaria Case Management Register.” To ensure
 we can check your program, please include "Malaria" somewhere in the
 name of the program.
 
@@ -6086,7 +5721,7 @@ grade.
 #### Submission for staff assessment - Step 2: Notify the Course Staff
 
 Did you manage to check all the boxes of the above checklist? Well
-done\! You can know ask the Course Staff to check your assignment in
+done! You can know ask the Course Staff to check your assignment in
 Customization. To do so use the 'SUBMISSION FOR STAFF ASSESSMENT' right
 below:
 
@@ -6113,7 +5748,7 @@ email and the course staff reopen the submission for you.
 
 ### Introduction to Module 6
 
-#### WELCOME TO MODULE 6\!
+#### WELCOME TO MODULE 6!
 
 This module focuses on providing you some preliminary background on
 tracker use cases and functionality in DHIS2.
@@ -6195,37 +5830,37 @@ After you have completed reviewing all the material within this
 subsection, please attempt the graded quiz for this subsection. This
 quiz will contribute to 10% of your overall grade.
 
-#### Video - Tracker Programs & Tracker Capture Demonstration \[Part 1 of 6\]
+#### Video - Tracker Programs & Tracker Capture Demonstration Part 1 of 6
 
 ### Demonstration - Open Immunization Program & Browse Registered Children
 
-#### Video - Tracker Programs & Tracker Capture Demonstration \[Part 2 of 6\]
+#### Video - Tracker Programs & Tracker Capture Demonstration Part 2 of 6
 
 #### Part 2 Activity: Open Immunization Program & Browse Registered Children
 
 Open Tracker Capture using the Apps menu.
 
-![6.1.2.1\_Tracker\_Capture](images/image74.png)
+![6.1.2.1_Tracker_Capture](images/image74.png)
 
-Using the organisation unit hierarchy on the left, select Food Region \>
-Staple District \> Yam Health Centre.
+Using the organisation unit hierarchy on the left, select Food Region >
+Staple District > Yam Health Centre.
 
-![6.1.2.2\_Yam\_Health\_Centre](images/image265.png)
+![6.1.2.2_Yam_Health_Centre](images/image265.png)
 
 Select the “Immunization” program from the options that appear in the
 dropdown box.
 
-![6.1.2.3\_Immunization\_program](images/image139.png)
+![6.1.2.3_Immunization_program](images/image139.png)
 
 When the program is selected a list of persons who are already enrolled
 in the immunization program appear. Each row in the table corresponds to
 a single record within the "Immunization" program.
 
-![6.1.2.4\_Enrolled](images/image108.png)
+![6.1.2.4_Enrolled](images/image108.png)
 
 ### Demonstration - Register a Child into the Immunization Program
 
-#### Video - Tracker Programs & Tracker Capture Demonstration \[Part 3 of 6\]
+#### Video - Tracker Programs & Tracker Capture Demonstration Part 3 of 6
 
 #### Part 3 Activity: Register a Person
 
@@ -6233,12 +5868,12 @@ Now let’s register a child into the "Immunization" program.
 
 Click on the Register button.
 
-![6.1.3.1\_Registration](images/image148.png)
+![6.1.3.1_Registration](images/image148.png)
 
 Fill in some of the main attributes (first name, last name…). Example
 below.
 
-![6.1.3.2\<em\>Registration\</em\>details](images/image264.png)
+![6.1.3.2<em>Registration</em>details](images/image264.png)
 
 Next, click on Save and continue to register the child and view their
 record.
@@ -6246,11 +5881,11 @@ record.
 You will arrive on the dashboard page, which contains the child’s
 record.
 
-![6.1.3.3\<em\>Dashboard\</em\>page](images/image210.png)
+![6.1.3.3<em>Dashboard</em>page](images/image210.png)
 
 ### Demonstration - Enter Immunization Data & Discover the Tracker Dashboard
 
-#### Video - Tracker Programs & Tracker Capture Demonstration \[Part 4 of 6\]
+#### Video - Tracker Programs & Tracker Capture Demonstration Part 4 of 6
 
 #### Part 4 Activity: Enter Immunization Data & Discover the Tracker Dashboard
 
@@ -6259,7 +5894,7 @@ Now let’s enter some immunization data for the child.
 Within the Dashboard navigate to the Timeline Data Entry widget and
 click on the blue + icon.
 
-![6.1.4.1\<em\>Timeline\</em\>data\_entry](images/image63.png)
+![6.1.4.1<em>Timeline</em>data_entry](images/image63.png)
 
 You will be prompted to enter the date that the services were provided.
 The date is automatically populated with today’s date but you can adjust
@@ -6270,7 +5905,7 @@ Select the same date as the date for ‘first seen’ then click on Save.
 Next, we will see some of the variables associated with the
 "Immunization" program appear.
 
-![6.1.4.2\<em\>Immunization\</em\>program](images/image11.png)
+![6.1.4.2<em>Immunization</em>program](images/image11.png)
 
 Complete some of the requested details within this form. Notice that
 when you tick the box next to an immunization in the “Immunization”
@@ -6279,19 +5914,19 @@ all this to be configured.
 
 Then click Complete.
 
-![6.1.4.3\<em\>Immunization\</em\>details](images/image93.png)
+![6.1.4.3<em>Immunization</em>details](images/image93.png)
 
 You will be prompted to select one of a few options: Complete, Complete
 and exit, and Cancel.
 
 For this instance, click on Complete.
 
-![6.1.4.4\<em\>Completion\</em\>prompt](images/image224.png)
+![6.1.4.4<em>Completion</em>prompt](images/image224.png)
 
 Next, the system will automatically prompt you to schedule the next
 immunization appointment.
 
-![6.1.4.5\<em\>New\</em\>event](images/image344.png)
+![6.1.4.5<em>New</em>event](images/image344.png)
 
 Enter a date that is 6 weeks from when the first immunization
 appointment was provided and click Save.
@@ -6299,12 +5934,12 @@ appointment was provided and click Save.
 You will find that you can now see a new program stage that appears in
 green.
 
-![6.1.4.6\<em\>Green\</em\>program\<em\>health\</em\>stage](images/image215.png)
+![6.1.4.6<em>Green</em>program<em>health</em>stage](images/image215.png)
 
 Another way of accessing the scheduling option is by clicking on the
 blue calendar icon within the Timeline Data Entry widget.
 
-![6.1.4.7\<em\>Calendar\</em\>icon](images/image233.png)
+![6.1.4.7<em>Calendar</em>icon](images/image233.png)
 
 For a better understanding of the color coding used in the dashboard and
 widgets, click on the Information button to view the details.
@@ -6312,11 +5947,11 @@ widgets, click on the Information button to view the details.
 This will reveal a legend that displays what the colors of each events
 means.
 
-![6.1.4.8\<em\>information\</em\>button](images/image10.png)
+![6.1.4.8<em>information</em>button](images/image10.png)
 
 ### Demonstration - Search Function & Dashboard Orientation
 
-#### Video - Tracker Programs & Tracker Capture Demonstration \[Part 5 of 6\]
+#### Video - Tracker Programs & Tracker Capture Demonstration Part 5 of 6
 
 #### Part 5 Activity: Search Function & Dashboard Orientation
 
@@ -6327,21 +5962,21 @@ Centre”.
 
 ### 
 
-![6.1.5.1\<em\>Back\</em\>button](images/image244.png)Let’s demonstrate
+![6.1.5.1<em>Back</em>button](images/image244.png)Let’s demonstrate
 the search function.
 
 Click the Search button at the top of the page.
 
-### ![6.1.5.2\<em\>Search\</em\>button](images/image303.png)
+### ![6.1.5.2<em>Search</em>button](images/image303.png)
 
 On the Search for person page enter some of the child’s details so that
 you can find them, then click on the search button.
 
-### ![6.1.5.3\<em\>Search\</em\>for\_person](images/image85.png)
+### ![6.1.5.3<em>Search</em>for_person](images/image85.png)
 
 Search results:
 
-### ![6.1.5.4\<em\>Search\</em\>results](images/image205.png)
+### ![6.1.5.4<em>Search</em>results](images/image205.png)
 
 In the search results, click on the record that you created, and you
 will be taken to the child’s dashboard.
@@ -6359,14 +5994,14 @@ layout and items.
   - The previous and next buttons allow you to access the previous or
     next child’s record
 
-### ![6.1.5.6\<em\>Previous\</em\>and\_next](images/image219.png)
+### ![6.1.5.6<em>Previous</em>and_next](images/image219.png)
 
 ###  
 
   - The top bar shows certain attributes of choice. This is customizable
     and optional to have in the Dashboard.
 
-### ![6.1.5.7\<em\>Top\</em\>bar](images/image3.png)
+### ![6.1.5.7<em>Top</em>bar](images/image3.png)
 
 ###  
 
@@ -6376,9 +6011,9 @@ layout and items.
     right side allows those widgets to be visible while scrolling the
     data entry column to the left.
 
-### ![6.1.5.8\<em\>Pin\</em\>icon](images/image129.png)
+### ![6.1.5.8<em>Pin</em>icon](images/image129.png)
 
-### ![6.1.5.9\<em\>Pin\</em\>icon\_relative](images/image342.png)
+### ![6.1.5.9<em>Pin</em>icon_relative](images/image342.png)
 
 ###  
 
@@ -6387,17 +6022,17 @@ layout and items.
     this is permission based, so not everyone will have access to
     perform this function.
 
-### ![6.1.5.10\<em\>Exclamation\</em\>point](images/image246.png)
+### ![6.1.5.10<em>Exclamation</em>point](images/image246.png)
 
   - And finally the gear icon allows you to customize the items in the
     dashboard’s widgets and top bar.
 
-### ![6.1.5.11\<em\>gear\</em\>icon](images/image17.png)
+### ![6.1.5.11<em>gear</em>icon](images/image17.png)
 
  Show/hide widgets - allows you to control which widgets you want to
 display in the record’s dashboard.
 
-###  ![6.1.5.12\<em\>Show\</em\>hide\_widgets](images/image213.png)
+###  ![6.1.5.12<em>Show</em>hide_widgets](images/image213.png)
 
 ### 
 
@@ -6406,20 +6041,20 @@ display in the record’s dashboard.
     optimal view area as per user needs. Widget rearrangements are saved
     automatically per user per program.
 
-### ![6.1.5.13\<em\>Selecting\</em\>widgets](images/image351.png)
+### ![6.1.5.13<em>Selecting</em>widgets](images/image351.png)
 
 ###  
 
   - The Top bar settings option allows you to modify the top bar options
     or turn it on and off.
 
-### ![6.1.5.14\<em\>Top\</em\>bar\_settings](images/image184.png)
+### ![6.1.5.14<em>Top</em>bar_settings](images/image184.png)
 
 ### 
 
 ### Demonstration - Widgets
 
-#### Video - Tracker Programs & Tracker Capture Demonstration \[Part 6 of 6\]
+#### Video - Tracker Programs & Tracker Capture Demonstration Part 6 of 6
 
 #### Part 6 Activity: Widgets
 
@@ -6431,28 +6066,28 @@ the location of enrollment. It also allows you to manage the status of
 the enrollment, mark the child for follow-up, and delete the child from
 the program.
 
-![6.1.6.1\_Enrollment](images/image326.png)
+![6.1.6.1_Enrollment](images/image326.png)
 
 The Indicators widget can be used to show the calculated value of any of
 the indicators for the selected program. In this example, the ‘Age’
 indicator is automatically calculated and displayed.
 
-![6.1.6.2\_Indicators](images/image252.png)
+![6.1.6.2_Indicators](images/image252.png)
 
 The Profile widget shows the attributes of the child that were entered
 during registration. In this widget, you can also edit the enrollment
 attributes.
 
-![6.1.6.3\_Profile](images/image254.png)
+![6.1.6.3_Profile](images/image254.png)
 
 The Notes widget allows users to make notes on the child.
 
-![6.1.6.4\_Notes](images/image23.png)
+![6.1.6.4_Notes](images/image23.png)
 
 The Relationship widget allows you to relate the child with others that
 are in the system.
 
-![6.1.6.5\_Relationship](images/image300.png)
+![6.1.6.5_Relationship](images/image300.png)
 
 In this example, we could relate the particular child to another child
 in the program, or even relate the child to a parent in another program.
@@ -6466,7 +6101,7 @@ event you created earlier.
 Select the date for this event; this date will be the same as the date
 we scheduled for this service to occur.
 
-![6.1.6.6\<em\>Timeline\</em\>Data\_Entry](images/image73.png)
+![6.1.6.6<em>Timeline</em>Data_Entry](images/image73.png)
 
 After you select the date, you can see the form opens up again allowing
 you to enter related data.
@@ -6475,16 +6110,16 @@ You will notice that the fields that appear here are different from the
 form for the first entry, and mirror the vaccinations that are scheduled
 to be delivered at 6 weeks.
 
-![6.1.6.7\_Immunization](images/image258.png)
+![6.1.6.7_Immunization](images/image258.png)
 
 Fill in the details, making sure the child receives all of the scheduled
 vaccinations. Then select Complete.
 
-![6.1.6.8\_Complete](images/image53.png)
+![6.1.6.8_Complete](images/image53.png)
 
 Lastly, select complete and exit when prompted.
 
-![6.1.6.9\<em\>Complete\</em\>and\_exit](images/image156.png)
+![6.1.6.9<em>Complete</em>and_exit](images/image156.png)
 
 ### 
 
@@ -6506,9 +6141,9 @@ later and resume the attempt.
 
 ![Tracker Registration](images/image341.png)
 
-\>\>The above screenshot (Question 1 - Screenshot) shows the enrollment
+The above screenshot (Question 1 - Screenshot) shows the enrollment
 page in tracker capture. Which of the following is a true statement
-regarding the entry of these details?\<\<
+regarding the entry of these details?
 
 (x) By entering these details, I am adding a unique object/entity to my
 DHIS2 system.
@@ -6523,7 +6158,7 @@ details I have entered. {{Have another look at the material within the
 unit "Demonstration - Register a Tracked Entity Instance" if not clear
 on this topic}}
 
-\[explanation\]
+explanation
 
 During the registration step of working within tracker; you are adding a
 unique entity to your DHIS2 system. In the case of a person, as in the
@@ -6531,15 +6166,15 @@ example shown here, this means you are able to search for their person
 and update their record when they interact with various services within
 your system that you are tracking.
 
-\[explanation\]
+explanation
 
 ##### QUESTION 2 - SCREENSHOT
 
 ![Searching](images/image207.png)
 
-\>\>In the above screenshot (Question 2 - Screenshot) I am going to
+In the above screenshot (Question 2 - Screenshot) I am going to
 search for an individual based on the details that I have entered. What
-will be returned when I select the search button?\<\<
+will be returned when I select the search button?
 
 ( ) I will be taken immediately to the record that meets my search
 criteria {{Have another look at the material within the unit
@@ -6553,7 +6188,7 @@ any records that fit my criteria will be filtered out {{Have another
 look at the material within the unit "Demonstration - Search Function
 and Dashboard Orientation" if not clear on this topic}}
 
-\[explanation\]
+explanation
 
 When entering general search details and performing a search, you will
 always see a list of records that meet your criteria. Based on this
@@ -6564,16 +6199,16 @@ Unique ID, then you would be taken directly to the record that meets
 your criteria because there is only one record in your system that can
 have the ID you have entered.
 
-\[explanation\]
+explanation
 
 ##### QUESTION 3 - SCREENSHOT
 
 ![Front Page List](images/image60.png)
 
-\>\>The screenshot above (Question 3 - Screenshot) shows the front-page
+The screenshot above (Question 3 - Screenshot) shows the front-page
 list of a tracker program (in this case, a COVID-19 case-base
 surveillance tracker program). The filter selected is “Any enrollment
-status.” The records that are shown in this list are:\<\<
+status.” The records that are shown in this list are:
 
 ( ) Individuals who are registered within DHIS2 but may not necessarily
 be enrolled into the COVID-19 case based surveillance program. {{Have
@@ -6591,7 +6226,7 @@ cancelled their enrollment. {{Have another look at the material within
 the unit "Demonstration - Open Immunization Program and Browse
 Registered TEI" if not clear on this topic}}
 
-\[explanation\]
+explanation
 
 The front page list that you can view in tracker capture is specific to
 the program you have selected. Entities that are not enrolled in the
@@ -6602,35 +6237,35 @@ When I have the filter of “Any enrollment status” selected, it will show
 all of the entities belonging to my program, regardless of their status
 within the program.
 
-\[explanation\]
+explanation
 
- \>\>When working with a person, we are able to schedule services within
+ When working with a person, we are able to schedule services within
 a tracker program in order to understand when that person should be
-receiving their next service.\<\<
+receiving their next service.
 
- \[\[(TRUE), FALSE\]\]
+ (TRUE), FALSE
 
- \[explanation\]
+ explanation
 
 We are able to schedule additional services when working with programs.
 We can even filter out lists to determine who has upcoming services
 scheduled and what the date of the scheduled service should be.
 
- \[explanation\]
+ explanation
 
-\>\>The tracker dashboard is made up of several different widgets that
-offer different information about the record you are accessing.\<\<
+The tracker dashboard is made up of several different widgets that
+offer different information about the record you are accessing.
 
- \[\[(TRUE), FALSE\]\]
+ (TRUE), FALSE
 
- \[explanation\]
+ explanation
 
 Answer: There is a variety of information that can be presented within a
 tracker dashboard. This includes the main component that you have
 interacted with, data entry, as well as registration details,
 indicators, etc. tied to the entity you are reviewing.
 
- \[explanation\]
+ explanation
 
 ## 6.2 - Digital Data Packages & Cause of Death
 
@@ -6659,7 +6294,7 @@ Digital Data Package: Cause of Death).
 
 There is no graded assignment for this subsection.
 
-#### Video - Digital Data Packages & Cause of Death \[Part 1 of 4\]
+#### Video - Digital Data Packages & Cause of Death Part 1 of 4
 
 #### EXTERNAL RESOURCES
 
@@ -6670,36 +6305,36 @@ You can learn more about the DHIS2 digital data packages here:
 
 ### Presentation - Review of DHIS2 Digital Data Package: Cause of Death
 
-#### Video - Digital Data Packages & Cause of Death \[Part 2 of 4\]
+#### Video - Digital Data Packages & Cause of Death Part 2 of 4
 
 ### Demonstration - DHIS2 Digital Data Package: Cause of Death
 
-#### Video - Digital Data Packages & Cause of Death \[Part 3 of 4\]
+#### Video - Digital Data Packages & Cause of Death Part 3 of 4
 
 #### Part 3 Activity: Exploring The Cause of Death Tracker Package
 
 Navigate to the Tracker Capture app by typing in “Tracker” into the
 search bar feature.
 
-![6.2.2.1\_Tracker\_Capture](images/image289.png)
+![6.2.2.1_Tracker_Capture](images/image289.png)
 
  
 
 Using the Org Unit hierarchy on the left, select a health centre.
 
-![6.2.2.2\_Org\_Unit\_hierarchy](images/image28.png)
+![6.2.2.2_Org_Unit_hierarchy](images/image28.png)
 
  
 
 The Cause of Death program will show up as an option.
 
-![6.2.2.3\_CoD\_program\_registration](images/image237.png)
+![6.2.2.3_CoD_program_registration](images/image237.png)
 
 Click on Register.
 
 The Enrollment form will show up.
 
-![6.2.2.4\_Enrollment\_form](images/image25.png)
+![6.2.2.4_Enrollment_form](images/image25.png)
 
 Click on Save and continue.
 
@@ -6709,20 +6344,20 @@ after the paper-based medical certificate of cause of death. [Paper
 Cause of Death
 form](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@6.2.2_CoD_Filled.pdf&sa=D&ust=1605291870571000&usg=AOvVaw35AiQw9hBgUOKfjirHmGRK).
 
-![6.2.2.5\_CoD\_form](images/image58.png)
+![6.2.2.5_CoD_form](images/image58.png)
 
  
 
 If you scroll down to the bottom of the DHIS2 form, you will find the
 Results table which becomes populated as you fill in the certificate.
 
-![6.2.2.6\_Results](images/image268.png)
+![6.2.2.6_Results](images/image268.png)
 
 Each entry is registered using the ID number, which can be found in the
 Profile box. You would have also seen this ID number when you registered
 the death.
 
-![6.2.2.7\_Profile](images/image125.png)
+![6.2.2.7_Profile](images/image125.png)
 
  
 
@@ -6734,32 +6369,32 @@ identify “Tuberculosis” as the underlying cause of death.
 Starting with the demographic information, refer to the paper form to
 fill in the date of birth in the electronic DHIS2 form.
 
-![6.2.2.8\_Admin\_Paper\_form](images/image95.png)
+![6.2.2.8_Admin_Paper_form](images/image95.png)
 
 Paper form
 
  
 
-![6.2.2.9\_Admin\_DHIS2\_form](images/image34.png)
+![6.2.2.9_Admin_DHIS2_form](images/image34.png)
 
 DHIS2 form
 
  
 
-![6.2.2.10\_Date\_of\_Birth](images/image198.png)
+![6.2.2.10_Date_of_Birth](images/image198.png)
 
  
 
 Next, let’s move to the chain of events resulting in death. Make sure to
 also fill in the corresponding time from onset to death.
 
-![6.2.2.11\_Paper\_Chain\_of\_events](images/image200.png)
+![6.2.2.11_Paper_Chain_of_events](images/image200.png)
 
 Paper form
 
  
 
-![6.2.2.12\_DHIS2\_form\_chain\_of\_events](images/image235.png)
+![6.2.2.12_DHIS2_form_chain_of_events](images/image235.png)
 
 DHIS2 form
 
@@ -6774,14 +6409,14 @@ Next, scroll down to the Results sections to view the results. The
 underlying cause of death should show up along with the ICD-10 SMoL and
 ICD-10 full codes for the underlying cause.
 
-![6.2.2.13\_DHIS2\_Results](images/image324.png)
+![6.2.2.13_DHIS2_Results](images/image324.png)
 
 When comparing the paper form to the electronic DHIS2 form, you may find
 that multiple fields that are not relevant have had their responses
 section removed for data entry in order to reduce any potential data
 entry errors.
 
-![6.2.2.14\_Maternal\_Death](images/image65.png)
+![6.2.2.14_Maternal_Death](images/image65.png)
 
 ### Takeaways from Module 6
 
@@ -6806,9 +6441,9 @@ with your peers and learn from them.
 
 ### Introduction to Module 7
 
-#### WELCOME TO MODULE 7\!
+#### WELCOME TO MODULE 7!
 
-Congratulations on reaching the final module\! In this module, we focus
+Congratulations on reaching the final module! In this module, we focus
 on providing you with some next steps to continue learning and wrap up
 the course.
 
@@ -6843,7 +6478,7 @@ activities that you can perform within this module.
 
 ##### Assignments
 
-There are no graded assignments in Module 7\! Congratulations\!
+There are no graded assignments in Module 7! Congratulations!
 
 ##### Training Environment
 
@@ -6881,15 +6516,15 @@ There are no activities within this subsection.
 
 There are no assignments within this subsection.
 
-#### Video - DHIS2 Academies Overview \[Part 1 of 3\]
+#### Video - DHIS2 Academies Overview Part 1 of 3
 
 ### Presentation - Level 1 Academies
 
-#### Video - DHIS2 Academies Overview \[Part 2 of 3\]
+#### Video - DHIS2 Academies Overview Part 2 of 3
 
 ### Presentation - Level 2 Academies
 
-#### Video - DHIS2 Academies Overview \[Part 3 of 3\]
+#### Video - DHIS2 Academies Overview Part 3 of 3
 
 ## 7.2 - Following Event & Tracker Development
 
@@ -6918,7 +6553,7 @@ activity.
 
 There are no graded assignments in this subsection.
 
-#### Video - Following Event & Tracker Development \[Part 1 of 4\]
+#### Video - Following Event & Tracker Development Part 1 of 4
 
 ### Demonstration - DHIS2 Jira
 
@@ -6975,7 +6610,7 @@ Please feel free to explore other projects.
 
 The easiest way to explore these projects is by adding dashboards.
 
-To do so, first select Dashboards \> Manage Dashboards.
+To do so, first select Dashboards > Manage Dashboards.
 
 ![](images/image170.png)
 
@@ -7010,11 +6645,11 @@ on the header bar.
 
 ### Presentation - DHIS2 Release Cycle & Social Media
 
-#### Video - Following Event & Tracker Development \[Part 3 of 4\]
+#### Video - Following Event & Tracker Development Part 3 of 4
 
 ### Demonstration - DHIS2 Community of Practice
 
-#### Video - Following Event & Tracker Development \[Part 4 of 4\]
+#### Video - Following Event & Tracker Development Part 4 of 4
 
 #### Activity: Signing Up for The Community of Practice
 
@@ -7026,13 +6661,13 @@ for this course here
 
 To create a new account, select Sign Up.
 
-7.2.4.1\<em\>dhis2\</em\>community
+7.2.4.1<em>dhis2</em>community
 
 After this, enter in your account details. You will need to enter
 details for all mandatory fields, then select Create New Account. An
 example is shown below.
 
-7.2.4.2\<em\>Create\</em\>new\_account
+7.2.4.2<em>Create</em>new_account
 
 After selecting Create New Account you will see an activation
 notification.
@@ -7040,29 +6675,29 @@ notification.
 Go to your email and find the activation email. Click on the link within
 the email.
 
-7.2.4.3\<em\>Resend\</em\>activation\_email
+7.2.4.3<em>Resend</em>activation_email
 
- 7.2.4.4\<em\>Confirm\</em\>new\_account
+ 7.2.4.4<em>Confirm</em>new_account
 
  
 
 Using this link, you can activate your account.
 
-7.2.4.5\<em\>Confirm\</em\>new\_account
+7.2.4.5<em>Confirm</em>new_account
 
  
 
 After activating the account, you will receive the final confirmation.
 
-7.2.4.6\_Welcome
+7.2.4.6_Welcome
 
  
 
 Consider going through the steps on the home page to get started with
 using the community of practice, or simply go to one of the sections to
-review posts, or make your own\!
+review posts, or make your own!
 
-7.2.4.7\<em\>DHIS2\</em\>community
+7.2.4.7<em>DHIS2</em>community
 
  
 
@@ -7074,7 +6709,7 @@ review posts, or make your own\!
 
 ## End of Course Feedback: DHIS2 Events Fundamentals
 
-[\[a\]](#cmnt_ref1)Need to upload the outline
+[a](#cmnt_ref1)Need to upload the outline
 
-[\[b\]](#cmnt_ref2)I presume they will receive this email in french so
+[b](#cmnt_ref2)I presume they will receive this email in french so
 I´m going to retype the email underneath so we can get it translated
