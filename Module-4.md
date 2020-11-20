@@ -384,12 +384,12 @@ Select the "**check**" button to submit your answers.
 
 #### Instructions
 
-1.  For this assignment, answer questions using the **Event Reports** app
-2.  Use the “Malaria Case Management” **program** and **stage**
-3.  You will be marked based on the answers selected through multiple
+1. For this assignment, answer questions using the **Event Reports** app
+2. Use the “Malaria Case Management” **program** and **stage**
+3. You will be marked based on the answers selected through multiple
     choice. To determine the answers, you must create the associated
     table described in the details section.
-4.  Save all tables as Favorites, using the convention:
+4. Save all tables as Favorites, using the convention:
     **username_program_what, where, when**
 
 ##### Question 1: Details
@@ -402,7 +402,7 @@ Select the "**check**" button to submit your answers.
 
 **Stage**: “Malaria Case Management”
 
-**Data elements**: “MCM | Malaria method of detection,” “MCM|Malaria species Type,” “MCM|Confirmation Method”
+**Data elements**: “MCM | Malaria method of detection,” “MCM | Malaria species Type,” “MCM | Confirmation Method”
 
 Period: “2020”
 
@@ -521,7 +521,7 @@ item “Sex.”||
 
 **Data elements**: “Age,” “MCM l Condition of Patient”
 
-**Periods**: “Fixed and relative periods” “Quarterly” For the following
+**Periods**: “Fixed and relative periods” “Quarterly”   the following
 quarters:
 
   - “July - September 2019”
@@ -628,11 +628,11 @@ visualizer app in DHIS2.
 Subsection 4.2 has 5 units for you to review. We recommend that you
 review these units in order.
 
-1.  Demonstration - Navigating the Event Visualizer Application
-2.  Demonstration - Visualizing Event Data in a Column Chart
-3.  Demonstration - Filtering an Age Range
-4.  Demonstration - Additional Filters for a Visualization
-5.  Demonstration - Creating a Pie Chart with Event Data
+1. Demonstration - Navigating the Event Visualizer Application
+2. Demonstration - Visualizing Event Data in a Column Chart
+3. Demonstration - Filtering an Age Range
+4. Demonstration - Additional Filters for a Visualization
+5. Demonstration - Creating a Pie Chart with Event Data
 
 ##### Ungraded Activities
 
@@ -656,11 +656,11 @@ a) Use the **search apps** feature OR 
 
 b) Use the **action ellipses** and select “Open in Event Visualizer app”
 
-![4.2.1.1<em>Search</em>bar](images/image311.png)
+![4.2.1.1Searchbar](images/image311.png)
 
-![4.2.1.2<em>Action</em>ellipses](images/image208.png)
+![4.2.1.2Actionellipses](images/image208.png)
 
-![4.2.1.3<em>Open</em>Event<em>Vis</em>app](images/image52.png)
+![4.2.1.3OpenEventVisapp](images/image52.png)
 
 Now that we are in the app, let’s review the interface.
 
@@ -714,15 +714,15 @@ In the data tab select:
 In the Period tab, select:
 
   - “Fixed and relative periods”
-  - The period type “Yearly”
+  - The **period type** “Yearly”
   - The period “2019”
   - Ensure “Last 12 months” is deselected in the Relative Periods
     section
 
 ![4.2.2.5_Periods](images/image273.png)
 
-In the Organisation units tab, use the Selection mode “Select
-organisation units” and then select “Trainingland.” Next, click Update.
+In the **Organisation units** tab, use the **Selection mode** “Select
+organisation units” and then select “Trainingland.” Next, click **Update**.
 
 ![4.2.2.6_Trainingland](images/image9.png)
 
@@ -734,18 +734,18 @@ the whole of Trainingland, by species type.
 
 Next, let’s view the species type separately by region.
 
-From the Organisation Units tab, select the “Animal” and “Food” regions.
+From the **Organisation Units** tab, select the “Animal” and “Food” regions.
 
 ![4.2.2.8_Org_units](images/image5.png)
 
-Click on the Layout button:
+Click on the **Layout** button:
 
-  - “Organisation units” should be listed under Category dimensions
-  - “Periods” should be listed under Report Filter
+  - “Organisation units” should be listed under **Category dimensions**
+  - “Periods” should be listed under **Report Filter**
 
 ![4.2.2.9_Layout](images/image332.png)
 
-Click Update.
+Click **Update**.
 
 Now we are able to view the mix of species types of malaria cases
 separately for Animal Region and Food Region in the chart.
@@ -755,8 +755,7 @@ separately for Animal Region and Food Region in the chart.
 Now let’s see what happens when we drill down even further into the
 Organisation Units.
 
-From the Organisation Units tab, select all of the districts within the
-“Animal Region”; then click Update.
+From the **Organisation Units** tab, select all of the districts within the “Animal Region”; then click **Update**.
 
 ![4.2.2.11_Animal_Region](images/image56.png)
 
@@ -765,16 +764,16 @@ the districts within “Animal Region”.
 
 ![4.2.2.12_Updated_results](images/image140.png)
 
-Next, from the Options menu, above the chart:
+Next, from the **Options** menu, above the chart:
 
   - Select “Hide n/a data”
-  - Chose the Sort order “Low to high”
-  - Leave Hide chart title unchecked and add a chart title “Malaria
+  - Chose the **Sort order** “Low to high”
+  - Leave **Hide chart title** unchecked and add a chart title “Malaria
     Species Type, Animal Region, 2019”
 
  ![4.2.2.13_Options_menu](images/image196.png)
 
-Then click Update.
+Then click **Update**.
 
 The chart now displays the results by district from lowest to highest,
 and we can see the title at the top.
@@ -783,7 +782,7 @@ and we can see the title at the top.
 
 Save your chart as a favorite.
 
-  - In the menu bar, click on Favorites > Save
+  - In the menu bar, click on **Favorites > Save**
 
 ![4.2.2.15_Save](images/image75.png)
 
@@ -791,12 +790,12 @@ Save your chart as a favorite.
     Animal Region, 2019”
   - Add a description, “This chart shows the positive malaria cases
     separated by their species type within the Animal Region in 2019”
-  - Click Save
+  - Click **Save**
 
 ![4.2.2.16_Description](images/image330.png)
 
 You are able to download this chart in various formats by clicking
-Download in the menu bar and choosing your preferred download option.
+**Download** in the menu bar and choosing your preferred download option.
 
 ![4.2.2.17_Download](images/image226.png)
 
@@ -806,50 +805,49 @@ Download in the menu bar and choosing your preferred download option.
 
 #### Part 3 Activity: Filtering an Age Range
 
-Now, we will move onto Task 2 , where we will filter out a range of ages
+Now, we will move onto **Task 2** , where we will filter out a range of ages
 in an event report. Recall that we want to view the conditions of
 malaria patients who are between the ages of 15-20, with the time frame
 of July - December 2019, by district, in the Food Region.
 
-From the Event Visualizer app, click on Favorites > New.
+From the **Event Visualizer** app, click on **Favorites > New**.
 
-Select the Line chart.
+Select the **Line chart**.
 
 ![4.2.3.1_Line_chart](images/image135.png)
 
-In the Data tab, select:
+In the **Data tab**, select:
 
-  - The Program and Stage “Malaria Case Management”
-  - The Data elements “MCM l Condition of Patient” and “Age”  
+  - The **Program** and **Stage** “Malaria Case Management”
+  - The **Data elements** “MCM l Condition of Patient” and “Age”  
     ![4.2.3.2_Data_item](images/image8.png)
 
 To view cases that are in the age range of “15-20”:
 
-  - Duplicate the “Age” data item
+  - **Duplicate** the “Age” data item
   - Select “No range set” for both “Age” items
-  - For one Age item, choose “>=” and “15”
-  - For the other Age item, choose “<=” and “20”  
+  - one Age item, choose “>=” and “15”
+  - the other Age item, choose “<=” and “20”  
     ![4.2.3.3_Age_ranges](images/image349.png)
 
-In the Period tab select:
+In the **Period** tab select:
 
   - “Fixed and relative periods” and “Six - monthly”
   - Select “July - December 2019” as the period
-  - Ensure “Last 12 months” is unticked in the Relative
-    Periods section  
+  - Ensure “Last 12 months” is unticked in the **Relative Periods** section  
     ![4.2.3.4_Period](images/image27.png)
 
-In the Organisation units tab open the hierarchy for “Food Region”.
+In the **Organisation units** tab open the hierarchy for “Food Region”.
 
   - Select all Districts in “Food Region”  
     ![4.2.3.5_Org_unit](images/image302.png)
 
-Click on the Layout tab
+Click on the **Layout** tab
 
-  - Set “Age” as the Report filter
-  - Put “Organisation Units” in Category dimensions
-  - Put “MCM l Condition of Patient” in Series dimensions
-  - Click on Update  
+  - Set “Age” as the **Report filter**
+  - Put “Organisation Units” in **Category dimensions**
+  - Put “MCM l Condition of Patient” in **Series dimensions**
+  - Click on **Update**  
     ![4.2.3.6_Layout](images/image1.png)  
     The resulting line graph should now depict the number of simple and
     severe malaria cases for people >=15 and <=20 years old by
@@ -867,19 +865,19 @@ Continuing on with the line chart from the last activity, now let’s
 update the chart to only show female cases in the line graph. We’ll need
 to add more filters to this visualization.
 
-In the Data tab select:
+In the **Data** tab select:
 
-  - “Sex” as a data element
-  - “Female” as the filter
+  - “Sex” as a **data element**
+  - “Female” as the **filter**
 
 ![4.2.4.1_Data](images/image331.png)
 
-In the Layout menu organise the following:
+In the **Layout** menu organise the following:
 
-  - Put “Age” and “Sex” under Report filter
-  - Put “MCM l Condition of Patient” under Series dimensions
-  - Put “Organisation units” under Category dimensions
-  - Click Update
+  - Put “Age” and “Sex” under **Report filter**
+  - Put “MCM l Condition of Patient” under **Series dimensions**
+  - Put “Organisation units” under **Category dimensions**
+  - Click **Update**
 
 ![4.2.4.2_Chart_layout](images/image4.png)
 
@@ -889,35 +887,35 @@ the “Food Region”.
 
 ![4.2.4.3_Results_2](images/image175.png)
 
-Let’s add another filter to your Line chart.
+Let’s add another filter to your **Line chart**.
 
-In the Data tab, select:
+In the **Data** tab, select:
 
-  - “Pregnant” as the data element
+- “Pregnant” as the **data element**
   - Filter this element by selecting “Yes”
 
 ![4.2.4.4_Selected_data_items](images/image190.png)
 
-Click on the Layout menu and organise the following:
+Click on the **Layout** menu and organise the following:
 
-  - “Pregnant” under Report filter
-  - “Organisation Units” under Category dimensions
-  - “Condition of Patient” under Series dimensions
+  - “Pregnant” under **Report filter**
+  - “Organisation Units” under **Category dimensions**
+  - “Condition of Patient” under **Series dimensions**
 
 ![4.2.4.5_Chart_layout](images/image154.png)
 
-Then click on Update.
+Then click on **Update**.
 
 ![4.2.4.6.Results](images/image325.png)
 
 The graph type is no longer appropriate for this data. Change the graph
-type to a bar graph and click Update.
+type to a **bar graph** and click **Update**.
 
 ![4.2.4.7.Bar_chart](images/image16.png)
 
 ![4.2.4.8.Bar_chart_results](images/image194.png)
 
-  - Click on Favorites > Save
+  - Click on **Favorites > Save**
   - Provide the chart with a name and description using the recommended
     naming convention “Your intials_program, data elements, location,
     period”
@@ -928,22 +926,22 @@ type to a bar graph and click Update.
 
 #### Part 5 Activity: Creating a Pie Chart with Event Data
 
-From the Event Visualizer app, click on Favorites > New.
+From the **Event Visualizer** app, click on **Favorites > New**.
 
 Please create a pie chart that follows the example in the demo.
 
-Choose pie chart as the chart type.
+Choose **pie chart** as the chart type.
 
 ![4.2.5.1.Pie_chart](images/image322.png)
 
 In the Data tab, select
 
-  - The Program and Stage “Malaria case management”
-  - The data element “MCM l Treatment Outcome”
+  - The **Program** and **Stage** “Malaria case management”
+  - The **data element** “MCM l Treatment Outcome”
 
 ![4.2.5.2.Data](images/image19.png)
 
-In the Periods tab, select
+In the **Periods** tab, select
 
   - “Fixed and relative periods”
   - The period type “Yearly”
@@ -952,23 +950,23 @@ In the Periods tab, select
 
 ![4.2.5.3.Periods](images/image201.png)
 
-In the Organisation units tab, select “Trainingland.”
+In the **Organisation units** tab, select “Trainingland.”
 
 ![4.2.5.4.Org_units](images/image88.png)
 
-From the Layout menu organize the following:
+From the **Layout** menu organize the following:
 
-  - “Periods” under the Report filter
-  - “Organisation units” under the Series dimensions
-  - “MCM l Treatment Outcome” under the Category dimensions
+  - “Periods” under the **Report filter**
+  - “Organisation units” under the **Series dimensions**
+  - “MCM l Treatment Outcome” under the **Category dimensions**
 
 ![4.2.5.5.Chart_layout](images/image57.png)
 
-Then click on Update.
+Then click on **Update**.
 
 ![4.2.5.6.Pie_chart_results](images/image172.png)
 
-  - Click on Favorites > Save
+  - Click on **Favorites > Save**
   - Provide the chart with a name and description using the recommended
     naming convention “Your intials_program, data elements, location,
     period"
@@ -977,36 +975,36 @@ Then click on Update.
 
 #### GRADED ASSIGNMENT - EVENT VISUALIZER
 
-This is a graded assignment and it is worth 10% of your final grade.
+This is a **graded assignment** and it is worth **10%** of your final grade.
 
-You have 2 attempts to pass each question.
+You have **2 attempts** to pass each question.
 
 If you are not sure about the steps you followed in the assignment to
-get to the correct answer, click on the "hint" button to see some tips.
+get to the correct answer, click on the "**hint**" button to see some tips.
 
 If you want to save your current response without submitting it for
-grading yet, select the "save" button. This allows you to come back
+grading yet, select the "**save**" button. This allows you to come back
 later and resume the attempt.
 
-Select the "check" button to submit your answers.
+Select the "**check**" button to submit your answers.
 
 #### INSTRUCTIONS
 
-1.  For this assignment, answer questions using the Event Visualizer app
-2.  Use the “Malaria Case Management” program and stage
-3.  You will be marked based on the answers selected through multiple
-    choice. To determine the answers, you must create the associated
-    table described in the details section.
-4.  Save all tables as Favorites, using the convention:
-    username_program_what, where, when
+1. For this assignment, answer questions using the **Event Visualizer** app
+2. Use the “Malaria Case Management” **program** and **stage**
+3. You will be marked based on the answers selected through multiple
+  choice. To determine the answers, you must create the associated
+  table described in the details section.
+4. Save all tables as Favorites, using the convention:
+  **username_program_what, where, when**
 
 #### QUESTION 1: DETAILS
 
-  - Visualization Type: Pie Chart
-  - Program: “Malaria Case Management”
-  - Data Element: “MCM|Malaria method of detection”
-  - Period: “2020”
-  - Organisation Unit: “Trainingland”
+  - **Visualization Type**: Pie Chart
+  - **Program**: “Malaria Case Management”
+  - **Data Element**: “MCM|Malaria method of detection”
+  - **Period**: “2020”
+  - **Organisation Unit**: “Trainingland”
 
 In 2020, what is the most common method for detecting malaria?
 
@@ -1036,19 +1034,19 @@ Category dimensions.||
 
 #### Question 2: Details
 
-Visualization Type: Line Chart
+**Visualization Type**: Line Chart
 
-Program: “Malaria Case Management”
+**Program**: “Malaria Case Management”
 
-Data Elements:
+**Data Elements**:
 
 “Sex”
 
 “Age" >= 30
 
-Period: “July to December 2019”
+**Period**: “July to December 2019”
 
-Organisation Units: Districts in “Trainingland”
+**Organisation Units**: Districts in “Trainingland”
 
 In which Districts do women (aged >=30) have more malaria cases
 than men (aged >=30)?
@@ -1086,11 +1084,11 @@ dimensions; Organisation units should be under Category dimensions.||
 
 #### QUESTION 3: DETAILS
 
-Visualization Type: Bar Chart
+**Visualization Type**: Bar Chart
 
-Program: "Malaria Case Management"
+**Program**: "Malaria Case Management"
 
-Data Elements:
+**Data Elements**:
 
 “Age” Range: 20-59
 
@@ -1098,9 +1096,9 @@ Data Elements:
 
 “MCM|Condition of Patient" = "Severe”
 
-Periods: “2020”
+**Periods**: “2020”
 
-Organisation Units: Districts in “Animal Region”
+**Organisation Units**: Districts in “Animal Region”
 
 In 2020, which District has the least amount of people who passed
 away from “Severe” malaria for the age range “20-59?”
@@ -1140,13 +1138,13 @@ app in DHIS2.
 Subsection 4.3 has 6 units for you to review. We recommend that you
 review these units in order.
 
-1.  Presentation - Introduction to Maps
-2.  Demonstration - Coordinates in Capture App & Maps Interface
+1. Presentation - Introduction to Maps
+2. Demonstration - Coordinates in Capture App & Maps Interface
     Description
-3.  Demonstration -  Adding Layers to Maps
-4.  Demonstration - Styling Layers & Adding Filters
-5.  Demonstration - Style by Data Element & Donut Clusters
-6.  Demonstration - Creating a Dashboard
+3. Demonstration -  Adding Layers to Maps
+4. Demonstration - Styling Layers & Adding Filters
+5. Demonstration - Style by Data Element & Donut Clusters
+6. Demonstration - Creating a Dashboard
 
 ##### Ungraded Activities
 
@@ -1160,8 +1158,6 @@ After you have completed reviewing all the material within this
 subsection, please attempt the graded quiz for this subsection. This
 quiz will contribute to 10% of your overall grade.
 
-#### 
-
 #### Video - Maps Presentation Part 1 of 6
 
 ### Demonstration - Coordinates in Capture App & Maps Interface Description
@@ -1173,13 +1169,12 @@ quiz will contribute to 10% of your overall grade.
 Now let’s see how coordinates can be visualized in the maps app. We can
 do so by using an existing map.
 
-Navigate to the dashboard by clicking on the Dashboard app in the Search
-apps menu.
+Navigate to the dashboard by clicking on the **Dashboard** app in the **Search apps** menu.
 
 ![4.3.2.8_Dashboard](images/image328.png)
 
 Find the particular map of interest within the dashboard and click on
-the action ellipses.
+the **action ellipses**.
 
 ![4.3.2.9_Action_Ellipses](images/image92.png)
 
@@ -1191,17 +1186,17 @@ Note the criteria selection column is on the left.
 
 ![4.3.2.11_Criteria_Column](images/image126.png)
 
-Click on the pencil symbol at the bottom left of the layer box to edit
+Click on the **pencil symbol** at the bottom left of the layer box to edit
 the layer.
 
 ![4.3.2.12_Pencil_Symbol](images/image24.png)
 
-Click on the Org Units tab, then deselect “Trainingland” and select
-“Animal Region.” Then click Update Layer.
+Click on the **Org Units** tab, then deselect “Trainingland” and select
+“Animal Region.” Then click **Update Layer**.
 
 ![4.3.2.13_Event_Layer_Edit](images/image299.png)
 
-Next, let’s add a boundary layer. Click on the Add layer button in the
+Next, let’s add a boundary layer. Click on the **Add layer** button in the
 top left corner.
 
 ![4.3.2.14_Add_Layer](images/image293.png)
@@ -1210,16 +1205,16 @@ Next, select a “Boundaries” layer.
 
 ![4.3.2.15_Boundary_Layer_copy](images/image218.png)
 
-In the Organisation Units tab, ensure “Trainingland” is selected. Make
-sure the level “Region” is selected.
+In the **Organisation Units** tab, ensure “Trainingland” is selected. Make
+sure the **level** “Region” is selected.
 
 ![4.3.2.16_Org_Units](images/image38.png)
 
-Under the Style tab, make sure the Labels box is ticked.
+Under the **Style** tab, make sure the **Labels** box is ticked.
 
 ![4.3.2.17_Style](images/image35.png)
 
-Then select Add Layer.
+Then select **Add Layer**.
 
 Example of what the result should look like:
 
@@ -1231,16 +1226,16 @@ Example of what the result should look like:
 
 #### Part 3 Activity: Adding Layers to Maps
 
-Under the File button, click on “New” to open a new map.
+Under the **File** button, click on “New” to open a new map.
 
 ![4.3.3.1_New](images/image247.png)
 
-In the left corner, you can see the default layer, the Basemap layer. It
-allows you to choose the basemap. Let’s choose Bing Road as the Basemap.
+In the left corner, you can see the default layer, the **Basemap** layer. It
+allows you to choose the basemap. Let’s choose **Bing Road** as the **Basemap**.
 
 ![4.3.3.2_Bing_Road](images/image82.png)
 
-Click on the Add layer button.
+Click on the **Add layer** button.
 
 ![4.3.3.3_Add_Layer_Button](images/image29.png)
 
@@ -1250,34 +1245,34 @@ Choose Boundaries.
 
 From the Organisation Unit tree, select “Trainingland”.
 
-From the Select levels drop down list choose “Region” and “District”.
+From the **Select levels** drop down list choose “Region” and “District”.
 
 ![4.3.3.5_Boundary_Layer_Details](images/image176.png)
 
-Click on Add Layer.
+Click on **Add Layer**.
 
 You can now see the region and district boundaries of “Trainingland”.
 
 ![4.3.3.6_District_Boundaries](images/image116.png)
 
-Add another new layer by clicking on the Add layer button.
+Add another new layer by clicking on the **Add layer** button.
 
-![4.3.3.7<em>Second</em>Add<em>Layer</em>Button](images/image109.png)
+![4.3.3.7SecondAddLayerButton](images/image109.png)
 
 As a layer type, choose Events.
 
 ![4.3.3.8_Layer_Types](images/image284.png)
 
-The Add new event layer box opens.
+The **Add new event layer** box opens.
 
-Under the Data tab, choose “Malaria Case Management” as the Program and
-as the Stage.
+Under the **Data** tab, choose “Malaria Case Management” as the **Program** and
+as the **Stage**.
 
 Leave the Coordinate field as “Event location”.
 
 ![4.3.3.9_Add_New_Event_Layer](images/image15.png)
 
-Select the Period tab.
+Select the **Period** tab.
 
 In the period tab, choose a “Start/end date”.
 
@@ -1285,44 +1280,35 @@ Select “January 1, 2020 - March 31, 2020” as the period.
 
 ![4.3.3.10_Period_Tab](images/image238.png)
 
-Go to the Org Units tab and select “Trainingland”.
+Go to the **Org Units** tab and select “Trainingland”.
 
 ![4.3.3.11_Org_Units](images/image38.png)
 
-  - Choose the Filter tab and click on Add Filter
-
-<!-- end list -->
-
+  - Choose the **Filter tab** and click on **Add Filter**
   - This tab allows you to apply criteria to the events being displayed
     on the map
-
-<!-- end list -->
-
   - In our case, we have two criteria:
-
-<!-- end list -->
-
-  - Choose “Pregnant” under Data item, “one of” as the Operator and
-    “Yes” as the option
-  - Add a second filter by selecting Add Filter
-  - Choose the Data item “MCM|Condition of Patient,” the Operator “one
-    of,” and “Severe” under the Options
+  - Choose “Pregnant” under **Data item**, “one of” as the **Operator** and
+    “Yes” as the **option**
+  - Add a second filter by selecting **Add Filter**
+  - Choose the **Data item** “MCM|Condition of Patient,” **the Operator** “one
+    of,” and “Severe” under the **Options**
 
 ![4.3.3.12_Filter](images/image263.png)
 
 Before adding the layer, we want to ensure that the clustering is on.
 
-Go to the Style tab and select “Group events”. By doing so, you will
+Go to the **Style** tab and select “Group events”. By doing so, you will
 regroup events and make the map easier to read if there are a large
 number of events.
 
 ![4.3.3.13_Style](images/image163.png)
 
-Click on Add Layer.
+Click on **Add Layer**.
 
-N.B. The filter that you have applied to the map will appear along with
+**N.B. The filter that you have applied to the map will appear along with
 the legend on the left side of the maps app. You can edit the layer by
-clicking on the pen icon.
+clicking on the pen icon.**
 
 ![4.3.3.14_Two_Layer_Results](images/image41.png)
 
@@ -1335,7 +1321,7 @@ that shows the attributes of the selected event.
 
 ![4.3.3.15_Analyzing_the_Map](images/image98.png)
 
-Go to File > Save.
+Go to **File > Save**.
 
 Enter the name of the map and a short description and save it.
 
@@ -1347,20 +1333,20 @@ Enter the name of the map and a short description and save it.
 
 #### Part 4 Activity: Styling Layers & Adding Filters
 
-Click on File > New.
+Click on **File > New**.
 
-First choose Bing Road as the base map.
+First choose **Bing Road** as the base map.
 
-Click on Add layer on the top left side of the interface and choose
-Boundaries as a layer type.
+Click on **Add layer** on the top left side of the interface and choose
+**Boundaries** as a layer type.
 
 ![4.3.4.1_Second_Boundaries](images/image337.png)
 
-From the Organization unit tree, select Animal Region > Cat District.
+From the Organization unit tree, select **Animal Region > Cat District**.
 
 ![4.3.4.2__Adding_Boundary_Layer](images/image40.png)
 
-Go to the Style tab and select Labels to display the name of the
+Go to the **Style tab** and select **Labels** to display the name of the
 district on the map. You can change the size of the font.
 
 ![4.3.4.3_Style_Items](images/image151.png)
@@ -1374,35 +1360,35 @@ We now only see the boundaries of the “Cat District”.
 The second step is to add an event layer to display all malaria cases
 that have resulted in death from “July 31 2019 to December 31 2019”.
 
-Click on Add Layer and select Events.
+Click on **Add Layer** and select **Events**.
 
 ![4.3.4.5_Add_Layer_Button](images/image343.png)
 
-Under the Data tab, choose “Malaria Case Management” as the Program and
-the Stage.
+Under the **Data** tab, choose “Malaria Case Management” as the **Program** and
+the **Stage**.
 
-Leave the Coordinate field as “Event location”.
+Leave the **Coordinate field** as “Event location”.
 
 ![4.3.4.6_MCM_Edit_Layer](images/image55.png)
 
-Go to the Period tab and specify the period type as “Start/end dates”.
+Go to the **Period tab** and specify the **period** type as “Start/end dates”.
 
-Use “July 31 2019” as a Start date and “December 31 2019” as an End
-date.
+Use “July 31 2019” as a **Start date** and “December 31 2019” as an **End
+date**.
 
 ![4.3.4.7_Period](images/image97.png)
 
-Under the Org Units tab, select Animal Region > Cat District. Make sure
+Under the **Org Units** tab, select **Animal Region > Cat District**. Make sure
 the box next to Trainingland is unchecked.
 
-Under the Filter tab, click Add filter.
+Under the **Filter** tab, click **Add filter**.
 
-Choose the Data item “MCM|Treatment Outcome”, the Operator “one of,” and
-“Dead” under the Options.
+Choose the **Data item** “MCM|Treatment Outcome”, **the Operator** “one of,” and
+“Dead” under the **Options**.
 
 ![/4.3.4.8_Add_Filter](images/image101.png)
 
-Go to the Style tab.
+Go to the **Style** tab.
 
 Select “View all events”.
 
@@ -1414,7 +1400,7 @@ Change the Radius size to “4”.
 
 ![4.3.4.10_Radius_Size](images/image61.png)
 
-Click on Add Layer.
+Click on **Add Layer**.
 
 As the map shows, unfortunately, there are some deaths from malaria in
 the “Cat District,” between “July 31, 2019 and December 31, 2019”.
@@ -1427,7 +1413,7 @@ filter heading.
 
 Do not forget to save your map as a favorite!
 
-Select File > Save. Add a name that includes your initials and a
+Select **File > Save**. Add a name that includes your initials and a
 description.
 
 ### Demonstration - Style by Data Element & Donut Clusters
@@ -1440,51 +1426,51 @@ The last task is to create a map that filters the data by “Female” and
 “PF” malaria and that applies a data element style using the
 confirmation method.
 
-Click on File > New.
+Click on **File > New**.
 
 Choose “Bing Road” as the base map.
 
-Click on Add layer and choose “Boundaries”.
+Click on **Add layer** and choose “Boundaries”.
 
 ![4.3.5.1_Third_boundary_layer](images/image12.png)
 
-From the org units tree choose the Insect District under the Animal
-Region.
+From the org units tree choose the **Insect District** under the **Animal
+Region**.
 
 ![4.3.5.2_Insect_District](images/image124.png)
 
-Click on Add Layer. The app shows the boundaries of the Insect District.
+Click on **Add Layer**. The app shows the boundaries of the **Insect District**.
 
 ![4.3.5.3_Insect_District_Boundaries](images/image209.png)
 
 Add an Event layer to our map.
 
-Click on Add layer and choose “Events”.
+Click on **Add layer** and choose “Events”.
 
 ![4.3.5.4_Add_Events_Layer](images/image315.png)
 
-Under the Data tab, choose “Malaria Case Management” as the Program and
-Stage.
+Under the **Data** tab, choose “Malaria Case Management” as the **Program** and
+**Stage**.
 
 Leave the coordinate field as “Event Location”.
 
 ![4.3.5.5_Data_MCM](images/image314.png)
 
-In the Period tab, select “Start/End dates.”
+In the **Period** tab, select “Start/End dates.”
 
-  - Start date is “July 1st 2019”
-  - End date is “December 31 2019”
+  - **Start date** is “July 1st 2019”
+  - **End date** is “December 31 2019”
 
 ![4.3.5.6_Period_July_Dec](images/image239.png)
 
-In the Org Units tab, select the “Insect District” from the organization
+In the **Org Units** tab, select the “Insect District” from the organization
 unit tree.
 
 ![4.3.5.7_Insect_District_Org_Units](images/image286.png)
 
-Under the Filter tab, click Add filter.
+Under the **Filter** tab, click **Add filter**.
 
-Choose the Data item “Sex”, the Operator “one of”, and the Option
+Choose the **Data item** “Sex”, the Operator “one of”, and the Option
 "Female".
 
 Click on Add filter to add the second filter to specify the Malaria
@@ -1497,7 +1483,7 @@ With these options, the map will only display events that show where
 women are infected with the Pf species of malaria. These filters will
 appear under this layer’s heading in the column on the left.
 
-For each event we would like to know what type of confirmation method
+  each event we would like to know what type of confirmation method
 has been used. To do this, we need to apply a data element style.
 
 In the Style tab, click on the Style by data element drop down list and
@@ -1604,7 +1590,7 @@ Select the "check" button to submit your answers.
 
 #### INSTRUCTIONS
 
-1.  For this assignment, answer questions using the Maps app
+1.    this assignment, answer questions using the Maps app
 2.  Use the “Malaria Case Management” program and stage
 3.  You will be marked based on the answers selected through multiple
     choice. To determine the answers, you must create the associated
@@ -1626,7 +1612,7 @@ present along with the labels for the district layer.
   - Organisation Unit: “Trainingland”
   - Data Element Filters:
 
-<!-- end list -->
+
 
   - “Pregnant = Yes”
   - “MCM|Condition of Patient = Severe”
@@ -1706,13 +1692,13 @@ style using the confirmation method data.
   - Organisation Unit: “Fruit District”
   - Data Element Filters:
 
-<!-- end list -->
+
 
   - “MCM|Confirmation Method" = "Both", "Microscopy" and "RDT”
   - “MCM|Condition of Patient" = "Simple”
   - “Sex" = "Male”
 
-<!-- end list -->
+
 
   - Data element style should be on: “MCM|Confirmation Method”
 
@@ -1793,12 +1779,12 @@ Navigate to the Data Visualizer app.
 Search for the Data Visualizer app in the search apps field, then click
 on the app.
 
-![4.4.2.1<em>Data</em>Visualizer](images/image193.png)
+![4.4.2.1DataVisualizer](images/image193.png)
 
 Once you have the Data Visualizer app open, choose the Pivot
 table option:
 
-![4.4.2.2<em>Pivot</em>table](images/image297.png)
+![4.4.2.2Pivottable](images/image297.png)
 
 Then enter the following data:
 
@@ -1807,12 +1793,12 @@ Then enter the following data:
   - Select the Program indicators “SARAFacilities offering ANC” and
     “SARAfacilities offering Family Planning services”
 
-<!-- end list -->
+
 
   - Use the arrow pointing to the right to move them over to the
     Selected Data box
 
-<!-- end list -->
+
 
   - Then click Hide
 
@@ -1832,7 +1818,7 @@ Then enter the following data:
   - Select the Level “District”
   - Then click Hide
 
-![4.4.2.5<em>Organisation</em>units](images/image187.png)
+![4.4.2.5Organisationunits](images/image187.png)
 
   - To ensure we can view the facilities by district, change the layout
     around; bring the “Organization Unit” to the Rows dimension, and the
@@ -1868,9 +1854,9 @@ Provide the pivot table with a name and a description.
 Click on File > New. In the chart types drop down menu in the top left
 corner of the app, select “Line”
 
-![4.4.3.1<em>Line</em>chart](images/image352.png)
+![4.4.3.1Linechart](images/image352.png)
 
-  - For the Data dimension choose “Program indicators”
+  -   the Data dimension choose “Program indicators”
   - Select the program “Malaria Case Management”
   - Select the Program indicators “Malaria cases male,” “Malaria cases
     female,” and “Malaria cases”
@@ -1878,9 +1864,9 @@ corner of the app, select “Line”
 
 ![4.4.3.2_Data](images/image186.png)
 
-  - For the Period dimension, select:
+  -   the Period dimension, select:
 
-<!-- end list -->
+
 
   - “Fixed periods”
   - Period type “Monthly”
@@ -1893,17 +1879,17 @@ corner of the app, select “Line”
   - Then choose “Trainingland” as the Organisation Unit dimension
   - Then click Update
 
-![4.4.3.4<em>Organisation</em>units](images/image138.png)
+![4.4.3.4Organisationunits](images/image138.png)
 
  
 
-![4.4.3.5<em>Line</em>chart_results](images/image62.png)
+![4.4.3.5Linechart_results](images/image62.png)
 
 Now let’s compare the cases by district:
 
   - Change the graph type to a “Column” graph
 
-![4.4.3.6<em>Column</em>chart](images/image6.png)
+![4.4.3.6Columnchart](images/image6.png)
 
 Next, edit the layout:
 
@@ -1918,7 +1904,7 @@ Next, edit the layout:
 
 Then click Update.
 
-![4.4.3.9<em>Bar</em>chart](images/image179.png)
+![4.4.3.9Barchart](images/image179.png)
 
 Save this graph. Click File > Save.
 
@@ -1956,7 +1942,7 @@ Provide this graph with a name and description.
 
 ![4.4.4.1_Data](images/image122.png)
 
-  - For the Period dimension, select the period Fixed periods and the
+  -   the Period dimension, select the period Fixed periods and the
     Period type as “Yearly”
   - Then choose “2019” from the available list and move it to the
     Selected Data column
@@ -1977,7 +1963,7 @@ Provide this graph with a name and description.
 
 ![4.4.4.4_Layout](images/image107.png)
 
-![4.4.4.5<em>Results</em>](images/image31.png)
+![4.4.4.5Results](images/image31.png)
 
 Click on Favorites > Save. Provide this Pivot table with a name and a
 description.
@@ -1988,38 +1974,38 @@ description.
 
 #### Part 5 Activity: Analysis of Event Data & Combined Indicators using Maps
 
-For the last example in this subsection, we will be using the Maps app.
+  the last example in this subsection, we will be using the Maps app.
 
 From within the Data Visualizer app, click on the grid button in the
 upper right corner to open the Search apps feature.
 
 Search for and open the Maps app.
 
-![4.4.5.1<em>Maps</em>app](images/image348.png)
+![4.4.5.1Mapsapp](images/image348.png)
 
  
 
 Once within the Maps app, select “Bing Road” as the Basemap.
 
-![4.4.5.2<em>Bing</em>Rd](images/image81.png)
+![4.4.5.2BingRd](images/image81.png)
 
 Next, we’ll add the “Thematic” layer by clicking on Add layer, and then
 selecting “Thematic.”
 
-![4.4.5.3<em>Thematic</em>layer](images/image250.png)
+![4.4.5.3Thematiclayer](images/image250.png)
 
   - In the Data tab, select the Item type “Indicator”
   - Choose the Indicator group “Malaria” and the Indicator “Malaria case
     incidence per 10,000”
   - Leave Aggregation type as “By data element”
 
-![4.4.5.4<em>Data</em>tab](images/image86.png)
+![4.4.5.4Datatab](images/image86.png)
 
   - Within the Period tab select the Period type “Six-monthly”
   - Use the arrows to navigate to the year “2019,” and select the period
     “July - December 2019”
 
- ![4.4.5.5<em>Period</em>tab](images/image262.png)
+ ![4.4.5.5Periodtab](images/image262.png)
 
   - In the Org Units tab, ensure “Trainingland” is selected in the
     hierarchy, and use the Select levels option to choose the “District”
@@ -2029,12 +2015,12 @@ selecting “Thematic.”
 
 Click Add Layer.
 
-![4.4.5.6<em>Org</em>unit_tab](images/image48.png)
+![4.4.5.6Orgunit_tab](images/image48.png)
 
 Next, using the Add layer button, add an Event layer by selecting the
 Events option.
 
-![4.4.5.8<em>Events</em>layer](images/image329.png)
+![4.4.5.8Eventslayer](images/image329.png)
 
   - Under the Data tab select the Program and Stage as “Malaria Case
     Management”
@@ -2042,12 +2028,10 @@ Events option.
 
 ![4.4.5.9_Data](images/image37.png)
 
- 
-
   - In the Period tab of this layer, select the period “Start and end
     dates”
 
-<!-- end list -->
+
 
   - Use the Start date “July 1, 2019” and an End date of “December 31,
     2019”
@@ -2056,7 +2040,7 @@ Events option.
 
   - Select the Organization Unit “Trainingland”
 
-![4.4.5.11<em>Org</em>units](images/image217.png)
+![4.4.5.11Orgunits](images/image217.png)
 
   - Click on the Add Layer button to add this “Event Layer” to the Map
 
@@ -2202,9 +2186,6 @@ Event layer
   - Periods, start and end dates: “1 January 2019 - 31 December 2019”
   - Organization Units: “Trainingland”
   - Filter:
-
-<!-- end list -->
-
   - Data item: “Condition of patient”
   - Operator: “One of”
   - Option: “Severe”
