@@ -1473,9 +1473,9 @@ Under the **Filter** tab, click **Add filter**.
 Choose the **Data item** “Sex”, the Operator “one of”, and the Option
 "Female".
 
-Click on Add filter to add the second filter to specify the Malaria
-species type. Choose the Data item “Malaria species Type,” the
-Operator “one of,” and “Pf” as the Option.
+Click on **Add filter** to add the second filter to specify the Malaria
+species type. Choose the **Data item** “Malaria species Type,” the
+**Operator** “one of,” and “Pf” as the **Option**.
 
 ![4.3.5.8_Adding_Filter](images/image305.png)
 
@@ -1486,7 +1486,7 @@ appear under this layer’s heading in the column on the left.
   each event we would like to know what type of confirmation method
 has been used. To do this, we need to apply a data element style.
 
-In the Style tab, click on the Style by data element drop down list and
+In the **Style** tab, click on the _**Style by data element**_ drop down list and
 choose “Confirmation Method.”
 
 Notice that all of the options for confirmation method appear: “RDT,
@@ -1503,7 +1503,7 @@ Change the colors as follows:
 
 ![4.3.5.9_Style_MCM](images/image120.png)
 
-Click on Add Layer.
+Click on **Add Layer**.
 
 The map now displays the “female” cases of malaria infected with the
 “Pf” species that occurred in the “Insect District” between “July
@@ -1519,7 +1519,7 @@ middle of the cluster represents the total number of cases by cluster,
 and the different colored rings represent the percentage of each
 confirmation method.
 
-Click on the File > Save. Give the map a name with your initials and a
+Click on the **File > Save**. Give the map a name with your initials and a
 description.
 
 An example is shown below.
@@ -1535,7 +1535,7 @@ An example is shown below.
 Now that we have all of the maps from the 3 tasks in this demonstration
 saved, let’s add them to a dashboard.
 
-Search for the Dashboard app in the apps menu then select it.
+Search for the **Dashboard** app in the apps menu then select it.
 
 ![4.3.6.1__Dashboard_app](images/image44.png)
 
@@ -1548,14 +1548,14 @@ Provide the new dashboard with a name. See an example below.
 
 ![4.3.6.3_Malaria_Case_Management_Maps](images/image165.png)
 
-Now in the Search for items to add to this dashboard tab, type in the
+Now in the **Search for items to add to this dashboard** tab, type in the
 individual names of the maps you just created and click on the
 insert button at the right of the name.
 
 ![4.3.6.5_Search_Dashboard](images/image294.png)
 
 Once you have clicked “insert” for all of the relevant maps, click on
-Save changes at the top of the page.
+**Save changes** at the top of the page.
 
 ![4.3.6.6_Save_Changes](images/image134.png)
 
@@ -1573,30 +1573,28 @@ The maps you’ve just added are now available on your dashboard.
 
 #### GRADED ASSIGNMENT - MAPS
 
-This is a graded assignment and it is worth 10% of your final grade.
+This is a **graded assignment** and it is worth **10%** of your final grade.
 
-You have 2 attempts to pass each question.
+You have **2 attempts** to pass each question.
 
 If you are not sure about the steps you followed in the assignment to
-get to the correct answer, click on the "hint" button to see some tips.
+get to the correct answer, click on the "**hint**" button to see some tips.
 
 If you want to save your current response without submitting it for
-grading yet, select the "save" button. This allows you to come back
+grading yet, select the "**save**" button. This allows you to come back
 later and resume the attempt.
 
-Select the "check" button to submit your answers.
-
-#### 
+Select the "**check**" button to submit your answers.
 
 #### INSTRUCTIONS
 
-1.    this assignment, answer questions using the Maps app
-2.  Use the “Malaria Case Management” program and stage
-3.  You will be marked based on the answers selected through multiple
-    choice. To determine the answers, you must create the associated
-    table described in the details section.
-4.  Save all tables as Favorites, using the convention:
-    username_program_what, where, when
+1. For this assignment, answer questions using the **Maps** app
+2. Use the “Malaria Case Management” **program** and **stage**
+3. You will be marked based on the answers selected through multiple
+   choice. To determine the answers, you must create the associated
+   table described in the details section.
+4. Save all tables as Favorites, using the convention:
+    **username_program_what, where, when**
 
  Click here for a printable version of this assignment.
 
@@ -1606,13 +1604,11 @@ Create an event layer map for all of Trainingland that shows pregnant
 women with severe malaria. Make sure that the district boundary layer is
 present along with the labels for the district layer.
 
-  - Basemap: Bing Road
-  - Program/Program Stage: “Malaria Case Management”
-  - Period: “January 1 2019 - December 31 2019”
-  - Organisation Unit: “Trainingland”
-  - Data Element Filters:
-
-
+  - **Basemap**: Bing Road
+  - **Program/Program Stage**: “Malaria Case Management”
+  - **Period**: “January 1 2019 - December 31 2019”
+  - **Organisation Unit**: “Trainingland”
+  - **Data Element** Filters:
 
   - “Pregnant = Yes”
   - “MCM|Condition of Patient = Severe”
@@ -1644,11 +1640,11 @@ Create a map for "Cat District" showing all the malaria medicine types
 from January 31 2019 to Dec 31 2019. The map will be more meaningful if
 you add the district boundary for Cat District.
 
-  - Basemap: Bing Road
-  - Program/Program Stage: “Malaria Case Management”
-  - Period: “January 31 2019 - December 31 2019”
-  - Organisation Unit: “Cat District”
-  - Data Element Filters: “MCM|Malaria medicine Type”
+  - **Basemap**: Bing Road
+  - **Program/Program Stage**: “Malaria Case Management”
+  - **Period**: “January 31 2019 - December 31 2019”
+  - **Organisation Unit**: “Cat District”
+  - **Data Element Filters**: “MCM|Malaria medicine Type”
 
 ![4.3.2.1_Quiz](images/image211.png)
 
@@ -1686,21 +1682,15 @@ Create a map of malaria cases filtering the data by the condition of the
 patient, the confirmation method and gender. Also apply a data element
 style using the confirmation method data.
 
-  - Basemap: Bing Road
-  - Program/Program Stage: “Malaria Case Management”
-  - Period: “July 01 2019 - December 31 2019”
-  - Organisation Unit: “Fruit District”
-  - Data Element Filters:
-
-
-
-  - “MCM|Confirmation Method" = "Both", "Microscopy" and "RDT”
-  - “MCM|Condition of Patient" = "Simple”
-  - “Sex" = "Male”
-
-
-
-  - Data element style should be on: “MCM|Confirmation Method”
+  - **Basemap**: Bing Road
+  - **Program/Program Stage**: “Malaria Case Management”
+  - **Period**: “July 01 2019 - December 31 2019”
+  - **Organisation Unit**: “Fruit District”
+  - **Data Element Filters**:
+    - “MCM|Confirmation Method" = "Both", "Microscopy" and "RDT”
+    - “MCM|Condition of Patient" = "Simple”
+    - “Sex" = "Male”
+  - **Data element** style should be on: “MCM|Confirmation Method”
 
 What is the most common confirmation method used in "Fruit District"
 to detect simple malaria cases who are male?
@@ -1746,12 +1736,12 @@ and maps app in DHIS2.
 Subsection 4.4 has 6 units for you to review. We recommend that you
 review these units in order.
 
-1.  Presentation - Introduction of Joint Analysis
-2.  Demonstration - Analysis of Program Indicators Using a Pivot Table
-3.  Demonstration - Analysis of Program Indicators Using a Chart
-4.  Demonstration - Analysis of Aggregate Data, Program Indicators and
-    Combined Indicators
-5.  Demonstration - Analysis of Event Data & Combined Indicators using
+1. Presentation - Introduction of Joint Analysis
+2. Demonstration - Analysis of Program Indicators Using a Pivot Table
+3. Demonstration - Analysis of Program Indicators Using a Chart
+4. Demonstration - Analysis of Aggregate Data, Program Indicators and
+   Combined Indicators
+5. Demonstration - Analysis of Event Data & Combined Indicators using
     Maps
 
 ##### Ungraded Activities
@@ -1772,58 +1762,52 @@ quiz will contribute to 10% of your overall grade.
 
 #### Video - Joint Analysis of Event & Aggregate Data Demonstration Part 2 of 5
 
-#### Part 2 Activity: Analysis of Program Indicators in Data Visualizer App Using a Pivot Table
+#### Part 2 Activity: Analysis of Program Indicators in Data Visualizer App  Using a Pivot Table
 
-Navigate to the Data Visualizer app.
+Navigate to the **Data Visualizer** app.
 
-Search for the Data Visualizer app in the search apps field, then click
+Search for the **Data Visualizer** app in the **search apps field**, then click
 on the app.
 
 ![4.4.2.1DataVisualizer](images/image193.png)
 
-Once you have the Data Visualizer app open, choose the Pivot
-table option:
+Once you have the **Data Visualizer** app open, choose the **Pivot
+table** option:
 
 ![4.4.2.2Pivottable](images/image297.png)
 
 Then enter the following data:
 
-  - Under the Data tab choose “Program indicators”
-  - Select the Program “SARA RCH”
-  - Select the Program indicators “SARAFacilities offering ANC” and
+  - Under the **Data** tab choose “Program indicators”
+  - Select the **Program** “SARA RCH”
+  - Select the **Program indicators** “SARAFacilities offering ANC” and
     “SARAfacilities offering Family Planning services”
-
-
-
-  - Use the arrow pointing to the right to move them over to the
-    Selected Data box
-
-
-
-  - Then click Hide
+    - Use the arrow pointing to the right to move them over to the
+    **Selected Data** box
+  - Then click **Hide**
 
 ![4.4.2.3_Data](images/image195.png)
 
-  - Under the Period dimension, select the period type ”Fixed periods,”
+  - Under the **Period** dimension, select the period type ”Fixed periods,”
     the period type “Yearly” and the year “2020”. Make sure to move
-    “2020” to the Selected Data column using the arrow pointing to the
+    “2020” to the **Selected Data** column using the arrow pointing to the
     right
-  - Remove “Last 12 Months” from the Selected Data column
-  - Then click Hide
+  - Remove “Last 12 Months” from the **Selected Data** column
+  - Then click **Hide**
 
 ![4.4.2.4_Period](images/image316.png)
 
-  - In the Organization Unit dimension, ensure “Trainingland” is
+  - In the **Organization Unit** dimension, ensure “Trainingland” is
     selected in the hierarchy
-  - Select the Level “District”
-  - Then click Hide
+  - Select the **Level** “District”
+  - Then click **Hide**
 
 ![4.4.2.5Organisationunits](images/image187.png)
 
   - To ensure we can view the facilities by district, change the layout
-    around; bring the “Organization Unit” to the Rows dimension, and the
-    “Period” into the Filter dimension
-  - Click Update
+    around; bring the “Organization Unit” to the **Rows** dimension, and the
+    “Period” into the **Filter** dimension
+  - Click **Update**
 
 ![4.4.2.6_Layout](images/image282.png)
 
@@ -1831,7 +1815,7 @@ Then enter the following data:
     Options tab we can select the “Hide empty rows” and then select
     “Column totals” to view the total number of facilities that
     provide ANC or family planning services
-  - Next, click Update
+  - Next, click **Update**
 
 ![4.4.2.7_Options](images/image274.png)
 
@@ -1839,7 +1823,7 @@ Then enter the following data:
 
 ![4.4.2.8_Results](images/image227.png)
 
-Click on File > Save.
+Click on **File > Save**.
 
 Provide the pivot table with a name and a description.
 
@@ -1851,33 +1835,30 @@ Provide the pivot table with a name and a description.
 
 #### Part 3 Activity: Analysis of Program Indicators in Data Visualizer App Using a Chart
 
-Click on File > New. In the chart types drop down menu in the top left
+Click on **File > New**. In the chart types drop down menu in the top left
 corner of the app, select “Line”
 
 ![4.4.3.1Linechart](images/image352.png)
 
-  -   the Data dimension choose “Program indicators”
-  - Select the program “Malaria Case Management”
-  - Select the Program indicators “Malaria cases male,” “Malaria cases
+  - For the **Data** dimension choose “Program indicators”
+  - Select the **program** “Malaria Case Management”
+  - Select the **Program indicators** “Malaria cases male,” “Malaria cases
     female,” and “Malaria cases”
-  - Click Hide
+  - Click **Hide**
 
 ![4.4.3.2_Data](images/image186.png)
 
-  -   the Period dimension, select:
-
-
-
-  - “Fixed periods”
-  - Period type “Monthly”
-  - Year “2019”
-  - “July - December2019”
-  - Deselect “Last 12 months”
+  - For the **Period** dimension, select:
+    - “Fixed periods”
+    - Period type “Monthly”
+    - Year “2019”
+    - “July - December2019”
+    - Deselect “Last 12 months”
 
 ![4.4.3.3_Period](images/image32.png)
 
-  - Then choose “Trainingland” as the Organisation Unit dimension
-  - Then click Update
+  - Then choose “Trainingland” as the **Organisation Unit** dimension
+  - Then click **Update**
 
 ![4.4.3.4Organisationunits](images/image138.png)
 
@@ -1893,12 +1874,12 @@ Now let’s compare the cases by district:
 
 Next, edit the layout:
 
-  - Move the “Period” dimension to the Filter
-  - Move the “Organization Unit” dimension to the Category
+  - Move the “Period” dimension to the **Filter**
+  - Move the “Organization Unit” dimension to the **Category**
 
 ![4.4.3.7_Layout](images/image47.png)
 
-  - Edit the Organization unit level to show “District”
+  - Edit the **Organization unit** level to show “District”
 
 ![](images/image89.png)
 
@@ -1906,11 +1887,9 @@ Then click Update.
 
 ![4.4.3.9Barchart](images/image179.png)
 
-Save this graph. Click File > Save.
+Save this graph. Click **File > Save**.
 
 Provide this graph with a name and description.
-
-### 
 
 ### Demonstration - Analysis of Aggregate Data, Program Indicators and Combined Indicators
 
@@ -1918,54 +1897,47 @@ Provide this graph with a name and description.
 
 #### Part 4 Activity: Analysis of Aggregate Data Elements, Program Indicators and Combined Indicators in Data Visualizer App
 
-  - First, File > New
-  - Choose the Pivot Table option under graph types
+  - First, **File > New**
+  - Choose the **Pivot Table** option under graph types
+  - Under **Data Type** choose “Program indicators”
+  - Select the **Program** “Malaria Case Management”
+  - Select the **Program indicator** “Malaria cases”
 
- 
-
-  - Under Data Type choose “Program indicators”
-  - Select the Program “Malaria Case Management”
-  - Select the Program indicator “Malaria cases”
-
- 
-
-  - Second, under Data Type choose “Data elements”
-  - Select the data element group “Primary Health Care Yearly”
+  - Second, under **Data Type** choose “Data elements”
+  - Select the **data element group** “Primary Health Care Yearly”
   - Select “Total Population”
 
- 
-
-  - Third, choose the Data Type “Indicators”
+  - Third, choose the **Data Type** “Indicators”
   - Choose the indicator group “Malaria”
   - Select “Malaria case incidence per 10,000”
-  - Click Hide.
+  - Click **Hide**.
 
 ![4.4.4.1_Data](images/image122.png)
 
-  -   the Period dimension, select the period Fixed periods and the
+  - For the **Period** dimension, select the period **Fixed periods** and the
     Period type as “Yearly”
   - Then choose “2019” from the available list and move it to the
-    Selected Data column
-  - Remove “Last 12 months” from the Selected Data column
-  - Then click Hide
+    **Selected Data** column
+  - Remove “Last 12 months” from the **Selected Data** column
+  - Then click **Hide**
 
  
 
 ![4.4.4.2_Period](images/image13.png)
 
-  - In the Organization Unit dimension, ensure “Trainingland” is
+  - In the **Organization Unit** dimension, ensure “Trainingland” is
     selected in the hierarchy
-  - Select the Level “District”
-  - Then click Hide ![4.4.4.3_District](images/image188.png)
-  - Change the layout around and esure: “Period” under Filter,
-    “Organisation Unit” under Row and “Data” under Columns
-  - Click Update
+  - Select the **Level** “District”
+  - Then click **Hide** ![4.4.4.3_District](images/image188.png)
+  - Change the layout around and esure: “Period” under **Filter**,
+    “Organisation Unit” under **Row** and “Data” under **Columns**
+  - Click **Update**
 
 ![4.4.4.4_Layout](images/image107.png)
 
 ![4.4.4.5Results](images/image31.png)
 
-Click on Favorites > Save. Provide this Pivot table with a name and a
+Click on **Favorites > Save**. Provide this Pivot table with a name and a
 description.
 
 ### Demonstration -  Analysis of Event Data & Combined Indicators using Maps
@@ -1974,86 +1946,81 @@ description.
 
 #### Part 5 Activity: Analysis of Event Data & Combined Indicators using Maps
 
-  the last example in this subsection, we will be using the Maps app.
+  the last example in this subsection, we will be using the **Maps app**.
 
-From within the Data Visualizer app, click on the grid button in the
-upper right corner to open the Search apps feature.
+From within the **Data Visualizer app**, click on the grid button in the
+upper right corner to open the **Search apps** feature.
 
-Search for and open the Maps app.
+Search for and open the **Maps app**.
 
 ![4.4.5.1Mapsapp](images/image348.png)
 
- 
-
-Once within the Maps app, select “Bing Road” as the Basemap.
+Once within the **Maps app**, select “Bing Road” as the Basemap.
 
 ![4.4.5.2BingRd](images/image81.png)
 
-Next, we’ll add the “Thematic” layer by clicking on Add layer, and then
+Next, we’ll add the “Thematic” layer by clicking on **Add layer**, and then
 selecting “Thematic.”
 
 ![4.4.5.3Thematiclayer](images/image250.png)
 
-  - In the Data tab, select the Item type “Indicator”
-  - Choose the Indicator group “Malaria” and the Indicator “Malaria case
+  - In the Data tab, select the **Item type** “Indicator”
+  - Choose the **Indicator group** “Malaria” and the **Indicator** “Malaria case
     incidence per 10,000”
-  - Leave Aggregation type as “By data element”
+  - Leave **Aggregation type** as “By data element”
 
 ![4.4.5.4Datatab](images/image86.png)
 
-  - Within the Period tab select the Period type “Six-monthly”
+  - Within the **Period** tab select the **Period type** “Six-monthly”
   - Use the arrows to navigate to the year “2019,” and select the period
     “July - December 2019”
 
  ![4.4.5.5Periodtab](images/image262.png)
 
-  - In the Org Units tab, ensure “Trainingland” is selected in the
-    hierarchy, and use the Select levels option to choose the “District”
+  - In the **Org Units** tab, ensure “Trainingland” is selected in the
+    hierarchy, and use the **Select levels** option to choose the “District”
     level
 
 ![](images/image48.png)
 
-Click Add Layer.
+Click **Add Layer**.
 
 ![4.4.5.6Orgunit_tab](images/image48.png)
 
-Next, using the Add layer button, add an Event layer by selecting the
-Events option.
+Next, using the **Add layer** button, add an Event layer by selecting the
+**Events option**.
 
 ![4.4.5.8Eventslayer](images/image329.png)
 
-  - Under the Data tab select the Program and Stage as “Malaria Case
+  - Under the **Data tab** select the **Program** and **Stage** as “Malaria Case
     Management”
-  - Under Coordinate field leave the selection “Event location”
+  - Under **Coordinate field** leave the selection “Event location”
 
 ![4.4.5.9_Data](images/image37.png)
 
-  - In the Period tab of this layer, select the period “Start and end
+  - In the **Period** tab of this layer, select the period “Start and end
     dates”
-
-
-
-  - Use the Start date “July 1, 2019” and an End date of “December 31,
+    - Use the **Start date** “July 1, 2019” and an **End date** of “December 31,
     2019”
 
 ![4.4.5.10_Period](images/image76.png)
 
-  - Select the Organization Unit “Trainingland”
+  - Select the **Organization Unit** “Trainingland”
 
 ![4.4.5.11Orgunits](images/image217.png)
 
-  - Click on the Add Layer button to add this “Event Layer” to the Map
+  - Click on the **Add Layer** button to add this “Event Layer” to the Map
 
 ![4.4.5.12_Results](images/image79.png)
 
-Click on File > Save.
+Click on **File > Save**.
 
 ### Takeaways from Module 4
 
 #### Recap, reflect and share
 
-What new ideas have you come up with in this module? What doubts do you
-have?
+**What new ideas have you come up with in this module? What doubts do you
+have?**
 
 Even though most of the contents of the course are aimed for you to get
 familiar with the DHIS2 features, the end goal is for you to relate what
@@ -2067,40 +2034,40 @@ with your peers and learn from them.
 
 #### Graded Assignment - Joint Analysis of Event & Aggregate Data
 
-This is a graded assignment and it is worth 10% of your final grade.
+This is a **graded assignment** and it is worth **10%** of your final grade.
 
-You have 2 attempts to pass each question.
+You have **2 attempts** to pass each question.
 
 If you are not sure about the steps you followed in the assignment to
-get to the correct answer, click on the "hint" button to see some tips.
+get to the correct answer, click on the "**hint**" button to see some tips.
 
 If you want to save your current response without submitting it for
-grading yet, select the "save" button. This allows you to come back
+grading yet, select the "**save**" button. This allows you to come back
 later and resume the attempt.
 
-Select the "check" button to submit your answers.
+Select the "**check**" button to submit your answers.
 
 #### Instructions
 
-1.  You will be marked based on the answers selected through multiple
+1. You will be marked based on the answers selected through multiple
     choice. To determine the answers, you must create the associated
     table described in the details section.
-2.  Save all tables as Favorites, using the convention:
-    username_program_what, where, when
+2. Save all tables as Favorites, using the convention:
+    **username_program_what, where, when**
 
  Click here for a printable version of this assignment.
 
 ##### Question 1: Details
 
-  - Visualization App: Data Visualizer
-  - Visualization Type: Column
-  - Data Type: Program indicators
-  - Program and Program Stage: “SARA RCH program”
-  - Program Indicators: “Staff received adolescent health training”,
+  - **Visualization App**: Data Visualizer
+  - **Visualization Type**: Column
+  - **Data Type**: Program indicators
+  - **Program and Program Stage**: “SARA RCH program”
+  - **Program Indicators**: “Staff received adolescent health training”,
     “Staff received ANC training”, “Staff received family planning
     training”, “Staff received IPTp training”
-  - Period: “2020”
-  - Organization Unit: “Trainingland”
+  - **Period**: “2020”
+  - **Organization Unit**: “Trainingland”
 
 In Trainingland, in 2020, what type of training was delivered to the
 greatest number of staff?
@@ -2131,13 +2098,13 @@ and “Organization units” should be filtered out of the graph.||
 
 ##### Question 2: Details
 
-  - Visualization App: Data Visualizer
-  - Visualization Type: Pivot table
-  - Data Type: Program indicators
-  - Program and Program Stage: “Malaria Case Management”
-  - Program Indicators: “Malaria deaths", "Malaria cases severe”
-  - Period: “2019”
-  - Organization Units: Districts in "Trainingland"
+  - **Visualization App**: Data Visualizer
+  - **Visualization Type**: Pivot table
+  - **Data Type**: Program indicators
+  - **Program and Program Stage**: “Malaria Case Management”
+  - **Program Indicators**: “Malaria deaths", "Malaria cases severe”
+  - **Period**: “2019”
+  - **Organization Units**: Districts in "Trainingland"
 
 Which district has less than 100 “malaria deaths” and more than 250
  “Malaria cases severe?”
@@ -2166,29 +2133,29 @@ should be under Column dimensions.||
 
 ##### Question 3: Details
 
-Visualization App: Maps
+**Visualization App**: Maps
 
-Basemap
+**Basemap**
 
   - “Bing Road”
 
-Thematic layer
+**Thematic layer**
 
-  - Value type: “Indicator”
-  - Indicator group: “Malaria”
-  - Indicator: “Malaria case incidence per 10,000”
-  - Period: “Yearly", "2019”
-  - Organization unit: “Trainingland,” “District level”
+  - **Value type**: “Indicator”
+  - **Indicator group**: “Malaria”
+  - **Indicator**: “Malaria case incidence per 10,000”
+  - **Period**: “Yearly", "2019”
+  - **Organization unit**: “Trainingland,” “District level”
 
-Event layer
+**Event layer**
 
-  - Program and Program Stage: “Malaria Case Management”
-  - Periods, start and end dates: “1 January 2019 - 31 December 2019”
-  - Organization Units: “Trainingland”
-  - Filter:
-  - Data item: “Condition of patient”
-  - Operator: “One of”
-  - Option: “Severe”
+  - **Program and Program Stage**: “Malaria Case Management”
+  - **Periods, start and end dates**: “1 January 2019 - 31 December 2019”
+  - **Organization Units**: “Trainingland”
+  - **Filter**:
+  - **Data item**: “Condition of patient”
+  - **Operator**: “One of”
+  - **Option**: “Severe”
 
 In the district with the highest incidence of malaria, what was the
 treatment outcome of the northern most severe case?

@@ -36,11 +36,11 @@ You will be performing 1 ungraded activity in each of subsection 5.1 and
 5.2 within the second unit of each of these subsections. Activities will
 be identified within the subsection themselves. In subsection 5.3, you
 will be performing activities for units 2-11. There is therefore a total
-of 12 activities that you will perform within this module.
+of **12 activities** that you will perform within this module.
 
 ##### Assignments
 
-You will have 1 graded assignment in the form of hands-on exercises that
+You will have **1 graded assignment** in the form of hands-on exercises that
 you must perform in subsection 5.3. This assignment contributes to 30%
 of your overall grade.
 
@@ -55,7 +55,7 @@ Account Creation - Customization.
 
 This is the most technical module of our course and time to complete
 this module will likely be variable depending on your background. This
-module should take you approximately 7 hours in total to review all of
+module should take you approximately **7 hours** in total to review all of
 the content, perform the ungraded activities and finish the graded
 assignment as identified in the course outline.
 
@@ -64,11 +64,8 @@ assignment as identified in the course outline.
 #### Instructions - Account Creation on Customization
 
 In order to perform the exercises and assignments within Module 5, you
-will be accessing the CUSTOMIZATION DHIS2 system. The
-CUSTOMIZATION system is very different then CAPTURE and ANALYSIS. In
-CUSTOMIZATION you will have elevated authority, as you will be allowed
-to access the maintenance app and create meta-data within this system.
-You can see the apps you will have access to in the screenshot below.
+will be accessing the **CUSTOMIZATION** DHIS2 system. The
+**CUSTOMIZATION** system is very different then **CAPTURE** and **ANALYSIS**. In **CUSTOMIZATION** you will have elevated authority, as you will be allowed to access the maintenance app and create meta-data within this system. You can see the apps you will have access to in the screenshot below.
 
 ![Customization Apps](images/image307.png)
 
@@ -153,8 +150,8 @@ understood when customization event programs in DHIS2.
 Subsection 5.1 has 2 units for you to review. We recommend that you
 review these units in order.
 
-1.  Presentation - Event Programs : Key Terms & Conceptual Overview
-2.  Presentation - Data Elements, Options and Option Sets: Key Terms,
+1. Presentation - Event Programs : Key Terms & Conceptual Overview
+2. Presentation - Data Elements, Options and Option Sets: Key Terms,
     Conceptual Overview & Application
 
 ##### Ungraded Activities
@@ -176,7 +173,7 @@ There is no graded assignment associated with subsection 5.1.
 #### Knowledge Check
 
 Please complete the questions below as the activity for this session.
-Note that this is not a graded assignment, it is only meant to
+Note that this is **not a graded assignment**, it is only meant to
 re-enforce the concepts that have been discussed in this session. You
 can attempt the questions as many times as you need. If you find after 2
 attempts that you are unable to answer a question, it may be a good idea
@@ -298,9 +295,9 @@ programs that we have been reviewing in this course.
 Subsection 5.2 has 2 units for you to review. We recommend that you
 review these units in order.
 
-1.  Presentation - Events vs. Aggregate Data Dimensions & Applying Data
+1. Presentation - Events vs. Aggregate Data Dimensions & Applying Data
     Model to SARA Survey
-2.  Presentation - Event Model Indicators & Applying Data Model to
+2. Presentation - Event Model Indicators & Applying Data Model to
     Malaria Case Management
 
 ##### Ungraded Activities
@@ -329,10 +326,10 @@ model.
 In order to do this, we will need to consider the following items for
 this registry and map them to the DHIS2 data model:
 
-1.  What are the data elements?
-2.  What are the data element value types?
-3.  Are there any option sets?
-4.  What are the options included in those option sets?
+1. What are the data elements?
+2. What are the data element value types?
+3. Are there any option sets?
+4. What are the options included in those option sets?
 
 To complete this activity, download the Cholera line list form here:
 [Cholera line
@@ -348,7 +345,7 @@ documentation when entering the data element value types: [Data
 element](https://www.google.com/url?q=https://docs.dhis2.org/master/en/user/html/dhis2_user_manual_en_full.html%23create_data_element&sa=D&ust=1605291870454000&usg=AOvVaw0fbxUXRuHlDl8GRjhN-L2z)
 
 We have provided the completed template
-[here](https://www.google.com/url?q=https://studio.academy.dhis2.org/assets/courseware/8b05ca893c501134cd8256e0c495c247/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock/5_2_2_Activities_Link_4_Cholera_Line_List_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870455000&usg=AOvVaw1ljnxMYp5_sBHYmbZIfRs4) to
+[here](https://www.google.com/url?q=https://studio.academy.dhis2.org/assets/courseware/8b05ca893c501134cd8256e0c495c247/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock/5_2_2_Activities_Link_4_Cholera_Line_List_Data_Model_Template_Filled.xlsx&sa=D&ust=1605291870455000&usg=AOvVaw1ljnxMYp5_sBHYmbZIfRs4to
 check you have completed the activity correctly, but please do not
 download the completed template until you have tried this exercise on
 your own.
@@ -367,15 +364,15 @@ program much easier; please ensure you have reviewed subsection 5.1 and
 Subsection 5.3 has 11 units for you to review. We recommend that you
 review these units in order.
 
-1.  Presentation - Introduction to the Demo Tasks
-2.  Demonstration - Review Program in Capture App
-3.  Demonstration - Identify & Create Option Sets
-4.  Demonstration - Creating Data Elements
-5.  Demonstration - Creating a Data Element Group
-6.  Demonstration - Creating Event Program Details
-7.  Demonstration - Assign Data Elements to the Program
-8.  Demonstration - Create the Data Entry Form
-9.  Demonstration - Assign Program to Organization Units
+1. Presentation - Introduction to the Demo Tasks
+2. Demonstration - Review Program in Capture App
+3. Demonstration - Identify & Create Option Sets
+4. Demonstration - Creating Data Elements
+5. Demonstration - Creating a Data Element Group
+6. Demonstration - Creating Event Program Details
+7. Demonstration - Assign Data Elements to the Program
+8. Demonstration - Create the Data Entry Form
+9. Demonstration - Assign Program to Organization Units
 10. Presentation - Sharing Settings
 11. Demonstration - Sharing Settings
 
@@ -413,10 +410,7 @@ Password: District1#
 International Classification of Diseases, 10th revision (ICD-10) is a
 medical classification of diseases that is published by the World Health
 Organization. The Event Program we will create in this subsection is the
-[ICD-10
-Register](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@5.3.2_ICD10_Register.xlsx&sa=D&ust=1605291870461000&usg=AOvVaw1NgQVMF_MaI2m3GkMy2Mjv),
-which captures information on patient morbidities and mortalities,
-following the ICD-10 classifications.
+[ICD-10 Register](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@5.3.2_ICD10_Register.xlsx&sa=D&ust=1605291870461000&usg=AOvVaw1NgQVMF_MaI2m3GkMy2Mjv), which captures information on patient morbidities and mortalities, following the ICD-10 classifications.
 
 To see how this form has been made into an Event Program already, open
 the Capture app.
@@ -446,25 +440,17 @@ The event registration form has the following sections:
 
 ![5.3.2.5_Basic_info](images/image51.png)
 
- 
-
   - Patient Details
 
 ![5.3.2.6_Patient_Details](images/image301.png)
-
- 
 
   - Admission Details
 
 ![5.3.2.7_Admission_Details](images/image272.png)
 
- 
-
   - ICD-10 Diagnosis
 
 ![5.3.2.8_ICD-10_Diagnosis](images/image153.png)
-
- 
 
 Notice the “ICD-10 diagnosis” data element with the options available in
 the drop down list.
@@ -598,11 +584,10 @@ You should see that both Options Sets should now be available:
 Since we have created the options sets, the next step is to create the
 data elements.
 
-The [DHIS2
-Documentation](https://www.google.com/url?q=https://docs.dhis2.org/master/en/user/html/dhis2_user_manual_en_full.html%23create_data_element&sa=D&ust=1605291870477000&usg=AOvVaw1ctrlJsAnib_gZJw8RLdBn) describes
-each of the available fields in data element creation. Not all of them
-are required when creating a data element; but you can refer to the link
-if you want to understand each field in more detail.
+The [DHIS2 Documentation](https://www.google.com/url?q=https://docs.dhis2.org/master/en/user/html/dhis2_user_manual_en_full.html%23create_data_element&sa=D&ust=1605291870477000&usg=AOvVaw1ctrlJsAnib_gZJw8RLdBn)
+describes each of the available fields in data element creation.
+Not all of them are required when creating a data element; but you can
+refer to the link if you want to understand each field in more detail.
 
 We have filled out a template to identify all of the various components
 we have discussed in line with our DHIS2 data model. Use the template to
@@ -641,8 +626,6 @@ Data Element to capture pregnancy status:
   - Value Type: “Yes/No”
   - Aggregation type: “Sum”
   - Click Save
-
- 
 
 Data Element to capture height (in cm):
 
@@ -688,9 +671,6 @@ details:
   - Name: “Your username_ICD-10 Register (Tracker)”
   - Assign the following Data Elements to the group by moving them from
     the box on the left to the box on the right:
-
-<!-- end list -->
-
   - Your username_Sex
   - Your username_Pregnant
   - Your username_Height (in cm)
@@ -727,11 +707,11 @@ hand corner of the program management screen and choose Event Program.
 
 The following page will appear with a timeline of steps at the top:
 
-1.  Add program details
-2.  Assign data elements
-3.  Create data entry form
-4.  Access
-5.  Create notifications
+1. Add program details
+2. Assign data elements
+3. Create data entry form
+4. Access
+5. Create notifications
 
 ![5.3.5.4_Add_program_details](images/image280.png)
 
@@ -860,8 +840,6 @@ the following details:
   - Name: “Admission details”
 
 Click on Add.
-
- 
 
 Then add the data elements to the section.
 
@@ -1007,8 +985,6 @@ button and selecting:
 
 Click Apply.
 
- 
-
 ![5.3.9.3_Apply](images/image318.png)
 
 Ensure that the sharing settings from the program are the same as the
@@ -1095,9 +1071,8 @@ becomes critical to track each case during the elimination phase.
 In order to record each case, the malaria program has asked you to take
 the case management register and implement an event program to capture
 this data. Please refer to the accompanying [malaria event program
-registry
-spreadsheet](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@Malaria_Event_Program_Registry.xlsx&sa=D&ust=1605291870516000&usg=AOvVaw2bWC0W806q2Sg-bwE0zRhY) that
-has been provided.
+registry spreadsheet]
+(https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@Malaria_Event_Program_Registry.xlsx&sa=D&ust=1605291870516000&usg=AOvVaw2bWC0W806q2Sg-bwE0zRhY) that has been provided.
 
 As a first step, you should identify the data elements, data element
 value types, options and option sets that are required to build the form
@@ -1116,15 +1091,15 @@ understanding of how to perform this in practice.
 When you have done this and are ready to create the program, this is the
 rough guide to follow in DHIS2:
 
-1.  Identify and create option sets and options
-2.  Create data elements with domain type “Tracker”
-3.  Add the data elements to a data element group
-4.  Create an event program - make sure to include "Malaria" in the
+1. Identify and create option sets and options
+2. Create data elements with domain type “Tracker”
+3. Add the data elements to a data element group
+4. Create an event program - make sure to include "Malaria" in the
     title.
-5.  Add the data elements to the program
-6.  Create a section based form
-7.  Assign the program to your organization unit
-8.  Assign sharing settings to the program
+5. Add the data elements to the program
+6. Create a section based form
+7. Assign the program to your organization unit
+8. Assign sharing settings to the program
 
 You can track the progress of each step of the assignment by using the
 "progress" section within this module.
@@ -1144,7 +1119,7 @@ questions directly using the forum.
 
 One of the option sets has been made for you:
 
-1.  “Blood Test Result”
+1. “Blood Test Result”
 
 You may use this when you complete your assignment.
 
@@ -1153,14 +1128,14 @@ have access to from the previous ICD-10 activity. In the course of the
 activity, at minimum, you would have created the following data elements
 that also belong to the malaria case management register event program:
 
-1.  “Your username_Sex”
-2.  “Your username_Height”
+1. “Your username_Sex”
+2. “Your username_Height”
 
 Data elements that you already interacted with that are also in the
 malaria program include:
 
-1.  “Weight (in Kg)”
-2.  “Age”
+1. “Weight (in Kg)”
+2. “Age”
 
 “Blood Test Result” has also already been created for you to accompany
 the option set that is also available.
@@ -1194,14 +1169,14 @@ into the following sections (these sections are taken directly from the
 spreadsheet](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@Malaria_Event_Program_Registry.xlsx&sa=D&ust=1605291870522000&usg=AOvVaw1eJrHSD1ya_WGh_lNJbAFh) that
 has been provided):
 
-1.  “Patient Details”
-2.  “Diagnostic Test”
-3.  “Treatment Prescribed”
-4.  “Patient Outcome”
+1. “Patient Details”
+2. “Diagnostic Test”
+3. “Treatment Prescribed”
+4. “Patient Outcome”
 
 Place the data elements into these sections based on how they are
 grouped in the [malaria event program registry
-spreadsheet](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@Malaria_Event_Program_Registry.xlsx&sa=D&ust=1605291870524000&usg=AOvVaw1PQOsaFthMdtWTQnTaRPNl) .
+spreadsheet](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HISP%2BD2EVENTS100%2BQ2_2020%2Btype@asset%2Bblock@Malaria_Event_Program_Registry.xlsx&sa=D&ust=1605291870524000&usg=AOvVaw1PQOsaFthMdtWTQnTaRPNl).
 For the latitude and longitude, this will appear at the beginning of the
 form if you select the feature type for the program as “point” as shown
 in the video demonstrations.
@@ -1225,15 +1200,15 @@ activity.
 
 Make sure you have performed the outlined steps:
 
-1.  Review the program design
-2.  Identify and create option sets and options
-3.  Create data elements with domain type “Tracker”
-4.  Add the data elements to a data element group
-5.  Create an event program
-6.  Add the data elements to the program
-7.  Create a section based form
-8.  Assign the program to your organization unit
-9.  Assign sharing settings to the program
+1. Review the program design
+2. Identify and create option sets and options
+3. Create data elements with domain type “Tracker”
+4. Add the data elements to a data element group
+5. Create an event program
+6. Add the data elements to the program
+7. Create a section based form
+8. Assign the program to your organization unit
+9. Assign sharing settings to the program
 
 Afterwards, you should be ready to review the program. Navigate to the
 Capture app, select an organisation unit that you have assigned your
@@ -1285,8 +1260,8 @@ done! You can know ask the Course Staff to check your assignment in
 Customization. To do so use the 'SUBMISSION FOR STAFF ASSESSMENT' right
 below:
 
-1.  Enter a short text message in the text box
-2.  Click the 'Submit your response and move to the next step' button
+1. Enter a short text message in the text box
+2. Click the 'Submit your response and move to the next step' button
 
 Once you have submitted, your assignment is ready to be assessed by a
 Course Staff.

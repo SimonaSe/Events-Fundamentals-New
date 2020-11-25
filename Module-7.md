@@ -67,10 +67,10 @@ further learning.
 Subsection 7.1 has 3 units for you to review. We recommend that you
 review these units in order.
 
-1.  Presentation - Core DHIS2 Academy Principles & DHIS2 Academy
+1. Presentation - Core DHIS2 Academy Principles & DHIS2 Academy
     Training Model
-2.  Presentation - Level 1 Academies
-3.  Presentation - Level 2 Academies
+2. Presentation - Level 1 Academies
+3. Presentation - Level 2 Academies
 
 ##### Ungraded Activities
 
@@ -102,10 +102,10 @@ the latest features related to events and tracker in DHIS2.
 Subsection 7.2 has 3 units for you to review. We recommend that you
 review these units in order.
 
-1.  Presentation - Development Roadmap & Jira
-2.  Demonstration - DHIS2 Jira
-3.  Presentation - DHIS2 Release Cycle & Social Media
-4.  Demonstration - DHIS2 Community of Practice
+1. Presentation - Development Roadmap & Jira
+2. Demonstration - DHIS2 Jira
+3. Presentation - DHIS2 Release Cycle & Social Media
+4. Demonstration - DHIS2 Community of Practice
 
 #### Ungraded Activities
 
@@ -217,13 +217,13 @@ for this course here
 
 To create a new account, select Sign Up.
 
-7.2.4.1<em>dhis2</em>community
+7.2.4.1dhis2community
 
 After this, enter in your account details. You will need to enter
 details for all mandatory fields, then select Create New Account. An
 example is shown below.
 
-7.2.4.2<em>Create</em>new_account
+7.2.4.2Createnew_account
 
 After selecting Create New Account you will see an activation
 notification.
@@ -231,31 +231,23 @@ notification.
 Go to your email and find the activation email. Click on the link within
 the email.
 
-7.2.4.3<em>Resend</em>activation_email
+7.2.4.3Resendactivation_email
 
- 7.2.4.4<em>Confirm</em>new_account
-
- 
+ 7.2.4.4Confirmnew_account
 
 Using this link, you can activate your account.
 
-7.2.4.5<em>Confirm</em>new_account
-
- 
+7.2.4.5Confirmnew_account
 
 After activating the account, you will receive the final confirmation.
 
 7.2.4.6_Welcome
 
- 
-
 Consider going through the steps on the home page to get started with
 using the community of practice, or simply go to one of the sections to
 review posts, or make your own!
 
-7.2.4.7<em>DHIS2</em>community
-
- 
+7.2.4.7DHIS2community
 
 ## 7.3 - Seeking Additional Support
 

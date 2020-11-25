@@ -66,14 +66,14 @@ the tracker capture app on the web.
 Subsection 6.1 has 6 units for you to review. We recommend that you
 review these units in order.
 
-1.  Presentation - Introduction to Tracker Use Case and Demo Tasks
-2.  Demonstration - Open Immunization Program & Browse Registered
+1. Presentation - Introduction to Tracker Use Case and Demo Tasks
+2. Demonstration - Open Immunization Program & Browse Registered
     Children
-3.  Demonstration - Register a Child into the Immunization Program
-4.  Demonstration - Enter Immunization Data & Discover the Tracker
+3. Demonstration - Register a Child into the Immunization Program
+4. Demonstration - Enter Immunization Data & Discover the Tracker
     Dashboard
-5.  Demonstration - Search Function & Dashboard Orientation
-6.  Demonstration - Widgets
+5. Demonstration - Search Function & Dashboard Orientation
+6. Demonstration - Widgets
 
 ##### Ungraded Activities
 
@@ -130,7 +130,7 @@ Click on the Register button.
 Fill in some of the main attributes (first name, last name…). Example
 below.
 
-![6.1.3.2<em>Registration</em>details](images/image264.png)
+![6.1.3.2Registrationdetails](images/image264.png)
 
 Next, click on Save and continue to register the child and view their
 record.
@@ -138,7 +138,7 @@ record.
 You will arrive on the dashboard page, which contains the child’s
 record.
 
-![6.1.3.3<em>Dashboard</em>page](images/image210.png)
+![6.1.3.3Dashboardpage](images/image210.png)
 
 ### Demonstration - Enter Immunization Data & Discover the Tracker Dashboard
 
@@ -151,7 +151,7 @@ Now let’s enter some immunization data for the child.
 Within the Dashboard navigate to the Timeline Data Entry widget and
 click on the blue + icon.
 
-![6.1.4.1<em>Timeline</em>data_entry](images/image63.png)
+![6.1.4.1Timelinedata_entry](images/image63.png)
 
 You will be prompted to enter the date that the services were provided.
 The date is automatically populated with today’s date but you can adjust
@@ -162,7 +162,7 @@ Select the same date as the date for ‘first seen’ then click on Save.
 Next, we will see some of the variables associated with the
 "Immunization" program appear.
 
-![6.1.4.2<em>Immunization</em>program](images/image11.png)
+![6.1.4.2Immunizationprogram](images/image11.png)
 
 Complete some of the requested details within this form. Notice that
 when you tick the box next to an immunization in the “Immunization”
@@ -171,19 +171,19 @@ all this to be configured.
 
 Then click Complete.
 
-![6.1.4.3<em>Immunization</em>details](images/image93.png)
+![6.1.4.3Immunizationdetails](images/image93.png)
 
 You will be prompted to select one of a few options: Complete, Complete
 and exit, and Cancel.
 
 For this instance, click on Complete.
 
-![6.1.4.4<em>Completion</em>prompt](images/image224.png)
+![6.1.4.4Completionprompt](images/image224.png)
 
 Next, the system will automatically prompt you to schedule the next
 immunization appointment.
 
-![6.1.4.5<em>New</em>event](images/image344.png)
+![6.1.4.5Newevent](images/image344.png)
 
 Enter a date that is 6 weeks from when the first immunization
 appointment was provided and click Save.
@@ -191,12 +191,12 @@ appointment was provided and click Save.
 You will find that you can now see a new program stage that appears in
 green.
 
-![6.1.4.6<em>Green</em>program<em>health</em>stage](images/image215.png)
+![6.1.4.6Greenprogramhealthstage](images/image215.png)
 
 Another way of accessing the scheduling option is by clicking on the
 blue calendar icon within the Timeline Data Entry widget.
 
-![6.1.4.7<em>Calendar</em>icon](images/image233.png)
+![6.1.4.7Calendaricon](images/image233.png)
 
 For a better understanding of the color coding used in the dashboard and
 widgets, click on the Information button to view the details.
@@ -204,7 +204,7 @@ widgets, click on the Information button to view the details.
 This will reveal a legend that displays what the colors of each events
 means.
 
-![6.1.4.8<em>information</em>button](images/image10.png)
+![6.1.4.8informationbutton](images/image10.png)
 
 ### Demonstration - Search Function & Dashboard Orientation
 
@@ -217,23 +217,21 @@ of the page, navigate to the front page where all of the children
 registered in the “Immunization” program are listed for “Yam Health
 Centre”.
 
-### 
-
-![6.1.5.1<em>Back</em>button](images/image244.png)Let’s demonstrate
+![6.1.5.1Backbutton](images/image244.png)Let’s demonstrate
 the search function.
 
 Click the Search button at the top of the page.
 
-### ![6.1.5.2<em>Search</em>button](images/image303.png)
+### ![6.1.5.2Searchbutton](images/image303.png)
 
 On the Search for person page enter some of the child’s details so that
 you can find them, then click on the search button.
 
-### ![6.1.5.3<em>Search</em>for_person](images/image85.png)
+### ![6.1.5.3Searchfor_person](images/image85.png)
 
 Search results:
 
-### ![6.1.5.4<em>Search</em>results](images/image205.png)
+### ![6.1.5.4Searchresults](images/image205.png)
 
 In the search results, click on the record that you created, and you
 will be taken to the child’s dashboard.
@@ -246,21 +244,15 @@ layout and items.
 
 ### ![](images/image251.png)
 
-###  
-
   - The previous and next buttons allow you to access the previous or
     next child’s record
 
-### ![6.1.5.6<em>Previous</em>and_next](images/image219.png)
-
-###  
+### ![6.1.5.6Previousand_next](images/image219.png)
 
   - The top bar shows certain attributes of choice. This is customizable
     and optional to have in the Dashboard.
 
-### ![6.1.5.7<em>Top</em>bar](images/image3.png)
-
-###  
+### ![6.1.5.7Topbar](images/image3.png)
 
   - The pin icon allows you to pin (or stick) the right side of the
     widgets so they don’t move. This is useful especially during data
@@ -268,46 +260,38 @@ layout and items.
     right side allows those widgets to be visible while scrolling the
     data entry column to the left.
 
-### ![6.1.5.8<em>Pin</em>icon](images/image129.png)
+### ![6.1.5.8Pinicon](images/image129.png)
 
-### ![6.1.5.9<em>Pin</em>icon_relative](images/image342.png)
-
-###  
+### ![6.1.5.9Pinicon_relative](images/image342.png)
 
   - The red exclamation point button allows you to deactivate the child
     or completely delete his or her record from the program. Note that
     this is permission based, so not everyone will have access to
     perform this function.
 
-### ![6.1.5.10<em>Exclamation</em>point](images/image246.png)
+### ![6.1.5.10Exclamationpoint](images/image246.png)
 
   - And finally the gear icon allows you to customize the items in the
     dashboard’s widgets and top bar.
 
-### ![6.1.5.11<em>gear</em>icon](images/image17.png)
+### ![6.1.5.11gearicon](images/image17.png)
 
  Show/hide widgets - allows you to control which widgets you want to
 display in the record’s dashboard.
 
-###  ![6.1.5.12<em>Show</em>hide_widgets](images/image213.png)
-
-### 
+### ![6.1.5.12Showhide_widgets](images/image213.png)
 
   - There are nine widgets available to display. The widgets are
     collapsible, responsive and draggable - this helps to acquire
     optimal view area as per user needs. Widget rearrangements are saved
     automatically per user per program.
 
-### ![6.1.5.13<em>Selecting</em>widgets](images/image351.png)
-
-###  
+### ![6.1.5.13Selectingwidgets](images/image351.png)
 
   - The Top bar settings option allows you to modify the top bar options
     or turn it on and off.
 
-### ![6.1.5.14<em>Top</em>bar_settings](images/image184.png)
-
-### 
+### ![6.1.5.14Topbar_settings](images/image184.png)
 
 ### Demonstration - Widgets
 
@@ -358,7 +342,7 @@ event you created earlier.
 Select the date for this event; this date will be the same as the date
 we scheduled for this service to occur.
 
-![6.1.6.6<em>Timeline</em>Data_Entry](images/image73.png)
+![6.1.6.6TimelineData_Entry](images/image73.png)
 
 After you select the date, you can see the form opens up again allowing
 you to enter related data.
@@ -376,9 +360,7 @@ vaccinations. Then select Complete.
 
 Lastly, select complete and exit when prompted.
 
-![6.1.6.9<em>Complete</em>and_exit](images/image156.png)
-
-### 
+![6.1.6.9Completeand_exit](images/image156.png)
 
 ## 6.1 - Graded Quiz - Tracker Capture
 
@@ -537,10 +519,10 @@ a number of best practices.
 Subsection 6.2 has 4 units for you to review. We recommend that you
 review these units in order.
 
-1.  Presentation - Overview of DHIS2 Digital Data Packages
-2.  Presentation - Review of DHIS2 Digital Data Package: Cause of Death
-3.  Demonstration - DHIS2 Digital Data Package: Cause of Death
-4.  Demonstration - Cause of Death Customized for a Country System
+1. Presentation - Overview of DHIS2 Digital Data Packages
+2. Presentation - Review of DHIS2 Digital Data Package: Cause of Death
+3. Demonstration - DHIS2 Digital Data Package: Cause of Death
+4. Demonstration - Cause of Death Customized for a Country System
 
 ##### Ungraded Activities
 
@@ -575,13 +557,9 @@ search bar feature.
 
 ![6.2.2.1_Tracker_Capture](images/image289.png)
 
- 
-
 Using the Org Unit hierarchy on the left, select a health centre.
 
 ![6.2.2.2_Org_Unit_hierarchy](images/image28.png)
-
- 
 
 The Cause of Death program will show up as an option.
 
@@ -603,8 +581,6 @@ form](https://www.google.com/url?q=https://studio.academy.dhis2.org/asset-v1:HIS
 
 ![6.2.2.5_CoD_form](images/image58.png)
 
- 
-
 If you scroll down to the bottom of the DHIS2 form, you will find the
 Results table which becomes populated as you fill in the certificate.
 
@@ -615,8 +591,6 @@ Profile box. You would have also seen this ID number when you registered
 the death.
 
 ![6.2.2.7_Profile](images/image125.png)
-
- 
 
 Scroll back down to the Timeline Data Entry box.
 
@@ -630,17 +604,11 @@ fill in the date of birth in the electronic DHIS2 form.
 
 Paper form
 
- 
-
 ![6.2.2.9_Admin_DHIS2_form](images/image34.png)
 
 DHIS2 form
 
- 
-
 ![6.2.2.10_Date_of_Birth](images/image198.png)
-
- 
 
 Next, let’s move to the chain of events resulting in death. Make sure to
 also fill in the corresponding time from onset to death.
@@ -649,13 +617,9 @@ also fill in the corresponding time from onset to death.
 
 Paper form
 
- 
-
 ![6.2.2.12_DHIS2_form_chain_of_events](images/image235.png)
 
 DHIS2 form
-
- 
 
 Make sure you have selected the underlying cause of death as well. Do
 this by ticking the box in the “underlying” column where in row C of
